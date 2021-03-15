@@ -61,7 +61,13 @@ Atua tambem, no ambito socio-ambiental, tendo em vista que gera, com base em sua
 |Requisitos |  Descrição  |
 | ------------------- | ------------------- |
 |  1 |  O sistema só poderá ser acessado pelo navegador do dispositivo móvel ou pelo computador. |
-|  2 |  Célula de conteúdo |
+|  2 |  O sistema deve ser responsivo e leve, para evitar demora no carregamento. |
+|  3 |  O sistema deve usar Base de Dados (Relacional ou NoSQL). |
+|  4 |  O sistema deve ser implantado em um provedor de serviços (AWS, Azure, Google Cloud etc). |
+|  5 |  O sistema deve ter um tempo de recarga de página não deve ser superior a 5 segundos. |
+|  6 |  O sistema deverá atender o padrão 99.99% em regime 24/7. |
+|  7 |  O sistema deverá apresentar indicativos de como seus dados estarão assegurados contra as invasões ao sistema. |
+
 
 # 7. COTS (Commercial Off-The-Shelf)
 
