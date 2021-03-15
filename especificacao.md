@@ -68,7 +68,9 @@ Atua tambem, no ambito socio-ambiental, tendo em vista que gera, com base em sua
 |  20 |  A cada novo item cadastrado, este deve ser validado por um administrador de conteúdo antes de ser disponibilizado aos demais membros. |
 |  21 |  Caso um item cadastrado já exista, o administrador de conteúdo indica o item e vincula a avalição ao item já existente. |
 |  22 |  O sistema deverá permitir que o gerente do serviço consulte: 
-a.	O número médio de amigos dos membros da rede social. b.	Uma lista com os 10 membros mais conectados (com o maior número de amigos). c.	Um gráfico mostrando a relação entre o número de amigos e o estado onde mora.|
+|     |a.	O número médio de amigos dos membros da rede social. 
+|     |b.	Uma lista com os 10 membros mais conectados (com o maior número de amigos). 
+|     |c.	Um gráfico mostrando a relação entre o número de amigos e o estado onde mora.|
 
 
 
