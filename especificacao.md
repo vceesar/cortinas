@@ -10,8 +10,8 @@ author: "Prática Profissional em ADS"
 - [2. Informações sobre a empresa](#2-informações-sobre-a-empresa)
 - [3. Escopo do projeto](#3-escopo-do-projeto)
 - [4. Interessados](#4-interessados)
-- [5. Objetivos funcionais](#-5.-Objetivos-funcionais-(Requisitos Funcionais-[RF]))
-- [6. Objetivos não-funcionais](#-6.-Objetivos-não-funcionais-(Requisitos não Funcionais-[RNF]))
+- [5. Objetivos funcionais](#5-Requisitos-Funcionais)
+- [6. Objetivos não-funcionais](#6-Requisitos-Não-Funcionais)
 - [7. COTS (Commercial Off-The-Shelf)](#7-cots-commercial-off-the-shelf)
 - [8. Casos de uso](#8-casos-de-uso)
   - [8.1. Acessar funções restritas](#81-acessar-funções-restritas)
@@ -43,7 +43,7 @@ Atua tambem, no ambito socio-ambiental, tendo em vista que gera, com base em sua
 
 
 
-# 5. Objetivos funcionais (Requisitos Funcionais [RF])
+# 5. Requisitos Funcionais
 |RF |  Descrição  |
 | :---: | ------------------- |
 |  1 |  O sistema deve permitir o login de um usuário, fornecendo nome completo, username, senha, data de nascimento, cidade e estado. |
@@ -73,7 +73,7 @@ Atua tambem, no ambito socio-ambiental, tendo em vista que gera, com base em sua
 
 
 
-# 6. Objetivos não-funcionais (Requisitos não Funcionais [RNF])
+# 6. Requisitos Não Funcionais 
 |RNF |  Descrição  |
 | :---: | ------------------- |
 |  1 |  O sistema só poderá ser acessado pelo navegador do dispositivo móvel ou pelo computador. |
