@@ -49,7 +49,7 @@ Atua tambem, no ambito socio-ambiental, tendo em vista que gera, com base em sua
 
 
 # 6. Objetivos não-funcionais
-
+- O sistema só poderá ser acessado pelo navegador do dispositivo móvel ou pelo computador.
 
 
 
