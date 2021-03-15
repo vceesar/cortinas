@@ -57,11 +57,11 @@ Atua tambem, no ambito socio-ambiental, tendo em vista que gera, com base em sua
 - O sistema deverá atender o padrão 99.99% em regime 24/7. 
 - O sistema deverá apresentar indicativos de como seus dados estarão assegurados contra as invasões ao sistema. 
 
-|             |           |
-| Requisitos  | Descrição |
-|-------------|-----------|           |
-|             |           |
 
+| Primeiro cabeçalho  |  Segundo cabeçalho  |
+| ------------------- | ------------------- |
+|  Célula de conteúdo |  Célula de conteúdo |
+|  Célula de conteúdo |  Célula de conteúdo |
 
 # 7. COTS (Commercial Off-The-Shelf)
 
