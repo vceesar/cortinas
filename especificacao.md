@@ -58,8 +58,8 @@ Atua tambem, no ambito socio-ambiental, tendo em vista que gera, com base em sua
 - O sistema deverá apresentar indicativos de como seus dados estarão assegurados contra as invasões ao sistema. 
 
 
-|Requisitos |  Descrição  |
-| ------------------- | ------------------- |
+|RNF |  Descrição  |
+| :---: | ------------------- |
 |  1 |  O sistema só poderá ser acessado pelo navegador do dispositivo móvel ou pelo computador. |
 |  2 |  O sistema deve ser responsivo e leve, para evitar demora no carregamento. |
 |  3 |  O sistema deve usar Base de Dados (Relacional ou NoSQL). |
