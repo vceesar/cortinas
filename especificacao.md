@@ -58,10 +58,10 @@ Atua tambem, no ambito socio-ambiental, tendo em vista que gera, com base em sua
 - O sistema deverá apresentar indicativos de como seus dados estarão assegurados contra as invasões ao sistema. 
 
 
-| Primeiro cabeçalho  |  Segundo cabeçalho  |
+|Requisitos |  Descrição  |
 | ------------------- | ------------------- |
-|  Célula de conteúdo |  Célula de conteúdo |
-|  Célula de conteúdo |  Célula de conteúdo |
+|  1 |  O sistema só poderá ser acessado pelo navegador do dispositivo móvel ou pelo computador. |
+|  2 |  Célula de conteúdo |
 
 # 7. COTS (Commercial Off-The-Shelf)
 
