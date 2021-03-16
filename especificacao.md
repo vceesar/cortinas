@@ -12,14 +12,13 @@ author: "Prática Profissional em ADS"
 - [4. Interessados](#4-interessados)
 - [5. Requisitos Funcionais](#5-Requisitos-Funcionais)
 - [6. Requisitos Não Funcionais](#6-Requisitos-Não-Funcionais)
-- [7. COTS (Commercial Off-The-Shelf)](#7-cots-commercial-off-the-shelf)
-- [8. Casos de uso](#8-casos-de-uso)
-  - [8.1. Acessar funções restritas](#81-acessar-funções-restritas)
-  - [8.2. Efetuar registro](#82-efetuar-registro)
-  - [8.3. Efetuar seu próprio pedido](#83-efetuar-seu-próprio-pedido)
-  - [8.4. Efetuar pedido para o cliente](#84-efetuar-pedido-para-o-cliente)
-- [9. Wireframes](#9-wireframes)
-- [10. Diagrama de classes de domínio](#10-diagrama-de-classes-de-domínio)
+- [7. Casos de uso](#7-casos-de-uso)
+  <!-- - [7.1. Acessar funções restritas](#71-acessar-funções-restritas)
+  - [7.2. Efetuar registro](#72-efetuar-registro)
+  - [7.3. Efetuar seu próprio pedido](#73-efetuar-seu-próprio-pedido)
+  - [7.4. Efetuar pedido para o cliente](#74-efetuar-pedido-para-o-cliente) -->
+- [8. Wireframes](#8-wireframes)
+- [9. Diagrama de classes de domínio](#9-diagrama-de-classes-de-domínio)
 
 
 # 1. Introdução
@@ -95,20 +94,17 @@ Atua tambem, no ambito socio-ambiental, tendo em vista que gera, com base em sua
 |  7 |  O sistema deverá apresentar indicativos de como seus dados estarão assegurados contra as invasões ao sistema. |
 
 
-# 7. COTS (Commercial Off-The-Shelf)
 
 
-
-
-# 8. Casos de uso
+# 7. Casos de uso
 
 
 
 
 
-# 9. Wireframes
+# 8. Wireframes
 
 
 
 
-# 10. Diagrama de classes de domínio
+# 9. Diagrama de classes de domínio
