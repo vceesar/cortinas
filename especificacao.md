@@ -24,7 +24,7 @@ author: "Prática Profissional em ADS"
 
 # 1. Introdução
 
-Este documento é responsável pela especificação de um Sistema que gera recomendações de Livros, Series e Filmes para seus usuarios. O Cortinas busca a interatividade entre seus colaboradores, tendo em vista que este,  atua quase como uma rede social, oferencendo uma plataforma com gererenciamento de amigos, avaliação de filmes, series e livros assim como seu cadastro, recomendações, e outras funcionalidades a serem desenvolvidas.
+Este documento é responsável pela especificação de um Sistema que gera recomendações de Livros, Séries e Filmes para seus usuarios. O Cortinas busca a interatividade entre seus colaboradores, tendo em vista que este,  atua quase como uma rede social, oferencendo uma plataforma com gererenciamento de amigos, avaliação de filmes, series e livros assim como seu cadastro, recomendações, e outras funcionalidades a serem desenvolvidas.
 
 Este tambem, descreve os requisitos não-funcionais, modela os requisitos funcionais com casos de uso e modela os conceitos do domínio do problema.
 
@@ -36,10 +36,20 @@ Atua tambem, no ambito socio-ambiental, tendo em vista que gera, com base em sua
 
 # 3. Escopo do projeto
 
-
+  Sistema Web que oferece á seus Usuários uma plataforma para adição, compartilhamento e interacao de Usuarios leitores, e/ou consumidores de Séries e Filmes.
+  O projeto aborda de forma inovadora, como uma rede social, as contribuições e participações entre nossos colaboradores, isto é, abordaremos o Escopo prático, assim como
+  Desenvolvimento, Especificação e Revisão. 
+  No Desenvolvimento, trataremos também sobre questões de segurança de dados, implementando um algoritmo matematico que "embaralha" seu conteúdo e/ou o famoso Hash que mapeia dados grandes e de tamanho variavel e os transforma em dados pequenos de tamanho fixo.  
 
 # 4. Interessados
 
+  Usuário/Cliente: Qualquer pessoa da empresa, ou fora dela, pode se registrar nesta rede social.
+  Administrador de Conteúdo: Aquele que será responsável por validar itens adicionados pelos Usuários. 
+  Administrador de Algoritmo: Ficará responsável por administrar o algoritmo que oferecera recomendações a um determinado membro.
+  Gerente de Serviço: Atualiza informações dos itens e dados cadastrais dos usuários. 
+  Administrador de Segurança: Responsável pela segurança dos dados através de criptografia e tecnologias CloudComputing.
+  Desenvolvedores Front-End: Responsáveis pela Responsividade do Sistema, Layout, UX/UI.
+  Programadores: Responsáveis pela dinamizacao da Plataforma, integração Web com Banco de Dados, Nuvem, etc..
 
 
 
