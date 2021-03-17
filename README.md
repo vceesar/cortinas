@@ -25,7 +25,7 @@
     <br />
     <a href="¨#">View Demo</a>
     ·
-    <a href="https://github.com/vceesar/cortinas/issues">Reportar Bugs</a>
+    <a href="https://github.com/vceesar/cortinas/issues">Reportar Bugs :beetle: </a>
     ·
     <a href="https://github.com/vceesar/cortinas/issues">Indicações e Dicas </a>
   </p>
