@@ -18,7 +18,7 @@
   <h3 align="center">CORTINAS</h3>
 
   <p align="center">
-    Plataforma de Colaboração para Amantes de Livros, Series e Filmes.
+    Plataforma de Colaboração para Amantes de Livros, Séries e Filmes.
     <br />
     <a href="https://github.com/vceesar/cortinas/blob/master/especificacao.md"><strong>Explorar especificação »</strong></a>
     <br />
