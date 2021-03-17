@@ -11,7 +11,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://github.com/vceesar/cortinas">
     <img src="cortinas_logo/CORTINAS.png" alt="banner">
   </a>
 
