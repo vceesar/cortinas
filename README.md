@@ -73,5 +73,6 @@
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
 [product-screenshot]: images/screenshot.png
 
-
+<br>
+<hr>
 Thanks to <a href="https://github.com/othneildrew/Best-README-Template/blob/master/README.md"> othneildrew repository </a> for sharing this readme template.
