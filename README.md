@@ -1,4 +1,4 @@
-cortinas_logo/CORTINAS.png
+![Test_Logo](cortinas_logo/CORTINAS.png)
 
 
 
