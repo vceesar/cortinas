@@ -27,7 +27,7 @@
     ·
     <a href="https://github.com/vceesar/cortinas/issues">Reportar Bugs :beetle: </a>
     ·
-    <a href="https://github.com/vceesar/cortinas/issues">Indicações e Dicas </a>
+    <a href="https://github.com/vceesar/cortinas/issues">Indicações e Dicas :+1: </a>
   </p>
 </p>
 
