@@ -18,22 +18,16 @@
   <p align="center">
     Plataforma de Colaboração para Amantes de Livros, Series e Filmes.
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/vceesar/cortinas/blob/master/especificacao.md"><strong>Explorar especificação »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="¨#">View Demo</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="https://github.com/vceesar/cortinas/issues">Reportar Bugs</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://github.com/vceesar/cortinas/issues">Indicações e Dicas </a>
   </p>
 </p>
 
 
 
-# Cortinas
-Projeto de Pratica de ADS <br>
-
-
-Trello: <a href="https://trello.com/b/o93XYUt5/proj-pratic-prof-ads"> Clique aqui </a> <br>
-Especificação dos Requisitos Funcionais e Não Funcionais e Casos de Uso: <a href="https://github.com/vceesar/cortinas/blob/main/especificacao.md"> Clique aqui </a>
