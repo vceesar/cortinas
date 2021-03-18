@@ -102,9 +102,20 @@ Atua tambem, no ambito socio-ambiental, tendo em vista que gera, com base em sua
 
 
 
-# 8. Wireframes
+# 8. Diagrama de Sequência
 
 
 
 
-# 9. Diagrama de classes de domínio
+# 9. Diagrama de domínio
+
+
+
+
+
+
+# 10. Diagrama de Classes
+
+
+
+# 11. Wireframes
