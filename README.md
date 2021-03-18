@@ -65,9 +65,12 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Victor Cesar - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Victor Cesar - 41814983           ->  41814983@mackenzista.com.br
+Bruno Kenzo - 31945600             ->  31945600@mackenzista.com.br      
+Eduardo Atanes - 31949886           -> 31949886@mackenzista.com.br
+Renan Ropeiro - 
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
