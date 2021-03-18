@@ -55,7 +55,19 @@
   </ol>
 </details>
 
+<!-- LICENSE -->
+## License
 
+Distributed under the MIT License. See `LICENSE` for more information.
+
+
+
+<!-- CONTACT -->
+## Contact
+
+Victor Cesar - [@your_twitter](https://twitter.com/your_username) - email@example.com
+
+Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
