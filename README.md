@@ -25,7 +25,7 @@
     <br />
     <a href="¨#">View Demo</a>
     ·
-    <a href="https://github.com/vceesar/cortinas/issues" style = "hover: color:red; ">Reportar Bugs :beetle: </a>
+    <a href="https://github.com/vceesar/cortinas/issues">Reportar Bugs :beetle: </a>
     ·
     <a href="https://github.com/vceesar/cortinas/issues">Indicações e Dicas :+1: </a>
   </p>
