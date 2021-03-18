@@ -17,10 +17,10 @@ author: "Prática Profissional em ADS"
   - [7.2. Efetuar registro](#72-efetuar-registro)
   - [7.3. Efetuar seu próprio pedido](#73-efetuar-seu-próprio-pedido)
   - [7.4. Efetuar pedido para o cliente](#74-efetuar-pedido-para-o-cliente) -->
-- [8. Diagrama de Sequência](##8.-Diagrama de Sequência)
-- [9. Diagrama de domínio](#9.-Diagrama-de-domínio)
-- [10. Diagrama de Classes](#10.-Diagrama-de-Classes)
-- [11. Wireframes](#11.-Wireframes)
+- [8. Diagrama de Sequência](#8-Diagrama de Sequência)
+- [9. Diagrama de domínio](#9-Diagrama-de-domínio)
+- [10. Diagrama de Classes](#10-Diagrama-de-Classes)
+- [11. Wireframes](#11-Wireframes)
 
 
 # 1. Introdução
