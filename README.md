@@ -32,19 +32,18 @@
 </p>
 
 <details open="open">
-  <summary>Table of Contents</summary>
+  <summary>Conteudos</summary>
   <ol>
     <li>
-      <a href="#sobre-o-projeto">About our projetct</a>
+      <a href="#sobre-o-projeto">Sobre o Projeto</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#built-with">Feito em</a></li>
       </ul>
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
