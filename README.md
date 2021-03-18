@@ -31,7 +31,7 @@
   </p>
 </p>
 
-<details open="closed">
+<details closed="closed">
   <summary>Conteudos</summary>
   <ol>
     <li>
