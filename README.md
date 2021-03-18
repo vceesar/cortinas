@@ -66,7 +66,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## Contact
 
 Victor Cesar - 41814983           ->  41814983@mackenzista.com.br <br>
-Bruno Kenzo - 31945600             ->  31945600@mackenzista.com.br   <br>    
+Bruno Kenzo - 31945600             ->  31945600@mackenzista.com.br <br>    
 Eduardo Atanes - 31949886           -> 31949886@mackenzista.com.br <br>
 Renan Ropeiro - 
 
