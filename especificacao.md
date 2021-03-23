@@ -107,34 +107,12 @@ Cenario 01 - Cadastrar Novo Membro.
 
 | **Nome do caso de uso:** | Fazer Registro |
 | --- | --- |
-| **Resumo:** | Lista de todos os arquivos modificados ou novos |
-| **Pré-condições:** | Mostra as diferenças do arquivo que não foram preparadas |
+| **Resumo:** |  |
+| **Pré-condições:** |  |
+| **Pós-condições:** |  |
+| **Fluxo principal:**  |  |
+| **Fluxos alternativos:** |  |
 
-
-**Resumo:** Para ganhar acesso a informações restritas ou personalizadas, fazer pedidos ou outras transações especializadas, um usuário precisa se autenticar e o sistema determinará seu nível de acesso.
-
-**Pré-condições:**
-* O usuário já se registrou.
-
-**Pós-condições:**
-* O usuário pode obter informações e realizar funções disponíveis para o seu nível de acesso.
-
-**Fluxo principal:** 
-
-1. O usuário seleciona a operação para efetuar o login.
-2. O sistema solicita o seu *username* e a sua senha.
-3. O usuário entra seu *username*  e sua senha.
-4. O sistema verifica que o *username* e a senha correspondem às informações de um de seus usuários registrados.
-5. O sistema inicia uma sessão e apresenta uma mensagem de boas-vindas baseada nas preferências do usuário.
-
-
-**Fluxos alternativos:**
-
-Passo 4:
-* Se o *username* é invalido, o caso de uso retorna para o passo 2.
-
-Passo 4:
-* Se o *username* é válido e a senha é inválida, o sistema dá uma nova oportunidade para o usuário entrar a senha. Quando o usuário entra outra senha, o caso de uso continua com o passo 4, utilizando o *username* já informado e a nova senha.
 
 
 
