@@ -23,7 +23,6 @@
     <a href="https://github.com/vceesar/cortinas/blob/master/especificacao.md"><strong>Explorar especificação »</strong></a>
     <br />
     <br />
-    <a href="¨#">View Demo</a>
     ·
     <a href="https://github.com/vceesar/cortinas/issues">Reportar Bugs :beetle: </a>
     ·
