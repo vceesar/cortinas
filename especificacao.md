@@ -109,8 +109,8 @@ Cenario 01 - Cadastrar Novo Membro.
 
 ## 7.1. Fazer Registro
 
-| **Objetivo:** |  |
-| :---: | Especificar as etapas que um membro recém chegado á plataforma deve tomar para efetuar registro. |
+| **Objetivo:** | Especificar as etapas que um membro recém chegado á plataforma deve tomar para efetuar registro. |
+| :---: | -------------------  |
 | **Requisitos:** | Qualquer pessoa da empresa pode se registrar nesta rede social.  |
 | **Atores:** | Membro não registrado |
 | **Prioridade:**  | Alta |
