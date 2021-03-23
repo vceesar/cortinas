@@ -109,24 +109,35 @@ Cenario 01 - Cadastrar Novo Membro.
 
 ## 7.1. Fazer Registro
 
-| **Nome do caso de uso:** | Fazer Registro |
-| --- | --- |
-| **Resumo:** |  |
+| **Objetivo:** |  |
+| **Requisitos:** |  |
+| **Atores:** |  |
+| **Prioridade:**  |  |
 | **Pré-condições:** |  |
+| **Freqüência de uso:**  |  |
+| **Criticalidade:** |  |
+| **Condição de Entrada:**  |  |
+| **Fluxo Principal:** |  |
+| **Fluxo Alternativo:**  |  |
 | **Pós-condições:** |  |
-| **Fluxo principal:**  |  |
-| **Fluxos alternativos:** |  |
+| **Regras de negócio:**  |  |
+
 
 
 ## 7.2. Atualizar Dados
 
-| **Nome do caso de uso:** | Atualizar Dados |
-| --- | --- |
-| **Resumo:** |  |
+| **Objetivo:** |  |
+| **Requisitos:** |  |
+| **Atores:** |  |
+| **Prioridade:**  |  |
 | **Pré-condições:** |  |
+| **Freqüência de uso:**  |  |
+| **Criticalidade:** |  |
+| **Condição de Entrada:**  |  |
+| **Fluxo Principal:** |  |
+| **Fluxo Alternativo:**  |  |
 | **Pós-condições:** |  |
-| **Fluxo principal:**  |  |
-| **Fluxos alternativos:** |  |
+| **Regras de negócio:**  |  |
 
 
 
