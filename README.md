@@ -16,6 +16,7 @@
   </a>
 
   <h3 align="center">CORTINAS</h3>
+  [#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `#f03c15`
 
   <p align="center">
     Plataforma de Colaboração para Amantes de Livros, Séries e Filmes.
