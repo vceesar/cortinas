@@ -46,7 +46,7 @@
       </ul>
     </li>
     <li><a href="#licença">Licença</a></li>
-    <li><a href="#contato">Contact</a></li>
+    <li><a href="#contatos">Contatos</a></li>
     <li><a href="#Agradecimentos">Agradecimentos</a></li>
   </ol>
 </details>
@@ -54,7 +54,7 @@
 <!-- LICENSE -->
 ## Licença
 
-Distribuido sobre a Licença MIT. Veja a `LICENSE` para mais informações.
+Distribuido sobre a Licença MIT. Veja a `LICENÇA` para mais informações.
 
 
 <!-- CONTACT -->
