@@ -110,17 +110,17 @@ Cenario 01 - Cadastrar Novo Membro.
 ## 7.1. Fazer Registro
 
 | **Objetivo:** |  |
-| :---: | ------------------- |
-| **Requisitos:** |  |
-| **Atores:** |  |
-| **Prioridade:**  |  |
-| **Pré-condições:** |  |
+| :---: | Especificar as etapas que um membro recém chegado á plataforma deve tomar para efetuar registro. |
+| **Requisitos:** | Qualquer pessoa da empresa pode se registrar nesta rede social.  |
+| **Atores:** | Membro não registrado |
+| **Prioridade:**  | Alta |
+| **Pré-condições:** | Deverá fornecer seus dados corretamente como: Nome completo, username, senha, data de nascimento, cidade e estado. |
 | **Freqüência de uso:**  |  |
 | **Criticalidade:** |  |
 | **Condição de Entrada:**  |  |
 | **Fluxo Principal:** |  |
 | **Fluxo Alternativo:**  |  |
-| **Pós-condições:** |  |
+| **Pós-condições:** | Cada Membro poderá, em qualquer momento, efetuar a atualização de seus respectivos dados do perfil. |
 | **Regras de negócio:**  |  |
 
 
