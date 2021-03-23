@@ -20,7 +20,7 @@
   <p align="center">
     Plataforma de Colaboração para Amantes de Livros, Séries e Filmes.
     <br />
-    <a href="https://github.com/vceesar/cortinas/blob/master/especificacao.md"><strong>Explorar especificação »</strong></a>
+    <a href="https://github.com/vceesar/cortinas/blob/master/especificacao.md"><strong>EXPLORAR ESPECIFICAÇÃO»</strong></a>
     <br />
     <br />
     ·
