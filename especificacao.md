@@ -103,7 +103,9 @@ Atua tambem, no ambito socio-ambiental, tendo em vista que gera, com base em sua
 **Casos de Usos divididos por cenários.** <br>
 
 Cenario 01 - Cadastrar Novo Membro.
-<img src = "Diagramas/Casos de Uso/Cenario01 - Cadastrar Novo Membro.png" style = margin-left: auto ; margin-right: auto; >
+<p align="center">
+<img src = "Diagramas/Casos de Uso/Cenario01 - Cadastrar Novo Membro.png">
+ </p>
 
 ## 7.1. Fazer Registro
 
