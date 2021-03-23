@@ -100,7 +100,8 @@ Atua tambem, no ambito socio-ambiental, tendo em vista que gera, com base em sua
 
 # 7. Casos de uso
 
-Casos de Usos divididos por cenários.
+**Casos de Usos divididos por cenários. <br>
+
 Cenario 01 - Cadastrar Novo Membro.
 
 ## 7.1. Fazer Registro
