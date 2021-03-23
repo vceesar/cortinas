@@ -31,7 +31,7 @@
 </p>
 
 <details closed="closed">
-  <summary>Conteudos</summary>
+  <summary> Sumário (clique para abrir as opções) </summary>
   <ol>
     <li>
       <a href="#sobre-o-projeto">Sobre o Projeto</a>
