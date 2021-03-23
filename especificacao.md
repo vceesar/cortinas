@@ -103,9 +103,9 @@ Atua tambem, no ambito socio-ambiental, tendo em vista que gera, com base em sua
 Casos de Usos divididos por cenários.
 Cenario 01 - Cadastrar Novo Membro.
 
-## 8.1. Fazer Registro
+## 7.1. Fazer Registro
 
-|**Nome do caso de uso:**  Fazer Registro |
+| **Nome do caso de uso:** | Fazer Registro |
 | --- | --- |
 | **Resumo:** | Lista de todos os arquivos modificados ou novos |
 | **Pré-condições:** | Mostra as diferenças do arquivo que não foram preparadas |
