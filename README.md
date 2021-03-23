@@ -45,24 +45,20 @@
         <li><a href="#prerequisites">Prerequisites</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
+    <li><a href="#licença">Licença</a></li>
+    <li><a href="#contato">Contact</a></li>
+    <li><a href="#Agradecimentos">Agradecimentos</a></li>
   </ol>
 </details>
 
 <!-- LICENSE -->
-## License
+## Licença
 
-Distributed under the MIT License. See `LICENSE` for more information.
-
+Distribuido sobre a Licença MIT. Veja a `LICENSE` para mais informações.
 
 
 <!-- CONTACT -->
-## Contact
+## Contatos
 
 Victor Cesar - 41814983           ->  41814983@mackenzista.com.br <br>
 Bruno Kenzo - 31945600             ->  31945600@mackenzista.com.br    
@@ -88,4 +84,7 @@ Renan Ropeiro - 41804686           -> 41804686@mackenzista.com.br
 
 <br>
 <hr>
+
+## Agradecimentos
+
 Thanks to <a href="https://github.com/othneildrew/Best-README-Template/blob/master/README.md"> othneildrew repository </a> for sharing this readme template.
