@@ -110,6 +110,7 @@ Cenario 01 - Cadastrar Novo Membro.
 ## 7.1. Fazer Registro
 
 | **Objetivo:** |  |
+| :---: | ------------------- |
 | **Requisitos:** |  |
 | **Atores:** |  |
 | **Prioridade:**  |  |
@@ -127,6 +128,7 @@ Cenario 01 - Cadastrar Novo Membro.
 ## 7.2. Atualizar Dados
 
 | **Objetivo:** |  |
+| :---: | ------------------- |
 | **Requisitos:** |  |
 | **Atores:** |  |
 | **Prioridade:**  |  |
