@@ -115,6 +115,17 @@ Cenario 01 - Cadastrar Novo Membro.
 | **Fluxos alternativos:** |  |
 
 
+## 7.2. Atualizar Dados
+
+| **Nome do caso de uso:** | Atualizar Dados |
+| --- | --- |
+| **Resumo:** |  |
+| **Pré-condições:** |  |
+| **Pós-condições:** |  |
+| **Fluxo principal:**  |  |
+| **Fluxos alternativos:** |  |
+
+
 
 
 
