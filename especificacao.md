@@ -138,13 +138,13 @@ Cenário 02 - Acessar Conta Cadastrada
 
 ## 7.3. Sugere membros para serem amigos
 
-| **Objetivo:** | Especificar as etapas que um membro recém chegado a plataforma deve tomar para efetuar registro e atualizar seus dados. |
+| **Objetivo:** | Sempre que um membro previamente registrado acesar o sistema, este receberá sugestões de 3 membros que poderiam ser seus amigos. |
 | :---: | -------------------  |
 | **Atores:** | Membro |
-| **Pré-condições:** | Deverá fornecer seu nome de usuário e senha pré-definidos no cadastro. |
-| **Pós-Condições:**  | O sistema dispõe todas suas funcionalidades ao membro logado. |
-| **Fluxo Principal:** | a: O usuário seleciona a operação para efetuar o login.<br> b: O sistema solicita o seu nome de usuário e a sua senha.<br> c: O usuário entra seu username e sua senha.<br>d: O sistema verifica que o username e a senha correspondem às informações de um de seus usuários registrados.<br>e: O sistema inicia uma sessão e apresenta uma mensagem de boas-vindas.|
-| **Fluxo Alternativo:**  | <strong>Fluxo Alternativa A:</strong> <br> a: O usuário seleciona a operação para efetuar o login. <br> b: O sistema solicita o seu nome de usuário e a sua senha. <br> c: O usuário entra seu username e sua senha. <br> d: O sistema encontra um erro baseado no username inserido <br> e: Retorna ao passo ```b``` do Fluxo Principal para refazer o processo. <br><br> <strong>Fluxo Alternativa B: </strong> <br> a: O usuário seleciona a operação para efetuar o login. <br> b: O sistema solicita o seu nome de usuário e a sua senha. <br>  c: O usuário entra seu username e sua senha. <br> d: O sistema encontra um erro baseado na senha inserida <br> e: Sistema retorna ao passo ```d``` do Fluxo principal usando o username previamente inserido e verificado e a nova senha.   |
+| **Pré-condições:** | Analisar as preferencias e identificar aqueles com preferências semelhantes, com base nas avaliações já realizadas. |
+| **Pós-Condições:**  | Caso o Usuario envie alguma solicitação de amizade, este deverá envia-la ao outro membro, e assim, não sugerir mais este perfil ao membro logado. |
+| **Fluxo Principal:** | |
+| **Fluxo Alternativo:**  |  |
 
 
 # 8. Diagrama de Sequência
