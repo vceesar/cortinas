@@ -111,35 +111,28 @@ Cenário 01 - Cadastrar Novo Membro.
 
 | **Objetivo:** | Especificar as etapas que um membro recém chegado a plataforma deve tomar para efetuar registro. |
 | :---: | -------------------  |
-| **Requisitos:** | Qualquer pessoa da empresa pode se registrar nesta rede social.  |
 | **Atores:** | Membro não registrado |
-| **Prioridade:**  | Alta |
 | **Pré-condições:** | Deverá fornecer seus dados corretamente como: Nome completo, username, senha, data de nascimento, cidade e estado. |
-| **Freqüência de uso:**  |  |
-| **Criticalidade:** |  |
-| **Condição de Entrada:**  |  |
+| **Pós-Condições:**  |  |
+| **Requisitos Funcionais:** | Qualquer pessoa da empresa pode se registrar nesta rede social.  |
+| **Requisitos Não Funcionais:**  |  |
 | **Fluxo Principal:** |  |
 | **Fluxo Alternativo:**  |  |
-| **Pós-condições:** | Cada Membro poderá, em qualquer momento, efetuar a atualização de seus respectivos dados do perfil. |
-| **Regras de negócio:**  |  |
+
 
 
 
 ## 7.2. Atualizar Dados
 
-| **Objetivo:** |  |
-| :---: | ------------------- |
-| **Requisitos:** |  |
-| **Atores:** |  |
-| **Prioridade:**  |  |
-| **Pré-condições:** |  |
-| **Freqüência de uso:**  |  |
-| **Criticalidade:** |  |
-| **Condição de Entrada:**  |  |
+| **Objetivo:** | Especificar as etapas que um membro recém chegado a plataforma deve tomar para efetuar registro. |
+| :---: | -------------------  |
+| **Atores:** | Membro não registrado |
+| **Pré-condições:** | Deverá fornecer seus dados corretamente como: Nome completo, username, senha, data de nascimento, cidade e estado. |
+| **Pós-Condições:**  |  |
+| **Requisitos Funcionais:** | Qualquer pessoa da empresa pode se registrar nesta rede social.  |
+| **Requisitos Não Funcionais:**  |  |
 | **Fluxo Principal:** |  |
 | **Fluxo Alternativo:**  |  |
-| **Pós-condições:** |  |
-| **Regras de negócio:**  |  |
 
 
 <hr>
