@@ -143,7 +143,7 @@ Cenário 02 - Acessar Conta Cadastrada
 | **Atores:** | Membro |
 | **Pré-condições:** | Estar previamente logado em sua conta; Analisar as preferêcias e identificar aqueles com preferências semelhantes, com base nas avaliações já realizadas. |
 | **Pós-Condições:**  | Caso o Usuario envie alguma solicitação de amizade, este deverá envia-la ao outro membro, e assim, não sugerir mais este perfil ao membro logado. |
-| **Fluxo Principal:** |a: Sistema identifica a nova sessão do membro <br> b: Sistema analisa as avaliações já realizadas <br> c: Após análise, Sistema retorna 3 membros como sugestão |
+| **Fluxo Principal:** |a: Sistema identifica a nova sessão do membro. <br> b: Sistema analisa as avaliações já realizadas. <br> c: Após análise, Sistema retorna 3 membros como sugestão. |
 | **Fluxo Alternativo:**  |  |
 
 <hr> 
