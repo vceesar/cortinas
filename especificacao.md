@@ -141,7 +141,7 @@ Cenário 02 - Acessar Conta Cadastrada
 | **Objetivo:** | Sempre que um membro previamente registrado acesar o sistema, este receberá sugestões de 3 membros que poderiam ser seus amigos. |
 | :---: | -------------------  |
 | **Atores:** | Membro |
-| **Pré-condições:** | Analisar as preferencias e identificar aqueles com preferências semelhantes, com base nas avaliações já realizadas. |
+| **Pré-condições:** | Analisar as preferêcias e identificar aqueles com preferências semelhantes, com base nas avaliações já realizadas. |
 | **Pós-Condições:**  | Caso o Usuario envie alguma solicitação de amizade, este deverá envia-la ao outro membro, e assim, não sugerir mais este perfil ao membro logado. |
 | **Fluxo Principal:** | |
 | **Fluxo Alternativo:**  |  |
