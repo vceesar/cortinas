@@ -109,7 +109,7 @@ Cenário 01 - Cadastrar Novo Membro.
 
 ## 7.1. Fazer Registro
 
-| **Objetivo:** | Especificar as etapas que um membro recém chegado a plataforma deve tomar para efetuar registro. |
+| **Objetivo:** | Especificar as etapas que um membro recém chegado a plataforma deve tomar para efetuar registro e atualizar seus dados. |
 | :---: | -------------------  |
 | **Atores:** | Membro não registrado |
 | **Pré-condições:** | Deverá fornecer seus dados corretamente como: Nome completo, username, senha, data de nascimento, cidade e estado. |
