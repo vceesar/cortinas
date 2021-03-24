@@ -104,7 +104,7 @@ Atua tambem, no ambito socio-ambiental, tendo em vista que gera, com base em sua
 
 Cenário 01 - Cadastrar Novo Membro.
 <p align="center">
-<img src = "Diagramas/Casos de Uso/Cenario01 - Cadastrar Novo Membro.png">
+<img src = "Diagramas/Casos de Uso/Cenario01 -Cadastrar Novo Membro.png">
  </p>
 
 ## 7.1. Fazer Registro
