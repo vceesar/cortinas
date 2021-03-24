@@ -118,19 +118,6 @@ Cenário 01 - Cadastrar Novo Membro.
 | **Fluxo Alternativo:**  | <strong>Fluxo Alternativa A:</strong> <br> a: O ator decide efetuar cadastro na plataforma <br> b: Insere os dados requisitados <br> c: O sistema verifica algum erro nos dados inseridos <br> d: O sistema encontra o erro <br> e: Retorna a letra b do Fluxo Principal para refazer o processo. <br><br> <strong>Fluxo Alternativa B: </strong> <br> a: O ator conclui com sucesso o cadastro e entra no sistema. <br> b: Procura o botão de acessar seus dados <br> c: Muda os dados de sua preferência <br> d: Verifica as modificações <br> e: Sistema valida os dados e confirma modificações. <br> <br> <strong>Fluxo Alternativa C:</strong> <br> a: O ator conclui com sucesso o cadastro e entra no sistema. <br> b: Procura o botão de acessar seus dados <br> c: Muda os dados de sua preferência <br> d: Verifica as modificações <br> e: Sistema invalida os dados e retorna para a letra b do Fluxo Alternativo C |
 
 
-
-
-## 7.2. Atualizar Dados
-
-| **Objetivo:** | Especificar as etapas que um membro recém chegado a plataforma deve tomar para efetuar registro. |
-| :---: | -------------------  |
-| **Atores:** | Membro não registrado |
-| **Pré-condições:** | Deverá fornecer seus dados corretamente como: Nome completo, username, senha, data de nascimento, cidade e estado. |
-| **Pós-Condições:**  | Cada membro poderá, a qualquer momento, atualizar os dados do seu perfil. |
-| **Fluxo Principal:** |  |
-| **Fluxo Alternativo:**  |  |
-
-
 <hr>
 Cenário 02 - Acessar Conta Cadastrada
 <p align = "center">
