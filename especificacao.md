@@ -113,10 +113,11 @@ Cenário 01 - Cadastrar Novo Membro.
 | :---: | -------------------  |
 | **Atores:** | Membro não registrado |
 | **Pré-condições:** | Deverá fornecer seus dados corretamente como: Nome completo, username, senha, data de nascimento, cidade e estado. |
-| **Pós-Condições:**  |  |
-| **Requisitos Funcionais:** | Qualquer pessoa da empresa pode se registrar nesta rede social.  |
-| **Requisitos Não Funcionais:**  |  |
-| **Fluxo Principal:** |  |
+| **Pós-Condições:**  | Cada membro poderá, a qualquer momento, atualizar os dados do seu perfil. |
+| **Fluxo Principal:** | a: O ator decide efetuar cadastro na plataforma
+                         b: Insere os dados requisitados
+                         c: O sistema valida os dados inseridos
+                         d: O sistema retorna uma mensagem de conclusão de registro. |
 | **Fluxo Alternativo:**  |  |
 
 
@@ -128,9 +129,7 @@ Cenário 01 - Cadastrar Novo Membro.
 | :---: | -------------------  |
 | **Atores:** | Membro não registrado |
 | **Pré-condições:** | Deverá fornecer seus dados corretamente como: Nome completo, username, senha, data de nascimento, cidade e estado. |
-| **Pós-Condições:**  |  |
-| **Requisitos Funcionais:** | Qualquer pessoa da empresa pode se registrar nesta rede social.  |
-| **Requisitos Não Funcionais:**  |  |
+| **Pós-Condições:**  | Cada membro poderá, a qualquer momento, atualizar os dados do seu perfil. |
 | **Fluxo Principal:** |  |
 | **Fluxo Alternativo:**  |  |
 
