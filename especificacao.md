@@ -114,10 +114,7 @@ Cenário 01 - Cadastrar Novo Membro.
 | **Atores:** | Membro não registrado |
 | **Pré-condições:** | Deverá fornecer seus dados corretamente como: Nome completo, username, senha, data de nascimento, cidade e estado. |
 | **Pós-Condições:**  | Cada membro poderá, a qualquer momento, atualizar os dados do seu perfil. |
-| **Fluxo Principal:** | a: O ator decide efetuar cadastro na plataforma
-                         b: Insere os dados requisitados
-                         c: O sistema valida os dados inseridos
-                         d: O sistema retorna uma mensagem de conclusão de registro. |
+| **Fluxo Principal:** | a: O ator decide efetuar cadastro na plataforma <br> b: Insere os dados requisitados <br> c: O sistema valida os dados inseridos <br> d: O sistema retorna uma mensagem de conclusão de registro. |
 | **Fluxo Alternativo:**  |  |
 
 
