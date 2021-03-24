@@ -142,7 +142,9 @@ Cenario 01 - Cadastrar Novo Membro.
 | **Regras de negócio:**  |  |
 
 
-
+<hr>
+Cenário 02 - Acessar Conta Cadastrada
+<img src = "Diagramas/Casos de Uso/Cenario02 - Acessar Conta Cadastrada.png" >
 
 
 # 8. Diagrama de Sequência
