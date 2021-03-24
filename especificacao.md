@@ -138,12 +138,12 @@ Cenário 02 - Acessar Conta Cadastrada
 
 ## 7.3. Sugere membros para serem amigos
 
-| **Objetivo:** | Sempre que um membro previamente registrado acessar o sistema, este receberá sugestões de 3 membros que poderiam ser seus amigos. |
+| **Objetivo:** | Sempre que um membro previamente registrado acesar o sistema, este receberá sugestões de 3 membros que poderiam ser seus amigos. |
 | :---: | -------------------  |
 | **Atores:** | Membro |
-| **Pré-condições:** | Estar previamente logado em sua conta; Analisar as preferêcias e identificar aqueles com preferências semelhantes, com base nas avaliações já realizadas. |
-| **Pós-Condições:**  | Caso o Usuario envie alguma solicitação de amizade, este deverá envia-la ao outro membro, e assim, não sugerir mais este perfil ao membro logado. |
-| **Fluxo Principal:** |a: Sistema identifica a nova sessão do membro. <br> b: Sistema analisa as avaliações já realizadas. <br> c: Após análise, Sistema retorna 3 membros como sugestão. |
+| **Pré-condições:** | Analisar as preferêcias e identificar aqueles com preferências semelhantes, com base nas avaliações já realizadas. |
+| **Pós-Condições:**  | Caso o Usuario envie alguma solicitação de amizade, este deverá envia-la ao outro membro, e assim, não sugerir mais este perfil ao membro logado. Após mandado ou não a solicitação e retorna a página pricipal. |
+| **Fluxo Principal:** | a: Após logar em sua conta ele visualiza três sugestões de amizade. <br> b: Seleciona os perfis desejados caso haja. <br> c: Envia solicitações aos perfis selecionados.|
 | **Fluxo Alternativo:**  |  |
 
 <hr> 
