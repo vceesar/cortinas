@@ -142,7 +142,7 @@ Cenário 02 - Acessar Conta Cadastrada
 | :---: | -------------------  |
 | **Atores:** | Membro |
 | **Pré-condições:** | Analisar as preferêcias e identificar aqueles com preferências semelhantes, com base nas avaliações já realizadas. |
-| **Pós-Condições:**  | Caso o Usuario envie alguma solicitação de amizade, este deverá envia-la ao outro membro, e assim, não sugerir mais este perfil ao membro logado. Após mandado ou não a solicitação e retorna a página pricipal. |
+| **Pós-Condições:**  | Caso o Usuario envie alguma solicitação de amizade, este deverá envia-la ao outro membro, e assim, não sugerir mais este perfil ao membro logado. Após mandado ou não a solicitação ele retorna a página principal. |
 | **Fluxo Principal:** | a: Após logar em sua conta ele visualiza três sugestões de amizade. <br> b: Seleciona os perfis desejados caso haja. <br> c: Envia solicitações aos perfis selecionados.|
 | **Fluxo Alternativo:**  |  |
 
