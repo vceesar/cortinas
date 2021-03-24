@@ -141,10 +141,10 @@ Cenário 02 - Acessar Conta Cadastrada
 | **Objetivo:** | Sempre que um membro previamente registrado acesar o sistema, este receberá sugestões de 3 membros que poderiam ser seus amigos. |
 | :---: | -------------------  |
 | **Atores:** | Membro |
-| **Pré-condições:** | Analisar as preferêcias e identificar aqueles com preferências semelhantes, com base nas avaliações já realizadas. |
+| **Pré-condições:** | Estar peviamente logado. Analisar as preferêcias e identificar aqueles com preferências semelhantes, com base nas avaliações já realizadas. |
 | **Pós-Condições:**  | Caso o Usuario envie alguma solicitação de amizade, este deverá envia-la ao outro membro, e assim, não sugerir mais este perfil ao membro logado. Após mandado ou não a solicitação ele retorna a página principal. |
-| **Fluxo Principal:** | a: Após logar em sua conta ele visualiza três sugestões de amizade. <br> b: Seleciona os perfis desejados caso haja. <br> c: Envia solicitações aos perfis selecionados.|
-| **Fluxo Alternativo:**  |  |
+| **Fluxo Principal:** | a: Sistema analisa avaliações realizadas. <br> b: Sistema retorna 3 membros como sugestões. <br> c: Membro seleciona os perfis desejados caso haja. <br> d: Membro envia solicitações aos perfis selecionados. <br> e: Sistema agrupa solicitações já enviadas|
+| **Fluxo Alternativo:**  |  <strong>Fluxo Alternativa A:</strong> <br> a: Sistema analisa avaliações realizadas. <br> b: Sistema não encontra avaliações. |
 
 <hr> 
 
