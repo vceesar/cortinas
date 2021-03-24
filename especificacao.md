@@ -146,6 +146,9 @@ Cenário 02 - Acessar Conta Cadastrada
 | **Fluxo Principal:** | |
 | **Fluxo Alternativo:**  |  |
 
+<hr> 
+
+<img src="Diagramas/Casos de Uso/Cenario03 - Avaliar itens Existentes.png">
 
 # 8. Diagrama de Sequência
 
