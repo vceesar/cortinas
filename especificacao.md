@@ -192,7 +192,7 @@ Cenário 4 - Cadastrar Novo Item(Série, filme, livros)
 <hr>
 
 Cenário 5 - Apresentar Recomendações de Itens
-<img src="Diagramas/Casos de Uso/Cenario04 - Apresentar Recomendações de Itens.png">
+<img src="Diagramas/Casos de Uso/Cenario05- Apresentar Recomendações de Itens.png">
 
 ## 7.7. Apresentar Recomendações de Itens para cada membro.
 
