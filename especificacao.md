@@ -150,7 +150,7 @@ Cenário 02 - Acessar Conta Cadastrada
 
 Cenário 3 - Avaliar Itens Existentes
 
-<img src="Diagramas/Casos de Uso/Cenario03 - Avaliar itens Existentes.png">
+<img src="Diagramas/Casos de Uso/Cenario 03 - Avaliar itens Existentes.png">
 
 ## 7.4. Avaliar Filmes,Series e Livros.
 
