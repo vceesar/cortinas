@@ -215,6 +215,21 @@ Cenário 5 - Apresentar Recomendações de Itens
 | **Fluxo Principal:** | a: Algoritmo Colaborativo analisa avaliações dos membros cadastrados. <br> b: Algoritmo Colaborativo identifica possíceis itens semelhantes. <br> c: Algoritmo Colaborativo aprova itens encontrados. |
 | **Fluxo Alternativo:**  |  |
 
+
+<hr>
+
+Cenário 6 - Acessar e adicionar perfis
+<img src="Diagramas/Casos de Uso/Cenario05- Acessar e adicionar perfis.png">
+
+## 7.9. Pesquisar outros membros.
+| **Objetivo:** | O Membro poderá pesquisar outros membros.  |
+| :---: | -------------------  |
+| **Atores:** | Membro |
+| **Pré-condições:** | Estar previamente logado. |
+| **Pós-Condições:**  | Visualizar membros pesquisados. |
+| **Fluxo Principal:** | a: Administrador de Conteúdo visualiza item. <br> b: Administrador de Conteúdo valida informações de cadastro do item. |
+| **Fluxo Alternativo:**  |  <strong>Fluxo Alternativo A:</strong> <br> a: Administrador de Conteúdo visualiza item. <br> b: Administrador de Conteúdo invalida informação. <br> c: Sistema retorna ao passo ```a```.|
+
 <hr>
 
 # 8. Diagrama de Sequência
