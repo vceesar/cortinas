@@ -258,13 +258,49 @@ Cenário 7 - Avaliar e mostrar membro amigo
 <img src="Diagramas/Casos de Uso/Cenario07 - Avaliar e mostrar membro amigo.png">
 
 ## 8.2. Listar avaliações realizadas pelo membro amigo.
-| **Objetivo:** | O Administrador de Conteúdo validará os itens.  |
+| **Objetivo:** | O Administrador de Conteúdo listará as avaliações de um membro.  |
 | :---: | -------------------  |
 | **Atores:** | Administrador de Conteúdo |
-| **Pré-condições:** | Estar previamente logado. Só será feito a validação caso seja recebido uma solicitação de cadastro. |
-| **Pós-Condições:**  | Visualizar o item validado. |
-| **Fluxo Principal:** | a: Administrador de Conteúdo visualiza item. <br> b: Administrador de Conteúdo valida informações de cadastro do item. |
-| **Fluxo Alternativo:**  |  <strong>Fluxo Alternativo A:</strong> <br> a: Administrador de Conteúdo visualiza item. <br> b: Administrador de Conteúdo invalida informação. <br> c: Sistema retorna ao passo ```a```.|
+| **Pré-condições:** | Estar previamente logado. Só será feito a listagem caso haja avaliação de outros membros. |
+| **Pós-Condições:**  | Visualizar lista de avaliações. |
+| **Fluxo Principal:** | a: Administrador de Conteúdo acessa perfil do membro. <br> b: Administrador de Conteúdo visualiza avaliações feitas. <br> c: Administrador de Conteúdo valida avaliações. <br> d: Administrador de Conteúdo lista avaliações. |
+| **Fluxo Alternativo:**  |  <strong>Fluxo Alternativo A:</strong> <br>  a: Administrador de Conteúdo acessa perfil do membro. <br> b: Administrador de Conteúdo visualiza avaliações feitas. <br> c: Administrador de Conteúdo invalida avaliações. <br> d: Sistema retorna ao passo ```b```.|
+
+<hr>
+
+## 8.3. Dar feedback nas avaliações do amigo.
+| **Objetivo:** | O Membro poderá dar um feedback nas avaliações de um amigo .  |
+| :---: | -------------------  |
+| **Atores:** | Membro |
+| **Pré-condições:** | Estar previamente logado. Só poderá ser feito o feedback caso o o Membro possua amizade com quem ele está avaliando. |
+| **Pós-Condições:**  | Visualizar feedback na avaliação de um amigo . |
+| **Fluxo Principal:** | a: Membro acessa página de amigo <br> b: Membro escolhe avaliação do amigo. <br> c: Membro da feedback. <br> d: Sistema valida feedback.  <br> e: Sistema "posta" feedback. <br> f: Membro pode dar "joinha"|
+| **Fluxo Alternativo:**  |  <strong>Fluxo Alternativo A:</strong> <br>  a: Membro acessa página de amigo <br> b: Membro escolhe avaliações do amigo. <br> c: Sistema invalida mais de uma escolha. <br> d: Sistema retorna ao passo ```b``` do Fluxo Principal. <br> <br> <strong>Fluxo Alternativo A:</strong> <br> a: Membro acessa página de amigo <br> b: Membro escolhe avaliação do amigo. <br> c: Membro da feedback. <br> d: Sistema invalida feedback. <br> e: Sistema retorna ao passo ```c```.|
+
+<hr>
+
+## 8.4. Retirar "joinha".
+| **Objetivo:** | O Membro poderá retirar um "joinha"dado.  |
+| :---: | -------------------  |
+| **Atores:** | Membro |
+| **Pré-condições:** | Estar previamente logado. Só poderá ser retirado o "joinha" caso o Membro já tenha dado um. |
+| **Pós-Condições:**  | Visualizar "joinha" retirado . |
+| **Fluxo Principal:** | a: Membro acessa feedback dado ao amigo <br> b: Membro clica no botão de retirar "joinha". <br> c: Sistema retira "joinha". |
+| **Fluxo Alternativo:**  |  |
+
+<hr>
+
+Cenário 8 - Acessar página pessoal(perfil)
+<img src="Diagramas/Casos de Uso/Cenario08 - Acessar página pessoal (perfil).png">
+
+## 8.5. Acessar próprio perfil.
+| **Objetivo:** | Membro acessa seu perfil.  |
+| :---: | -------------------  |
+| **Atores:** | Membro |
+| **Pré-condições:** | Estar previamente logado. |
+| **Pós-Condições:**  | Visualizar perfil. |
+| **Fluxo Principal:** | a: Membro clica no botão de perfil. <br> b: Membro visualiza perfil.  |
+| **Fluxo Alternativo:**  |  |
 
 <hr>
 
