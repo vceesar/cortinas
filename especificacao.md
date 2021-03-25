@@ -254,6 +254,20 @@ Cenário 6 - Acessar e adicionar perfis
 
 <hr>
 
+Cenário 7 - Avaliar e mostrar membro amigo
+<img src="Diagramas/Casos de Uso/Cenario07 - Avaliar e mostrar membro amigo.png">
+
+## 8.2. Listar avaliações realizadas pelo membro amigo.
+| **Objetivo:** | O Administrador de Conteúdo validará os itens.  |
+| :---: | -------------------  |
+| **Atores:** | Administrador de Conteúdo |
+| **Pré-condições:** | Estar previamente logado. Só será feito a validação caso seja recebido uma solicitação de cadastro. |
+| **Pós-Condições:**  | Visualizar o item validado. |
+| **Fluxo Principal:** | a: Administrador de Conteúdo visualiza item. <br> b: Administrador de Conteúdo valida informações de cadastro do item. |
+| **Fluxo Alternativo:**  |  <strong>Fluxo Alternativo A:</strong> <br> a: Administrador de Conteúdo visualiza item. <br> b: Administrador de Conteúdo invalida informação. <br> c: Sistema retorna ao passo ```a```.|
+
+<hr>
+
 # 8. Diagrama de Sequência
 
 
