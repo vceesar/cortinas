@@ -280,7 +280,7 @@ Cenário 7 - Avaliar e mostrar membro amigo
 <hr>
 
 ## 8.4. Retirar "joinha".
-| **Objetivo:** | O Membro poderá retirar um "joinha"dado.  |
+| **Objetivo:** | O Membro poderá retirar um "joinha" dado.  |
 | :---: | -------------------  |
 | **Atores:** | Membro |
 | **Pré-condições:** | Estar previamente logado. Só poderá ser retirado o "joinha" caso o Membro já tenha dado um. |
