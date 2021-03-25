@@ -227,8 +227,30 @@ Cenário 6 - Acessar e adicionar perfis
 | **Atores:** | Membro |
 | **Pré-condições:** | Estar previamente logado. |
 | **Pós-Condições:**  | Visualizar membros pesquisados. |
-| **Fluxo Principal:** | a: Administrador de Conteúdo visualiza item. <br> b: Administrador de Conteúdo valida informações de cadastro do item. |
-| **Fluxo Alternativo:**  |  <strong>Fluxo Alternativo A:</strong> <br> a: Administrador de Conteúdo visualiza item. <br> b: Administrador de Conteúdo invalida informação. <br> c: Sistema retorna ao passo ```a```.|
+| **Fluxo Principal:** | a: Membro vai na barra de pesquisa. <br> b: Membro procura perfil pelo nome. <br> c: Sistema filtra opções. <br> d: Sistema retorna opções para usuário. |
+| **Fluxo Alternativo:**  |  <strong>Fluxo Alternativo A:</strong> <br> a: Membro vai na barra de pesquisa. <br> b: Membro procura perfil pelo nome. <br> c: Sistema filtra opções. <br> d: Sistema não encontra perfil corresponte a pesquisa. <br> e: Sistema retorna ao passo ```b```.|
+
+<hr>
+
+## 8.0. Propor relacionamento de amizade.
+| **Objetivo:** | O Membro poderá propor amizade a outro membro.  |
+| :---: | -------------------  |
+| **Atores:** | Membro |
+| **Pré-condições:** | Estar previamente logado. |
+| **Pós-Condições:**  | Visualizar proposta de amizade enviada. |
+| **Fluxo Principal:** | a: Membro recebe opções. <br> b: Membro envia solicitação de amizade ao perfil desejado.|
+| **Fluxo Alternativo:**  |  <strong>Fluxo Alternativo A:</strong> <br> a: Membro recebe opções. <br> b: Membro não recebe opção desejada. <br> e: Membro retorna ao passo ```b``` do CSU 7.9.|
+
+<hr>
+
+## 8.1. Verificar pendências de amizade.
+| **Objetivo:** | O Membro poderá verificar suas pendências de relacionamento.  |
+| :---: | -------------------  |
+| **Atores:** | Membro |
+| **Pré-condições:** | Estar previamente logado. |
+| **Pós-Condições:**  | Visualizar pendências de relacionamento. |
+| **Fluxo Principal:** | a: Membro requisita lista de pendências. <br> b: Sistema retorna pendências para o Membro. <br> c: Membro responde a lista de pendências. |
+| **Fluxo Alternativo:**  |  <strong>Fluxo Alternativo A:</strong> <br> a: Membro requisita lista de pendências. <br> b: Sistema retorna 0 pendências para o Membro. <br> c: Sistema retorna ao passo ```a```.|
 
 <hr>
 
