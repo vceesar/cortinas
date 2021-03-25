@@ -175,7 +175,7 @@ Cenário 4 - Cadastrar Novo Item(Série, filme, livros)
 | **Atores:** | Membro |
 | **Pré-condições:** | Estar previamente logado. Só será feito o cadastro caso o item não exista no sistema. |
 | **Pós-Condições:**  | Visualizar o item cadastrado. |
-| **Fluxo Principal:** | a: Membro clica no botão de cadastro de item. <br> b: Membro seleciona tipo de item. <br> c: Sistema valida item. <br> d: Membro coloca informações do item. <br> e: Administrador de Conteúdo valida informações de cadastro do item. |
+| **Fluxo Principal:** | a: Membro clica no botão de cadastro de item. <br> b: Membro seleciona tipo de item. <br> c: Sistema valida item. <br> d: Membro coloca informações do item e os envia. <br> e: Administrador de Conteúdo valida informações de cadastro do item. |
 | **Fluxo Alternativo:**  |  <strong>Fluxo Alternativo A:</strong> <br> a: Membro seleciona tipo de item. <br> b: Membro seleciona mais de um tipo de item. <br> c: Sistema retorna ao passo ```a```. <br><br> <strong>Fluxo Alternativo B: </strong> <br> a: Membro seleciona tipo de item. <br> b: Sistema valida item. <br> c: Membro coloca informações do item. <br> d: Administrador invalida informações <br> e: Sistema retorna ao passo ```d``` do Fluxo Principal.|
 
 <hr>
@@ -187,7 +187,33 @@ Cenário 4 - Cadastrar Novo Item(Série, filme, livros)
 | **Pré-condições:** | Estar previamente logado. Só será feito a validação caso seja recebido uma solicitação de cadastro. |
 | **Pós-Condições:**  | Visualizar o item validado. |
 | **Fluxo Principal:** | a: Administrador de Conteúdo visualiza item. <br> b: Administrador de Conteúdo valida informações de cadastro do item. |
-| **Fluxo Alternativo:**  |  <strong>Fluxo Alternativo A:</strong> <br> a: Administrador de Conteúdo visualiza item. <br> b: Administrador de Conteúdo valida informação incorreta. <br> c: Sistema retorna ao passo ```a```.|
+| **Fluxo Alternativo:**  |  <strong>Fluxo Alternativo A:</strong> <br> a: Administrador de Conteúdo visualiza item. <br> b: Administrador de Conteúdo invalida informação. <br> c: Sistema retorna ao passo ```a```.|
+
+<hr>
+
+Cenário 5 - Apresentar Recomendações de Itens
+<img src="Diagramas/Casos de Uso/Cenario04 - Apresentar Recomendações de Itens.png">
+
+## 7.7. Apresentar Recomendações de Itens para cada membro.
+
+| **Objetivo:** | O Algoritmo Colaborativo apresentará recomendações de itens para um membro.  |
+| :---: | -------------------  |
+| **Atores:** | Algoritmo Colaborativo |
+| **Pré-condições:** | Estar previamente logado. Só será feito a recomendação caso o sistema possua 10 membros cadastrados e esses membros entrarem em pelo menos 10 avaliações. |
+| **Pós-Condições:**  | Visualizar recomendações de filmes, séries e livros de cada membro. |
+| **Fluxo Principal:** | a: Sistema avalia pré-condições. <br> b: Sistema valida pré-condições. <br> c: Algoritmo Colaborativo apresenta recomendações ao membro. |
+| **Fluxo Alternativo:**  |  |
+
+<hr>
+
+## 7.8. Identificar Membros com perfil semelhante.
+| **Objetivo:** | O Administrador de Conteúdo validará os itens.  |
+| :---: | -------------------  |
+| **Atores:** | Administrador de Conteúdo |
+| **Pré-condições:** | Estar previamente logado. Só será feito a validação caso seja recebido uma solicitação de cadastro. |
+| **Pós-Condições:**  | Visualizar o item validado. |
+| **Fluxo Principal:** | a: Administrador de Conteúdo visualiza item. <br> b: Administrador de Conteúdo valida informações de cadastro do item. |
+| **Fluxo Alternativo:**  |  <strong>Fluxo Alternativo A:</strong> <br> a: Administrador de Conteúdo visualiza item. <br> b: Administrador de Conteúdo invalida informação. <br> c: Sistema retorna ao passo ```a```.|
 
 <hr>
 # 8. Diagrama de Sequência
