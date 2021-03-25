@@ -219,7 +219,7 @@ Cenário 5 - Apresentar Recomendações de Itens
 <hr>
 
 Cenário 6 - Acessar e adicionar perfis
-<img src="Diagramas/Casos de Uso/Cenario06 - Acessar e adicionar perfis.png">
+<img src="Diagramas/Casos de Uso/Cenario06 - Acessar e adicionar perfis .png">
 
 ## 7.9. Pesquisar outros membros.
 | **Objetivo:** | O Membro poderá pesquisar outros membros.  |
