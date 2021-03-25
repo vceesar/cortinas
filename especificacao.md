@@ -132,7 +132,7 @@ Cenário 02 - Acessar Conta Cadastrada
 | **Pré-condições:** | Deverá fornecer seu nome de usuário e senha pré-definidos no cadastro. |
 | **Pós-Condições:**  | O sistema dispõe todas suas funcionalidades ao membro logado. |
 | **Fluxo Principal:** | a: O usuário seleciona a operação para efetuar o login.<br> b: O sistema solicita o seu nome de usuário e a sua senha.<br> c: O usuário entra seu username e sua senha.<br>d: O sistema verifica que o username e a senha correspondem às informações de um de seus usuários registrados.<br>e: O sistema inicia uma sessão e apresenta uma mensagem de boas-vindas.|
-| **Fluxo Alternativo:**  | <strong>Fluxo Alternativa A:</strong> <br> a: O usuário seleciona a operação para efetuar o login. <br> b: O sistema solicita o seu nome de usuário e a sua senha. <br> c: O usuário entra seu username e sua senha. <br> d: O sistema encontra um erro baseado no username inserido <br> e: Retorna ao passo ```b``` do Fluxo Principal para refazer o processo. <br><br> <strong>Fluxo Alternativa B: </strong> <br> a: O usuário seleciona a operação para efetuar o login. <br> b: O sistema solicita o seu nome de usuário e a sua senha. <br>  c: O usuário entra seu username e sua senha. <br> d: O sistema encontra um erro baseado na senha inserida <br> e: Sistema retorna ao passo ```d``` do Fluxo principal usando o username previamente inserido e verificado e a nova senha.   |
+| **Fluxo Alternativo:**  | <strong>Fluxo Alternativo A:</strong> <br> a: O usuário seleciona a operação para efetuar o login. <br> b: O sistema solicita o seu nome de usuário e a sua senha. <br> c: O usuário entra seu username e sua senha. <br> d: O sistema encontra um erro baseado no username inserido <br> e: Retorna ao passo ```b``` do Fluxo Principal para refazer o processo. <br><br> <strong>Fluxo Alternativo B: </strong> <br> a: O usuário seleciona a operação para efetuar o login. <br> b: O sistema solicita o seu nome de usuário e a sua senha. <br>  c: O usuário entra seu username e sua senha. <br> d: O sistema encontra um erro baseado na senha inserida <br> e: Sistema retorna ao passo ```d``` do Fluxo principal usando o username previamente inserido e verificado e a nova senha.   |
 
 
 
@@ -144,7 +144,7 @@ Cenário 02 - Acessar Conta Cadastrada
 | **Pré-condições:** | Estar peviamente logado. Analisar as preferêcias e identificar aqueles com preferências semelhantes, com base nas avaliações já realizadas. |
 | **Pós-Condições:**  | Caso o Usuario envie alguma solicitação de amizade, este deverá envia-la ao outro membro, e assim, não sugerir mais este perfil ao membro logado. Após mandado ou não a solicitação ele retorna a página principal. |
 | **Fluxo Principal:** | a: Sistema analisa avaliações realizadas. <br> b: Sistema retorna 3 membros como sugestões. <br> c: Membro seleciona os perfis desejados caso haja. <br> d: Membro envia solicitações aos perfis selecionados. <br> e: Sistema agrupa solicitações já enviadas|
-| **Fluxo Alternativo:**  |  <strong>Fluxo Alternativa A:</strong> <br> a: Sistema analisa avaliações realizadas. <br> b: Sistema não encontra avaliações. |
+| **Fluxo Alternativo:**  |  <strong>Fluxo Alternativo A:</strong> <br> a: Sistema analisa avaliações realizadas. <br> b: Sistema não encontra avaliações. |
 
 <hr> 
 
@@ -154,25 +154,14 @@ Cenário 3 - Avaliar Itens Existentes
 
 ## 7.4. Avaliar Filmes,Series e Livros.
 
-| **Objetivo:** | Sempre que um membro previamente registrado acesar o sistema, este receberá sugestões de 3 membros que poderiam ser seus amigos. |
+| **Objetivo:** | O membro poderá avaliar filmes, séries e livros com comentários e atribuição de nota. |
 | :---: | -------------------  |
 | **Atores:** | Membro |
-| **Pré-condições:** | Estar peviamente logado. Analisar as preferêcias e identificar aqueles com preferências semelhantes, com base nas avaliações já realizadas. |
-| **Pós-Condições:**  | Caso o Usuario envie alguma solicitação de amizade, este deverá envia-la ao outro membro, e assim, não sugerir mais este perfil ao membro logado. Após mandado ou não a solicitação ele retorna a página principal. |
-| **Fluxo Principal:** | a: Sistema analisa avaliações realizadas. <br> b: Sistema retorna 3 membros como sugestões. <br> c: Membro seleciona os perfis desejados caso haja. <br> d: Membro envia solicitações aos perfis selecionados. <br> e: Sistema agrupa solicitações já enviadas|
-| **Fluxo Alternativo:**  |  <strong>Fluxo Alternativa A:</strong> <br> a: Sistema analisa avaliações realizadas. <br> b: Sistema não encontra avaliações. |
+| **Pré-condições:** | Estar previamente logado. Só será feita a avaliação caso o item esteja cadastrado no sistema. |
+| **Pós-Condições:**  | Visualizar a avaliação postada. |
+| **Fluxo Principal:** | a: Membro seleciona tipo de item. <br> b: Sistema valida item. <br> c: Membro deve necessariamente atribuir uma nota de 0 a 10. <br> d: Sistema valida nota. <br> e: Membro pode adicionar comentário. |
+| **Fluxo Alternativo:**  |  <strong>Fluxo Alternativo A:</strong> <br> a: Membro seleciona tipo de item. <br> b: Membro seleciona mais de um tipo de item <br> c: Sistema retorna ao passo ```a```. <br><br> <strong>Fluxo Alternativo B: </strong> <br> a: Membro seleciona tipo de item. <br> b: Sistema valida item. <br> c: Membro atribui nota diferente do intervalo de 0 a 10. <br> d: Sistema invalida nota <br> e: Sistema retorna ao passo ```c``` do Fluxo Principal.|
 
-## 7.5. Atribuir Nota de 0 a 10.
-
-| **Objetivo:** | Sempre que um membro previamente registrado acesar o sistema, este receberá sugestões de 3 membros que poderiam ser seus amigos. |
-| :---: | -------------------  |
-| **Atores:** | Membro |
-| **Pré-condições:** | Estar peviamente logado. Analisar as preferêcias e identificar aqueles com preferências semelhantes, com base nas avaliações já realizadas. |
-| **Pós-Condições:**  | Caso o Usuario envie alguma solicitação de amizade, este deverá envia-la ao outro membro, e assim, não sugerir mais este perfil ao membro logado. Após mandado ou não a solicitação ele retorna a página principal. |
-| **Fluxo Principal:** | a: Sistema analisa avaliações realizadas. <br> b: Sistema retorna 3 membros como sugestões. <br> c: Membro seleciona os perfis desejados caso haja. <br> d: Membro envia solicitações aos perfis selecionados. <br> e: Sistema agrupa solicitações já enviadas|
-| **Fluxo Alternativo:**  |  <strong>Fluxo Alternativa A:</strong> <br> a: Sistema analisa avaliações realizadas. <br> b: Sistema não encontra avaliações. |
-
-<hr> 
 
 # 8. Diagrama de Sequência
 
