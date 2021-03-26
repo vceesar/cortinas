@@ -352,6 +352,20 @@ Cenário 9 - Acessar página do Item
 
 <hr>
 
+
+Cenário 10 - Consultar dados dos usuárioas
+<img src="Diagramas/Casos de Uso/Cenario10- Consultar dados dos usuários.png">
+
+## 9.0. Consultar Relatório.
+| **Objetivo:** | O Gerente de Serviço consultará um relatório referente aos membros cadastrados a plataforma.  |
+| :---: | -------------------  |
+| **Atores:** | Gerente de Serviço |
+| **Pré-condições:** | Estar previamente logado. Só será reunido caso haja mais de uma avaliação. |
+| **Pós-Condições:**  | Visualizar avaliações reunidas. |
+| **Fluxo Principal:** | a: Administrador de Conteúdo visualiza item. <br> b: Administrador de Conteúdo seleciona item. <br> c: Administrador de Conteúdo visualiza avaliações. <br> e: Administrador de Conteúdo reúne avaliações.  |
+| **Fluxo Alternativo:**  | |
+
+<hr>
 # 8. Diagrama de Sequência
 
 
