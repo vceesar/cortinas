@@ -43,7 +43,7 @@ Atua tambem, no ambito socio-ambiental, tendo em vista que gera, com base em sua
 
 # 4. Interessados
 
-  Usuário/Cliente: Qualquer pessoa da empresa, ou fora dela, pode se registrar nesta rede social. <br>
+  Usuário/Membro: Qualquer pessoa da empresa, ou fora dela, pode se registrar nesta rede social. <br>
   Administrador de Conteúdo: Aquele que será responsável por validar itens adicionados pelos Usuários. <br>
   Administrador de Algoritmo: Ficará responsável por administrar o algoritmo que oferecera recomendações a um determinado membro. <br>
   Gerente de Serviço: Atualiza informações dos itens e dados cadastrais dos usuários. <br>
