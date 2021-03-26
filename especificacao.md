@@ -25,7 +25,7 @@ author: "Prática Profissional em ADS"
 
 # 1. Introdução
 
-Este documento é responsável pela especificação de um Sistema que gera recomendações de Livros, Séries e Filmes para seus usuarios. O Cortinas busca a interatividade entre seus colaboradores, tendo em vista que este,  atua quase como uma rede social, oferencendo uma plataforma com gererenciamento de amigos, avaliação de filmes, series e livros assim como seu cadastro, recomendações, e outras funcionalidades a serem desenvolvidas.
+Este documento é responsável pela especificação de um Sistema que gera recomendações de Livros, Séries e Filmes para seus usuarios. O Cortinas busca a interatividade entre seus membros, tendo em vista que este,  atua quase como uma rede social, oferencendo uma plataforma com gererenciamento de amigos, avaliação de filmes, series e livros assim como seu cadastro, recomendações, e outras funcionalidades a serem desenvolvidas, para assim obter um maior compartilhamento de experiência entre os membros do sistema, compartilhando opiniões, atribuindo avaliações e recomendando.
 
 Este tambem, descreve os requisitos não-funcionais, modela os requisitos funcionais com casos de uso e modela os conceitos do domínio do problema.
 
@@ -37,9 +37,8 @@ Atua tambem, no ambito socio-ambiental, tendo em vista que gera, com base em sua
 
 # 3. Escopo do projeto
 
-  Sistema Web que oferece á seus Usuários uma plataforma para adição, compartilhamento e interacao de Usuarios leitores, e/ou consumidores de Séries e Filmes.
-  O projeto aborda de forma inovadora, como uma rede social, as contribuições e participações entre nossos colaboradores, isto é, abordaremos o Escopo prático, assim como
-  Desenvolvimento, Especificação e Revisão. 
+  Sistema Web que oferece á seus Usuários uma plataforma para adição, compartilhamento e interação entre os Membros, e/ou consumidores de Séries, Filmes e Livros.
+  O projeto aborda de forma inovadora, como uma rede social, as contribuições e participações entre nossos Membros, isto é, abordaremos o Escopo prático, assim como Desenvolvimento, Especificação e Revisão. 
   No Desenvolvimento, trataremos também sobre questões de segurança de dados, implementando um algoritmo matematico que "embaralha" seu conteúdo e/ou o famoso Hash que mapeia dados grandes e de tamanho variavel e os transforma em dados pequenos de tamanho fixo.  
 
 # 4. Interessados
