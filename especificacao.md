@@ -353,7 +353,7 @@ Cenário 9 - Acessar página do Item
 <hr>
 
 
-Cenário 10 - Consultar dados dos usuárioas
+Cenário 10 - Consultar dados dos usuários
 <img src="Diagramas/Casos de Uso/Cenario10- Consultar dados dos usuários.png">
 
 ## 9.0. Consultar Relatório.
