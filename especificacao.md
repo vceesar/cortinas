@@ -299,8 +299,31 @@ Cenário 8 - Acessar página pessoal(perfil)
 | **Atores:** | Membro |
 | **Pré-condições:** | Estar previamente logado. |
 | **Pós-Condições:**  | Visualizar perfil. |
-| **Fluxo Principal:** | a: Membro clica no botão de perfil. <br> b: Membro visualiza perfil.  |
-| **Fluxo Alternativo:**  |  |
+| **Fluxo Principal:** | a: Membro clica no sua imagem de perfil localizada no canto superior direito. <br> b: Membro visualiza opções. <br> c: Membro acessa a opção "Ver meu perfil". <br> d: Sistema retorna perfil para o Membro. |
+| **Fluxo Alternativo:**  | <strong>Fluxo Alternativo A:</strong> <br>  a: Membro clica no sua imagem de perfil localizada no canto superior direito. <br> b: Membro visualiza opções. <br> c: Membro acessa a opção errada. <br> d: Sistema retorna ao passo ```b```. |
+
+<hr>
+
+## 8.6. Listar avaliações realizadas pelo membro logado.
+| **Objetivo:** | Administrador de Conteúdo fará listagem de avaliações realizadas pelo membro.  |
+| :---: | -------------------  |
+| **Atores:** | Administrador de Conteúdo |
+| **Pré-condições:** | Estar previamente logado. |
+| **Pós-Condições:**  | Visualizar perfil. |
+| **Fluxo Principal:** | a: Membro solicita ver seu próprio perfil. <br> b: Administrador de Conteúdo automaticamente faz a listagem de avaliações. |
+| **Fluxo Alternativo:**  | <strong>Fluxo Alternativo A:</strong> <br>  a: Membro solicita ver seu próprio perfil. <br> b: Administrador de Conteúdo retorna mensagem de 0 avaliações. |
+
+<hr>
+
+
+## 8.7. Listar amigos e recomendações recebidas.
+| **Objetivo:** | Administrador de Conteúdo fará listagem de amigos e recomendações recebidas.  |
+| :---: | -------------------  |
+| **Atores:** | Administrador de Conteúdo |
+| **Pré-condições:** | Estar previamente logado. |
+| **Pós-Condições:**  | Visualizar perfil. |
+| **Fluxo Principal:** | a: Administrador de Conteúdo verifica amigos do Membro. <br> b: Administrador de Conteúdo faz listagem de amigos do Membro. <br> c: Administrador de Conteúdo verifica recomendações enviadas ao Membro.  <br> d: Administrador de Conteúdo automaticamente faz a listagem de recomendações recebidas. |
+| **Fluxo Alternativo:**  | <strong>Fluxo Alternativo A:</strong> <br>  a: Administrador de Conteúdo verifica amigos do Membro. <br> b: Administrador de Conteúdo não encontra amigos. <br> c: Administrador de Conteúdo verifica recomendações enviadas ao Membro.  <br> d: Administrador de Conteúdo automaticamente faz a listagem de recomendações recebidas. <br> <br> <strong>Fluxo Alternativo B:</strong> <br> a: Administrador de Conteúdo verifica amigos do Membro. <br> b: Administrador de Conteúdo faz listagem de amigos do Membro. <br> c: Administrador de Conteúdo verifica recomendações enviadas ao Membro. <br> d: Administrador de Conteúdo não encontra recomendações recebidas. <br> <br> <strong>Fluxo Alternativo B:</strong> <br> a: Administrador de Conteúdo verifica amigos do Membro. <br> b: Administrador de Conteúdo não encontra amigos. <br> c: Administrador de Conteúdo verifica recomendações enviadas ao Membro. <br> d: Administrador de Conteúdo não encontra recomendações recebidas. |
 
 <hr>
 
