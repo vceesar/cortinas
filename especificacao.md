@@ -269,12 +269,12 @@ Cenário 7 - Avaliar e mostrar membro amigo
 <hr>
 
 ## 8.3. Dar feedback nas avaliações do amigo.
-| **Objetivo:** | O Membro poderá dar um feedback nas avaliações de um amigo .  |
+| **Objetivo:** | O Membro poderá dar um feedback(Comentário e/ou "joinha") nas avaliações de um amigo.  |
 | :---: | -------------------  |
 | **Atores:** | Membro |
 | **Pré-condições:** | Estar previamente logado. Só poderá ser feito o feedback caso o o Membro possua amizade com quem ele está avaliando. |
 | **Pós-Condições:**  | Visualizar feedback na avaliação de um amigo . |
-| **Fluxo Principal:** | a: Membro acessa página de amigo <br> b: Membro escolhe avaliação do amigo. <br> c: Membro da feedback. <br> d: Sistema valida feedback.  <br> e: Sistema "posta" feedback. <br> f: Membro pode dar "joinha"|
+| **Fluxo Principal:** | a: Membro acessa página de amigo <br> b: Membro escolhe avaliação do amigo. <br> c: Membro da feedback. <br> d: Sistema valida feedback.  <br> e: Sistema "posta" feedback. <br> f: Membro pode dar "joinha".|
 | **Fluxo Alternativo:**  |  <strong>Fluxo Alternativo A:</strong> <br>  a: Membro acessa página de amigo <br> b: Membro escolhe avaliações do amigo. <br> c: Sistema invalida mais de uma escolha. <br> d: Sistema retorna ao passo ```b``` do Fluxo Principal. <br> <br> <strong>Fluxo Alternativo A:</strong> <br> a: Membro acessa página de amigo <br> b: Membro escolhe avaliação do amigo. <br> c: Membro da feedback. <br> d: Sistema invalida feedback. <br> e: Sistema retorna ao passo ```c```.|
 
 <hr>
