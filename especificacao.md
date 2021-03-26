@@ -227,7 +227,7 @@ Cenário 6 - Acessar e adicionar perfis
 | **Atores:** | Membro |
 | **Pré-condições:** | Estar previamente logado. |
 | **Pós-Condições:**  | Visualizar membros pesquisados. |
-| **Fluxo Principal:** | a: Membro vai na barra de pesquisa. <br> b: Membro procura perfil pelo nome. <br> c: Sistema filtra opções. <br> d: Sistema retorna opções para usuário. |
+| **Fluxo Principal:** | a: Membro vai na barra de pesquisa. <br> b: Membro procura perfil pelo nome. <br> c: Sistema filtra opções. <br> d: Sistema retorna opções com amigos em comum para usuário. |
 | **Fluxo Alternativo:**  |  <strong>Fluxo Alternativo A:</strong> <br> a: Membro vai na barra de pesquisa. <br> b: Membro procura perfil pelo nome. <br> c: Sistema filtra opções. <br> d: Sistema não encontra perfil corresponte a pesquisa. <br> e: Sistema retorna ao passo ```b```.|
 
 <hr>
@@ -324,6 +324,31 @@ Cenário 8 - Acessar página pessoal(perfil)
 | **Pós-Condições:**  | Visualizar perfil. |
 | **Fluxo Principal:** | a: Administrador de Conteúdo verifica amigos do Membro. <br> b: Administrador de Conteúdo faz listagem de amigos do Membro. <br> c: Administrador de Conteúdo verifica recomendações enviadas ao Membro.  <br> d: Administrador de Conteúdo automaticamente faz a listagem de recomendações recebidas. |
 | **Fluxo Alternativo:**  | <strong>Fluxo Alternativo A:</strong> <br>  a: Administrador de Conteúdo verifica amigos do Membro. <br> b: Administrador de Conteúdo não encontra amigos. <br> c: Administrador de Conteúdo verifica recomendações enviadas ao Membro.  <br> d: Administrador de Conteúdo automaticamente faz a listagem de recomendações recebidas. <br> <br> <strong>Fluxo Alternativo B:</strong> <br> a: Administrador de Conteúdo verifica amigos do Membro. <br> b: Administrador de Conteúdo faz listagem de amigos do Membro. <br> c: Administrador de Conteúdo verifica recomendações enviadas ao Membro. <br> d: Administrador de Conteúdo não encontra recomendações recebidas. <br> <br> <strong>Fluxo Alternativo B:</strong> <br> a: Administrador de Conteúdo verifica amigos do Membro. <br> b: Administrador de Conteúdo não encontra amigos. <br> c: Administrador de Conteúdo verifica recomendações enviadas ao Membro. <br> d: Administrador de Conteúdo não encontra recomendações recebidas. |
+
+<hr>
+
+Cenário 9 - Acessar página do Item
+<img src="Diagramas/Casos de Uso/Cenario09 - Acessar página do Item.png">
+
+## 8.8. Reunir avaliações do Item.
+| **Objetivo:** | O Administrador de Conteúdo reunirá as avaliações de um Item.  |
+| :---: | -------------------  |
+| **Atores:** | Administrador de Conteúdo |
+| **Pré-condições:** | Estar previamente logado. Só será reunido caso haja mais de uma avaliação. |
+| **Pós-Condições:**  | Visualizar avaliações reunidas. |
+| **Fluxo Principal:** | a: Administrador de Conteúdo visualiza item. <br> b: Administrador de Conteúdo seleciona item. <br> c: Administrador de Conteúdo visualiza avaliações. <br> e: Administrador de Conteúdo reúne avaliações.  |
+| **Fluxo Alternativo:**  | |
+
+<hr>
+
+## 8.9. Ordenar joinhas de cada avaliação.
+| **Objetivo:** | O Administrador de Conteúdo ordenará a quantidade de "joinhas" de uma avaliação.  |
+| :---: | -------------------  |
+| **Atores:** | Administrador de Conteúdo |
+| **Pré-condições:** | Estar previamente logado. Só será ordenado caso haja mais de um "joinha". |
+| **Pós-Condições:**  | Visualizar quantidade de "joinhas". |
+| **Fluxo Principal:** | a: Administrador de Conteúdo visualiza item. <br> b: Administrador de Conteúdo seleciona item. <br> c: Administrador de Conteúdo acessa avaliação do item. <br> e: Administrador de Conteúdo ordena "joinhas".  |
+| **Fluxo Alternativo:**  | |
 
 <hr>
 
