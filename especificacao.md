@@ -184,7 +184,7 @@ Cenário 4 - Cadastrar Novo Item(Série, filme, livros)
 | **Objetivo:** | O Administrador de Conteúdo validará os itens.  |
 | :---: | -------------------  |
 | **Atores:** | Administrador de Conteúdo |
-| **Pré-condições:** | Estar previamente logado. Só será feito a validação caso seja recebido uma solicitação de cadastro. |
+| **Pré-condições:** | Estar previamente logado e ter permissão para tais acessos. Só será feito a validação caso seja recebido uma solicitação de cadastro. |
 | **Pós-Condições:**  | Visualizar o item validado. |
 | **Fluxo Principal:** | a: Administrador de Conteúdo visualiza item. <br> b: Administrador de Conteúdo valida informações de cadastro do item. |
 | **Fluxo Alternativo:**  |  <strong>Fluxo Alternativo A:</strong> <br> a: Administrador de Conteúdo visualiza item. <br> b: Administrador de Conteúdo invalida informação. <br> c: Sistema retorna ao passo ```a```.|
@@ -261,7 +261,7 @@ Cenário 7 - Avaliar e mostrar membro amigo
 | **Objetivo:** | O Administrador de Conteúdo listará as avaliações de um membro.  |
 | :---: | -------------------  |
 | **Atores:** | Administrador de Conteúdo |
-| **Pré-condições:** | Estar previamente logado. Só será feito a listagem caso haja avaliação de outros membros. |
+| **Pré-condições:** | Estar previamente logado e ter permissão para tais acessos. Só será feito a listagem caso haja avaliação de outros membros. |
 | **Pós-Condições:**  | Visualizar lista de avaliações. |
 | **Fluxo Principal:** | a: Administrador de Conteúdo acessa perfil do membro. <br> b: Administrador de Conteúdo visualiza avaliações feitas. <br> c: Administrador de Conteúdo valida avaliações. <br> d: Administrador de Conteúdo lista avaliações. |
 | **Fluxo Alternativo:**  |  <strong>Fluxo Alternativo A:</strong> <br>  a: Administrador de Conteúdo acessa perfil do membro. <br> b: Administrador de Conteúdo visualiza avaliações feitas. <br> c: Administrador de Conteúdo invalida avaliações. <br> d: Sistema retorna ao passo ```b```.|
@@ -308,7 +308,7 @@ Cenário 8 - Acessar página pessoal(perfil)
 | **Objetivo:** | Administrador de Conteúdo fará listagem de avaliações realizadas pelo membro.  |
 | :---: | -------------------  |
 | **Atores:** | Administrador de Conteúdo |
-| **Pré-condições:** | Estar previamente logado. |
+| **Pré-condições:** | Estar previamente logado e ter permissão para tais acessos. |
 | **Pós-Condições:**  | Visualizar perfil. |
 | **Fluxo Principal:** | a: Membro solicita ver seu próprio perfil. <br> b: Administrador de Conteúdo automaticamente faz a listagem de avaliações. |
 | **Fluxo Alternativo:**  | <strong>Fluxo Alternativo A:</strong> <br>  a: Membro solicita ver seu próprio perfil. <br> b: Administrador de Conteúdo retorna mensagem de 0 avaliações. |
@@ -320,7 +320,7 @@ Cenário 8 - Acessar página pessoal(perfil)
 | **Objetivo:** | Administrador de Conteúdo fará listagem de amigos e recomendações recebidas.  |
 | :---: | -------------------  |
 | **Atores:** | Administrador de Conteúdo |
-| **Pré-condições:** | Estar previamente logado. |
+| **Pré-condições:** | Estar previamente logado e ter permissão para tais acessos. |
 | **Pós-Condições:**  | Visualizar perfil. |
 | **Fluxo Principal:** | a: Administrador de Conteúdo verifica amigos do Membro. <br> b: Administrador de Conteúdo faz listagem de amigos do Membro. <br> c: Administrador de Conteúdo verifica recomendações enviadas ao Membro.  <br> d: Administrador de Conteúdo automaticamente faz a listagem de recomendações recebidas. |
 | **Fluxo Alternativo:**  | <strong>Fluxo Alternativo A:</strong> <br>  a: Administrador de Conteúdo verifica amigos do Membro. <br> b: Administrador de Conteúdo não encontra amigos. <br> c: Administrador de Conteúdo verifica recomendações enviadas ao Membro.  <br> d: Administrador de Conteúdo automaticamente faz a listagem de recomendações recebidas. <br> <br> <strong>Fluxo Alternativo B:</strong> <br> a: Administrador de Conteúdo verifica amigos do Membro. <br> b: Administrador de Conteúdo faz listagem de amigos do Membro. <br> c: Administrador de Conteúdo verifica recomendações enviadas ao Membro. <br> d: Administrador de Conteúdo não encontra recomendações recebidas. <br> <br> <strong>Fluxo Alternativo B:</strong> <br> a: Administrador de Conteúdo verifica amigos do Membro. <br> b: Administrador de Conteúdo não encontra amigos. <br> c: Administrador de Conteúdo verifica recomendações enviadas ao Membro. <br> d: Administrador de Conteúdo não encontra recomendações recebidas. |
@@ -334,7 +334,7 @@ Cenário 9 - Acessar página do Item
 | **Objetivo:** | O Administrador de Conteúdo reunirá as avaliações de um Item.  |
 | :---: | -------------------  |
 | **Atores:** | Administrador de Conteúdo |
-| **Pré-condições:** | Estar previamente logado. Só será reunido caso haja mais de uma avaliação. |
+| **Pré-condições:** | Estar previamente logado e ter permissão para tais acessos. Só será reunido caso haja mais de uma avaliação. |
 | **Pós-Condições:**  | Visualizar avaliações reunidas. |
 | **Fluxo Principal:** | a: Administrador de Conteúdo visualiza item. <br> b: Administrador de Conteúdo seleciona item. <br> c: Administrador de Conteúdo visualiza avaliações. <br> e: Administrador de Conteúdo reúne avaliações.  |
 | **Fluxo Alternativo:**  | |
@@ -345,7 +345,7 @@ Cenário 9 - Acessar página do Item
 | **Objetivo:** | O Administrador de Conteúdo ordenará a quantidade de "joinhas" de uma avaliação.  |
 | :---: | -------------------  |
 | **Atores:** | Administrador de Conteúdo |
-| **Pré-condições:** | Estar previamente logado. Só será ordenado caso haja mais de um "joinha". |
+| **Pré-condições:** | Estar previamente logado e ter permissão para tais acessos. Só será ordenado caso haja mais de um "joinha". |
 | **Pós-Condições:**  | Visualizar quantidade de "joinhas". |
 | **Fluxo Principal:** | a: Administrador de Conteúdo visualiza item. <br> b: Administrador de Conteúdo seleciona item. <br> c: Administrador de Conteúdo acessa avaliação do item. <br> e: Administrador de Conteúdo ordena "joinhas".  |
 | **Fluxo Alternativo:**  | |
@@ -360,12 +360,47 @@ Cenário 10 - Consultar dados dos usuários
 | **Objetivo:** | O Gerente de Serviço consultará um relatório referente aos membros cadastrados a plataforma.  |
 | :---: | -------------------  |
 | **Atores:** | Gerente de Serviço |
-| **Pré-condições:** | Estar previamente logado. Só será reunido caso haja mais de uma avaliação. |
-| **Pós-Condições:**  | Visualizar avaliações reunidas. |
-| **Fluxo Principal:** | a: Administrador de Conteúdo visualiza item. <br> b: Administrador de Conteúdo seleciona item. <br> c: Administrador de Conteúdo visualiza avaliações. <br> e: Administrador de Conteúdo reúne avaliações.  |
-| **Fluxo Alternativo:**  | |
+| **Pré-condições:** | Estar previamente logado e ter permissão para tais acessos. |
+| **Pós-Condições:**  | Visualizar relatório. |
+| **Fluxo Principal:** | a: Gerente de Serviço requisita relatório. <br> b: Sistema retorna relatório. <br> c: Gerente de Serviço acessa relatório. <br> d: Gerente de Serviço visualiza relatório. |
+| **Fluxo Alternativo:**  | <strong>Fluxo Alternativo A:</strong> <br>  a: Gerente de Serviço requisita relatório. <br> b: Sistema indisponível. <br> c: Sistema retorna ao passo ```a```.|
 
 <hr>
+
+
+## 9.1. Consultar Gráfico.
+| **Objetivo:** | O Gerente de Serviço consultará um gráfico da relação entre amigos e o estado onde moram.  |
+| :---: | -------------------  |
+| **Atores:** | Gerente de Serviço |
+| **Pré-condições:** | Estar previamente logado e ter permissão para tais acessos. |
+| **Pós-Condições:**  | Visualizar gráfico. |
+| **Fluxo Principal:** | a: Gerente de Serviço requisita gráfico. <br> b: Sistema retorna gráfico. <br> c: Gerente de Serviço acessa gráfico. <br> d: Gerente de Serviço visualiza gráfico. |
+| **Fluxo Alternativo:**  | <strong>Fluxo Alternativo A:</strong> <br>  a: Gerente de Serviço requisita gráfico. <br> b: Sistema indisponível. <br> c: Sistema retorna ao passo ```a```.|
+
+<hr>
+
+## 9.2. Consultar média de membros mais conectados.
+| **Objetivo:** | O Gerente de Serviço consultará uma média de membros mais conectados.  |
+| :---: | -------------------  |
+| **Atores:** | Gerente de Serviço |
+| **Pré-condições:** | Estar previamente logado e ter permissão para tais acessos. |
+| **Pós-Condições:**  | Visualizar média de membros mais conectados. |
+| **Fluxo Principal:** | a: Gerente de Serviço requisita  média de membros mais conectados. <br> b: Sistema retorna  média de membros mais conectados. <br> c: Gerente de Serviço acessa  média de membros mais conectados. <br> d: Gerente de Serviço visualiza  média de membros mais conectados. |
+| **Fluxo Alternativo:**  | <strong>Fluxo Alternativo A:</strong> <br>  a: Gerente de Serviço requisita  média de membros mais conectados. <br> b: Sistema indisponível. <br> c: Sistema retorna ao passo ```a```.|
+
+<hr>
+
+## 9.3. Consultar média de membros.
+| **Objetivo:** | O Gerente de Serviço consultará uma média de membros.  |
+| :---: | -------------------  |
+| **Atores:** | Gerente de Serviço |
+| **Pré-condições:** | Estar previamente logado e ter permissão para tais acessos. |
+| **Pós-Condições:**  | Visualizar média de membros. |
+| **Fluxo Principal:** | a: Gerente de Serviço requisita  média de membros. <br> b: Sistema retorna  média de membros. <br> c: Gerente de Serviço acessa  média de membros. <br> d: Gerente de Serviço visualiza  média de membros. |
+| **Fluxo Alternativo:**  | <strong>Fluxo Alternativo A:</strong> <br>  a: Gerente de Serviço requisita  média de membros. <br> b: Sistema indisponível. <br> c: Sistema retorna ao passo ```a```.|
+
+<hr>
+
 # 8. Diagrama de Sequência
 
 
