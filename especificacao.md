@@ -25,13 +25,13 @@ author: "Prática Profissional em ADS"
 
 # 1. Introdução
 
-Este documento é responsável pela especificação de um Sistema que gera recomendações de Livros, Séries e Filmes para seus usuarios. O Cortinas busca a interatividade entre seus membros, tendo em vista que este,  atua quase como uma rede social, oferencendo uma plataforma com gererenciamento de amigos, avaliação de filmes, series e livros assim como seu cadastro, recomendações, e outras funcionalidades a serem desenvolvidas, para assim obter um maior compartilhamento de experiência entre os membros do sistema, compartilhando opiniões, atribuindo avaliações e recomendando.
+Este documento é responsável pela especificação de um Sistema que gera recomendações de Livros, Séries e Filmes para seus usuarios. O Cortinas busca a interatividade entre seus membros, tendo em vista que este,  atua quase como uma rede social, oferencendo uma plataforma com gererenciamento de amigos, avaliação de filmes, series e livros assim como seu cadastro, recomendações, atribuindo avaliações e outras funcionalidades a serem desenvolvidas, para assim chegar em seu maior objetivo, a interação entre os Membros. Tendo em vista o cenário atual da pandemia, o serviços de streaming acabam se tornando cada vez mais uma realidade no dia a dia das pessoas, sendo assim, o Cortinas busca andar lado a lado com estes serviços proporcionando uma maior experiência aos seus Membros.
 
-Este tambem, descreve os requisitos não-funcionais, modela os requisitos funcionais com casos de uso e modela os conceitos do domínio do problema.
+Este também, descreve os requisitos não-funcionais, modela os requisitos funcionais com casos de uso, modela os conceitos do domínio do problema e sugere protótipos relacionados aos requisitos seguindo conceitos de interface (UI/UX) e prospecção aos Membros.
 
 # 2. Informações sobre a empresa
 
-A Empresa *   * analisa o mercado digital, tendências e mudanças, e atua drasticamente no desenvolvimento de ambientes responsivos e inovadores que gerem interatividade entre seus colaboradores.
+A Empresa Cortinas analisa o mercado digital, tendências e mudanças, e atua drasticamente no desenvolvimento de ambientes responsivos e inovadores que gerem interatividade entre seus Membros.
 Atua tambem, no ambito socio-ambiental, tendo em vista que gera, com base em sua receita, investimentos na conscientização digital e no mercado de recursos e combustiveis renováveis.
 
 
@@ -45,14 +45,9 @@ Atua tambem, no ambito socio-ambiental, tendo em vista que gera, com base em sua
 
   Usuário/Membro: Qualquer pessoa da empresa, ou fora dela, pode se registrar nesta rede social. <br>
   Administrador de Conteúdo: Aquele que será responsável por validar itens adicionados pelos Usuários. <br>
-  Administrador de Algoritmo: Ficará responsável por administrar o algoritmo que oferecera recomendações a um determinado membro. <br>
+  Administrador de Algoritmo: Ficará responsável por administrar o algoritmo que oferecerá recomendações a um determinado membro. <br>
   Gerente de Serviço: Atualiza informações dos itens e dados cadastrais dos usuários. <br>
-  Administrador de Segurança: Responsável pela segurança dos dados através de criptografia e tecnologias CloudComputing. <br>
-  Desenvolvedores Front-End: Responsáveis pela Responsividade do Sistema, Layout, UX/UI. <br>
-  Programadores: Responsáveis pela dinamizacao da Plataforma, integração Web com Banco de Dados, Nuvem, etc..
-
-
-
+  
 # 5. Requisitos Funcionais
 |RF |  Descrição  |
 | :---: | ------------------- |
