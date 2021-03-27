@@ -5,6 +5,12 @@ author: "Prática Profissional em ADS"
 
 
 **Índice**
+
+<details closed="closed">
+  <ul>
+    <li><a href="#1-introdução">1. Introdução</a></li>
+  </ul>
+</details>
 - [1. Introdução](#1-introdução)
 - [2. Informações sobre a empresa](#2-informações-sobre-a-empresa)
 - [3. Escopo do projeto](#3-escopo-do-projeto)
