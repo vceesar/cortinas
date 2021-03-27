@@ -208,7 +208,7 @@ Cenário 4 - Cadastrar Novo Item (Série, filmes, livros)
 Cenário 5 - Apresentar Recomendações de Itens
 <img src="Diagramas/Casos de Uso/Cenario05- Apresentar Recomendações de Itens.png">
 
-## 7.7. Apresentar Recomendações de Itens para cada membro.
+## 7.7. Apresentar Recomendações de Itens para cada membro
 
 | **Objetivo:** | O Algoritmo Colaborativo apresentará recomendações de itens para um membro.  |
 | :---: | -------------------  |
@@ -220,7 +220,7 @@ Cenário 5 - Apresentar Recomendações de Itens
 
 <hr>
 
-## 7.8. Identificar Membros com perfil semelhante.
+## 7.8. Identificar Membros com perfil semelhante
 | **Objetivo:** | O Algoritmo Colaborativo identifica perfis semelhantes com base nas suas avaliações.  |
 | :---: | -------------------  |
 | **Atores:** | Algoritmo Colaborativo |
@@ -235,7 +235,7 @@ Cenário 5 - Apresentar Recomendações de Itens
 Cenário 6 - Acessar e adicionar perfis
 <img src="Diagramas/Casos de Uso/Cenario06 - Acessar e adicionar perfis .png">
 
-## 7.9. Pesquisar outros membros.
+## 7.9. Pesquisar outros membros
 | **Objetivo:** | O Membro poderá pesquisar outros membros.  |
 | :---: | -------------------  |
 | **Atores:** | Membro |
@@ -257,7 +257,7 @@ Cenário 6 - Acessar e adicionar perfis
 
 <hr>
 
-## 8.1. Verificar pendências de amizade.
+## 8.1. Verificar pendências de amizade
 | **Objetivo:** | O Membro poderá verificar suas pendências de relacionamento.  |
 | :---: | -------------------  |
 | **Atores:** | Membro |
@@ -271,7 +271,7 @@ Cenário 6 - Acessar e adicionar perfis
 Cenário 7 - Avaliar e mostrar membro amigo
 <img src="Diagramas/Casos de Uso/Cenario07 - Avaliar e mostrar membro amigo.png">
 
-## 8.2. Listar avaliações realizadas pelo membro amigo.
+## 8.2. Listar avaliações realizadas pelo membro amigo
 | **Objetivo:** | O Administrador de Conteúdo listará as avaliações de um membro.  |
 | :---: | -------------------  |
 | **Atores:** | Administrador de Conteúdo |
@@ -282,7 +282,7 @@ Cenário 7 - Avaliar e mostrar membro amigo
 
 <hr>
 
-## 8.3. Dar feedback nas avaliações do amigo.
+## 8.3. Dar feedback nas avaliações do amigo
 | **Objetivo:** | O Membro poderá dar um feedback(Comentário e/ou "joinha") nas avaliações de um amigo.  |
 | :---: | -------------------  |
 | **Atores:** | Membro |
@@ -293,7 +293,7 @@ Cenário 7 - Avaliar e mostrar membro amigo
 
 <hr>
 
-## 8.4. Retirar "joinha".
+## 8.4. Retirar "joinha"
 | **Objetivo:** | O Membro poderá retirar um "joinha" dado.  |
 | :---: | -------------------  |
 | **Atores:** | Membro |
@@ -307,7 +307,7 @@ Cenário 7 - Avaliar e mostrar membro amigo
 Cenário 8 - Acessar página pessoal(perfil)
 <img src="Diagramas/Casos de Uso/Cenario08 - Acessar página pessoal (perfil).png">
 
-## 8.5. Acessar próprio perfil.
+## 8.5. Acessar próprio perfil
 | **Objetivo:** | Membro acessa seu perfil.  |
 | :---: | -------------------  |
 | **Atores:** | Membro |
@@ -318,7 +318,7 @@ Cenário 8 - Acessar página pessoal(perfil)
 
 <hr>
 
-## 8.6. Listar avaliações realizadas pelo membro logado.
+## 8.6. Listar avaliações realizadas pelo membro logado
 | **Objetivo:** | Administrador de Conteúdo fará listagem de avaliações realizadas pelo membro.  |
 | :---: | -------------------  |
 | **Atores:** | Administrador de Conteúdo |
@@ -330,7 +330,7 @@ Cenário 8 - Acessar página pessoal(perfil)
 <hr>
 
 
-## 8.7. Listar amigos e recomendações recebidas.
+## 8.7. Listar amigos e recomendações recebidas
 | **Objetivo:** | Administrador de Conteúdo fará listagem de amigos e recomendações recebidas.  |
 | :---: | -------------------  |
 | **Atores:** | Administrador de Conteúdo |
@@ -344,7 +344,7 @@ Cenário 8 - Acessar página pessoal(perfil)
 Cenário 9 - Acessar página do Item
 <img src="Diagramas/Casos de Uso/Cenario09 - Acessar página do Item.png">
 
-## 8.8. Reunir avaliações do Item.
+## 8.8. Reunir avaliações do Item
 | **Objetivo:** | O Administrador de Conteúdo reunirá as avaliações de um Item.  |
 | :---: | -------------------  |
 | **Atores:** | Administrador de Conteúdo |
@@ -355,7 +355,7 @@ Cenário 9 - Acessar página do Item
 
 <hr>
 
-## 8.9. Ordenar joinhas de cada avaliação.
+## 8.9. Ordenar joinhas de cada avaliação
 | **Objetivo:** | O Administrador de Conteúdo ordenará a quantidade de "joinhas" de uma avaliação.  |
 | :---: | -------------------  |
 | **Atores:** | Administrador de Conteúdo |
@@ -370,7 +370,7 @@ Cenário 9 - Acessar página do Item
 Cenário 10 - Consultar dados dos usuários
 <img src="Diagramas/Casos de Uso/Cenario10- Consultar dados dos usuários.png">
 
-## 9.0. Consultar Relatório.
+## 9.0. Consultar Relatório
 | **Objetivo:** | O Gerente de Serviço consultará um relatório referente aos membros cadastrados a plataforma.  |
 | :---: | -------------------  |
 | **Atores:** | Gerente de Serviço |
@@ -382,7 +382,7 @@ Cenário 10 - Consultar dados dos usuários
 <hr>
 
 
-## 9.1. Consultar Gráfico.
+## 9.1. Consultar Gráfico
 | **Objetivo:** | O Gerente de Serviço consultará um gráfico da relação entre amigos e o estado onde moram.  |
 | :---: | -------------------  |
 | **Atores:** | Gerente de Serviço |
@@ -393,7 +393,7 @@ Cenário 10 - Consultar dados dos usuários
 
 <hr>
 
-## 9.2. Consultar média de membros mais conectados.
+## 9.2. Consultar média de membros mais conectados
 | **Objetivo:** | O Gerente de Serviço consultará uma média de membros mais conectados.  |
 | :---: | -------------------  |
 | **Atores:** | Gerente de Serviço |
@@ -404,7 +404,7 @@ Cenário 10 - Consultar dados dos usuários
 
 <hr>
 
-## 9.3. Consultar média de membros.
+## 9.3. Consultar média de membros
 | **Objetivo:** | O Gerente de Serviço consultará uma média de membros.  |
 | :---: | -------------------  |
 | **Atores:** | Gerente de Serviço |
