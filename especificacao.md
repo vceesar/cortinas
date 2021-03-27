@@ -8,12 +8,13 @@ author: "Prática Profissional em ADS"
 
 <details closed="closed">
   <ol>
-    <li><a href="#1-introdução">1. Introdução</a></li>
-    <li><a href="#1-introdução">1. Introdução</a></li>
-    <li><a href="#1-introdução">1. Introdução</a></li>
-    <li><a href="#1-introdução">1. Introdução</a></li>
-    <li><a href="#1-introdução">1. Introdução</a></li>
-    <li><a href="#1-introdução">1. Introdução</a></li>
+    <li><a href="#1-introdução">Introdução</a></li>
+    <li><a href="#1-introdução">Informações sobre a empresa</a></li>
+    <li><a href="#1-introdução">Escopo do projeto</a></li>
+    <li><a href="#1-introdução">Interessados</a></li>
+    <li><a href="#1-introdução">Requisitos Funcionais</a></li>
+    <li><a href="#1-introdução">Requisitos Não Funcionais</a></li>
+    <li><a href="#1-introdução">Casos de uso</a></li>
   </ol>
 </details>
 - [1. Introdução](#1-introdução)
