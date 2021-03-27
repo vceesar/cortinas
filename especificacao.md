@@ -15,7 +15,7 @@ author: "Prática Profissional em ADS"
     <li><a href="#5-Requisitos-Funcionais">Requisitos Funcionais</a></li>
     <li><a href="#6-Requisitos-Não-Funcionais">Requisitos Não Funcionais</a></li>
     <li><a href="#7-casos-de-uso">Casos de uso</a></li>
-    <ol>
+    <ol type = "7">
       <li><a href="#7-casos-de-uso">Casos de uso</a></li>
       <li><a href="#7-casos-de-uso">Casos de uso</a></li>
       <li><a href="#7-casos-de-uso">Casos de uso</a></li>
