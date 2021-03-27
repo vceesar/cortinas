@@ -29,7 +29,7 @@ author: "Prática Profissional em ADS"
         <li><a href="#722-Verificar-pendências-de-amizade">Verificar pendências de amizade</a></li>
         <li><a href="#723-Listar-avaliações-realizadas-pelo-membro-amigo">Listar avaliações realizadas pelo membro amigo</a></li>
         <li><a href="#724-Dar-feedback-nas-avaliações-do-amigo">Dar feedback nas avaliações do amigo</a></li>
-        <li><a href="#725-Retirar-"joinha"">Retirar "joinha"</a></li>
+        <li><a href="#725-Retirar-joinha">Retirar joinha</a></li>
         <li><a href="#726-Acessar-próprio-perfil">Acessar próprio perfil</a></li>
         <li><a href="#727-Listar-avaliações-realizadas-pelo-membro-logado">Listar avaliações realizadas pelo membro logado</a></li>
         <li><a href="#728-Listar-amigos-e-recomendações-recebidas">Listar amigos e recomendações recebidas</a></li>
@@ -297,7 +297,7 @@ Cenário 7 - Avaliar e mostrar membro amigo
 
 <hr>
 
-## 7.2.5 Retirar "joinha"
+## 7.2.5 Retirar joinha
 | **Objetivo:** | O Membro poderá retirar um "joinha" dado.  |
 | :---: | -------------------  |
 | **Atores:** | Membro |
