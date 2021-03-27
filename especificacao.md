@@ -39,7 +39,6 @@ Atua também, no âmbito socioambiental, tendo em vista que gera, com base em su
 
   Sistema Web que oferece á seus Usuários uma plataforma para adição, compartilhamento e interação entre os Membros, e/ou consumidores de Séries, Filmes e Livros.
   O projeto aborda de forma inovadora, como uma rede social, as contribuições e participações entre nossos Membros, isto é, abordaremos o Escopo prático, assim como Desenvolvimento, Especificação e Revisão. 
-  No Desenvolvimento, trataremos também sobre questões de segurança de dados, implementando um algoritmo matemático que "embaralha" seu conteúdo e/ou o famoso Hash que mapeia dados grandes e de tamanho variável e os transforma em dados pequenos de tamanho fixo.  
 
 # 4. Interessados
 
