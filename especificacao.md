@@ -166,7 +166,7 @@ Cenário 3 - Avaliar Itens Existentes
 
 <img src="Diagramas/Casos de Uso/Cenario03 - Avaliar itens Existentes.png">
 
-## 7.4. Avaliar Filmes, Séries e Livros.
+## 7.4. Avaliar Filmes, Séries e Livros
 
 | **Objetivo:** | O membro poderá avaliar filmes, séries e livros com comentários e atribuição de nota. |
 | :---: | -------------------  |
