@@ -47,41 +47,6 @@ author: "Prática Profissional em ADS"
       
   </ol>
 </details>
-- [1. Introdução](#1-introdução)
-- [2. Informações sobre a empresa](#2-informações-sobre-a-empresa)
-- [3. Escopo do projeto](#3-escopo-do-projeto)
-- [4. Interessados](#4-interessados)
-- [5. Requisitos Funcionais](#5-Requisitos-Funcionais)
-- [6. Requisitos Não Funcionais](#6-Requisitos-Não-Funcionais)
-- [7. Casos de uso](#7-casos-de-uso)
-  - [7.1.1 Fazer Registro](#711-Fazer-Registro)
-  - [7.1.2 Fazer Login](#712-Fazer-Login)
-  - [7.1.3 Sugere membros para serem amigos](#713-Sugere-membros-para-serem-amigos)
-  - [7.1.4 Avaliar Filmes, Séries e Livros](#714-Avaliar-Filmes,-Séries-e-Livros) 
-  - [7.1.5 Cadastrar Novo Item (Série, filmes, livros)](#715-Cadastrar-Novo-Item-(Série,-filmes,-livros))
-  - [7.1.6 Validar Itens](#716-Validar-Itens)
-  - [7.1.7 Apresentar Recomendações de Itens para cada membro](#717-Apresentar-Recomendações-de-Itens-para-cada-membro)
-  - [7.1.8 Identificar Membros com perfil semelhante](#718-Identificar-Membros-com-perfil-semelhante) 
-  - [7.1.9 Pesquisar outros membros](#719-Pesquisar-outros-membros)
-  - [7.2.1 Propor relacionamento de amizade](#721-Propor-relacionament-de-amizade)
-  - [7.2.2 Verificar pendências de amizade](#722-Verificar-pendências-de-amizade)
-  - [7.2.3 Listar avaliações realizadas pelo membro amigo](#723-Listar-avaliações-realizadas-pelo-membro-amigo) 
-  - [7.2.4 Dar feedback nas avaliações do amigo](#724-Dar-feedback-nas-avaliações-do-amigo)
-  - [7.2.5 Retirar "joinha"](#725-Retirar-"joinha")
-  - [7.2.6 Acessar próprio perfil](#726-Acessar-próprio-perfil)
-  - [7.2.7 Listar avaliações realizadas pelo membro logado](#727-Listar-avaliações-realizadas-pelo-membro-logado)
-  - [7.2.8 Listar amigos e recomendações recebidas](#728-Listar-amigos-e-recomendações-recebidas)
-  - [7.2.9 Reunir avaliações do Item](#729-Reunir-avaliações-do-Item) 
-  - [7.3.1 Ordenar joinhas de cada avaliação](#731-Ordenar-joinhas-de-cada-avaliação)
-  - [7.3.2 Consultar Relatório](#732-Consultar-Relatório)
-  - [7.3.3 Consultar Gráfico](#733-Consultar-Gráfico)
-  - [7.3.4 Consultar média de membros mais conectados](#734-Consultar-média-de-membros-mais-conectados)
-  - [7.3.5 Consultar média de membros](#735-Consultar-média-de-membros)
-- [8. Diagrama de Sequência](#8-Diagrama-de-Sequência)
-- [9. Diagrama de domínio](#9-Diagrama-de-domínio)
-- [10. Diagrama de Classes](#10-Diagrama-de-Classes)
-- [11. Wireframes](#11-Wireframes)
-
 
 # 1. Introdução
 
