@@ -194,7 +194,7 @@ Cenário 4 - Cadastrar Novo Item (Série, filmes, livros)
 
 <hr>
 
-## 7.6. Validar Itens.
+## 7.6. Validar Itens
 | **Objetivo:** | O Administrador de Conteúdo validará os itens.  |
 | :---: | -------------------  |
 | **Atores:** | Administrador de Conteúdo |
@@ -246,7 +246,7 @@ Cenário 6 - Acessar e adicionar perfis
 
 <hr>
 
-## 8.0. Propor relacionamento de amizade.
+## 8.0. Propor relacionamento de amizade
 | **Objetivo:** | O Membro poderá propor amizade a outro membro.  |
 | :---: | -------------------  |
 | **Atores:** | Membro |
