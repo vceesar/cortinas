@@ -31,14 +31,14 @@ author: "Prática Profissional em ADS"
         <li><a href="#724-Dar-feedback-nas-avaliações-do-amigo">Fazer Registro</a></li>
         <li><a href="#725-Retirar-"joinha"">Casos de uso</a></li>
         <li><a href="#726-Acessar-próprio-perfil">Casos de uso</a></li>
-        <li><a href="#7.1-casos-de-uso">Fazer Registro</a></li>
-        <li><a href="#7-casos-de-uso">Casos de uso</a></li>
-        <li><a href="#7-casos-de-uso">Casos de uso</a></li>
-        <li><a href="#7.1-casos-de-uso">Fazer Registro</a></li>
-        <li><a href="#7-casos-de-uso">Casos de uso</a></li>
-        <li><a href="#7-casos-de-uso">Casos de uso</a></li>
-        <li><a href="#7.1-casos-de-uso">Fazer Registro</a></li>
-        <li><a href="#7-casos-de-uso">Casos de uso</a></li>   
+        <li><a href="#727-Listar-avaliações-realizadas-pelo-membro-logado">Fazer Registro</a></li>
+        <li><a href="#728-Listar-amigos-e-recomendações-recebidas">Casos de uso</a></li>
+        <li><a href="#729-Reunir-avaliações-do-Item">Casos de uso</a></li>
+        <li><a href="#731-Ordenar-joinhas-de-cada-avaliação">Fazer Registro</a></li>
+        <li><a href="#732-Consultar-Relatório">Casos de uso</a></li>
+        <li><a href="#733-Consultar-Gráfico">Casos de uso</a></li>
+        <li><a href="#734-Consultar-média-de-membros-mais-conectados">Fazer Registro</a></li>
+        <li><a href="#735-Consultar-média-de-membros">Casos de uso</a></li>   
       </ul>
     <li><a href="#8-Diagrama-de-Sequência">Diagrama de Sequência</a></li>
     <li><a href="#9-Diagrama-de-domínio">Diagrama de domínio</a></li>
