@@ -18,6 +18,7 @@ author: "Prática Profissional em ADS"
     <li><a href="#8-Diagrama-de-Sequência">Diagrama de Sequência</a></li>
     <li><a href="#9-Diagrama-de-domínio">Diagrama de domínio</a></li>
     <li><a href="#10-Diagrama-de-Classes">Diagrama de Classes</a></li>
+    <li><a href="#11-Wireframes">Wireframes</a></li>
       
   </ol>
 </details>
