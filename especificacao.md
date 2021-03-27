@@ -15,6 +15,11 @@ author: "Prática Profissional em ADS"
     <li><a href="#5-Requisitos-Funcionais">Requisitos Funcionais</a></li>
     <li><a href="#6-Requisitos-Não-Funcionais">Requisitos Não Funcionais</a></li>
     <li><a href="#7-casos-de-uso">Casos de uso</a></li>
+    <ol start="7.1.1">
+      <li><a href="#7-casos-de-uso">Casos de uso</a></li>
+      <li><a href="#7-casos-de-uso">Casos de uso</a></li>
+      <li><a href="#7-casos-de-uso">Casos de uso</a></li>
+    </ol>
     <li><a href="#8-Diagrama-de-Sequência">Diagrama de Sequência</a></li>
     <li><a href="#9-Diagrama-de-domínio">Diagrama de domínio</a></li>
     <li><a href="#10-Diagrama-de-Classes">Diagrama de Classes</a></li>
