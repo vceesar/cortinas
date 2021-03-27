@@ -25,21 +25,21 @@ author: "Prática Profissional em ADS"
 
 # 1. Introdução
 
-Este documento é responsável pela especificação de um Sistema que gera recomendações de Livros, Séries e Filmes para seus usuarios. O Cortinas busca a interatividade entre seus membros, tendo em vista que este,  atua quase como uma rede social, oferencendo uma plataforma com gererenciamento de amigos, avaliação de filmes, series e livros assim como seu cadastro, recomendações, atribuindo avaliações e outras funcionalidades a serem desenvolvidas, para assim chegar em seu maior objetivo, a interação entre os Membros. Tendo em vista o cenário atual da pandemia, o serviços de streaming acabam se tornando cada vez mais uma realidade no dia a dia das pessoas, sendo assim, o Cortinas busca andar lado a lado com estes serviços proporcionando uma maior experiência aos seus Membros.
+Este documento é responsável pela especificação de um Sistema que gera recomendações de Livros, Séries e Filmes para seus usuários. O Cortinas busca a interatividade entre seus membros, tendo em vista que este, atua quase como uma rede social, oferecendo uma plataforma com gerenciamento de amigos, avaliação de filmes, series e livros assim como seu cadastro, recomendações, atribuindo avaliações e outras funcionalidades a serem desenvolvidas, para assim chegar em seu maior objetivo, a interação entre os Membros. Tendo em vista o cenário atual da pandemia, os serviços de streaming acabam se tornando cada vez mais uma realidade no dia a dia das pessoas, sendo assim, o Cortinas busca andar lado a lado com estes serviços proporcionando uma maior experiência aos seus Membros.
 
 Este também, descreve os requisitos não-funcionais, modela os requisitos funcionais com casos de uso, modela os conceitos do domínio do problema e sugere protótipos relacionados aos requisitos seguindo conceitos de interface (UI/UX) e prospecção aos Membros.
 
 # 2. Informações sobre a empresa
 
 A Empresa Cortinas analisa o mercado digital, tendências e mudanças, e atua drasticamente no desenvolvimento de ambientes responsivos e inovadores que gerem interatividade entre seus Membros.
-Atua tambem, no ambito socio-ambiental, tendo em vista que gera, com base em sua receita, investimentos na conscientização digital e no mercado de recursos e combustiveis renováveis.
+Atua também, no âmbito socioambiental, tendo em vista que gera, com base em sua receita, investimentos na conscientização digital e no mercado de recursos e combustíveis renováveis.
 
 
 # 3. Escopo do projeto
 
   Sistema Web que oferece á seus Usuários uma plataforma para adição, compartilhamento e interação entre os Membros, e/ou consumidores de Séries, Filmes e Livros.
   O projeto aborda de forma inovadora, como uma rede social, as contribuições e participações entre nossos Membros, isto é, abordaremos o Escopo prático, assim como Desenvolvimento, Especificação e Revisão. 
-  No Desenvolvimento, trataremos também sobre questões de segurança de dados, implementando um algoritmo matematico que "embaralha" seu conteúdo e/ou o famoso Hash que mapeia dados grandes e de tamanho variavel e os transforma em dados pequenos de tamanho fixo.  
+  No Desenvolvimento, trataremos também sobre questões de segurança de dados, implementando um algoritmo matemático que "embaralha" seu conteúdo e/ou o famoso Hash que mapeia dados grandes e de tamanho variável e os transforma em dados pequenos de tamanho fixo.  
 
 # 4. Interessados
 
@@ -52,7 +52,7 @@ Atua tambem, no ambito socio-ambiental, tendo em vista que gera, com base em sua
 |RF |  Descrição  |
 | :---: | ------------------- |
 |  1 |  O sistema deve permitir o login de um usuário, fornecendo nome completo, username, senha, data de nascimento, cidade e estado. |
-|  2 |  O sistema deverá utilizar um algoritmo colaborativo para oferecer as recomendações a um determinado membro. Isto quer dizer que o sistema deverá identificar membros que têm um perfil semelhante com base nas avaliações já realizadas e oferecer recomendações com base no que estes membros avaliaram bem.|
+|  2 |  O sistema deverá utilizar um algoritmo colaborativo para oferecer as recomendações a um determinado membro. Isto quer dizer que o sistema deverá identificar membros que têm um perfil semelhante com base nas avaliações já realizadas e oferecer recomendações com base no que estes membros avaliaram bem. |
 |  3 |  Os dados nos perfis podem ser atualizados a qualquer momento. |
 |  4 |  O sistema permitirá a avaliação de filmes, séries e livros pelos usuários. |
 |  5 |  Após o cadastro de 10 membros e, após cada um deles enviarem 10 avaliações, o sistema começará a recomendar para os membros filmes, séries e livros que podem lhes interessar. |
@@ -103,7 +103,7 @@ Cenário 01 - Cadastrar Novo Membro.
 
 ## 7.1. Fazer Registro
 
-| **Objetivo:** | Especificar as etapas que um membro recém chegado a plataforma deve tomar para efetuar registro e atualizar seus dados. |
+| **Objetivo:** | Especificar as etapas que um membro recém-chegado a plataforma deve tomar para efetuar registro e atualizar seus dados. |
 | :---: | -------------------  |
 | **Atores:** | Membro não registrado |
 | **Pré-condições:** | Deverá fornecer seus dados corretamente como: Nome completo, username, senha, data de nascimento, cidade e estado. |
@@ -120,7 +120,7 @@ Cenário 02 - Acessar Conta Cadastrada
 
 ## 7.2. Fazer Login
 
-| **Objetivo:** | Especificar as etapas que um membro recém chegado a plataforma deve tomar para efetuar registro e atualizar seus dados. |
+| **Objetivo:** | Especificar as etapas que um membro recém-chegado a plataforma deve tomar para efetuar registro e atualizar seus dados. |
 | :---: | -------------------  |
 | **Atores:** | Membro |
 | **Pré-condições:** | Deverá fornecer seu nome de usuário e senha pré-definidos no cadastro. |
@@ -132,11 +132,11 @@ Cenário 02 - Acessar Conta Cadastrada
 
 ## 7.3. Sugere membros para serem amigos
 
-| **Objetivo:** | Sempre que um membro previamente registrado acesar o sistema, este receberá sugestões de 3 membros que poderiam ser seus amigos. |
+| **Objetivo:** | Sempre que um membro previamente registrado acessar o sistema, este receberá sugestões de 3 membros que poderiam ser seus amigos. |
 | :---: | -------------------  |
 | **Atores:** | Membro |
-| **Pré-condições:** | Estar peviamente logado. Analisar as preferêcias e identificar aqueles com preferências semelhantes, com base nas avaliações já realizadas. |
-| **Pós-Condições:**  | Caso o Usuario envie alguma solicitação de amizade, este deverá envia-la ao outro membro, e assim, não sugerir mais este perfil ao membro logado. Após mandado ou não a solicitação ele retorna a página principal. |
+| **Pré-condições:** | Estar previamente logado. Analisar as preferências e identificar aqueles com preferências semelhantes, com base nas avaliações já realizadas. |
+| **Pós-Condições:**  | Caso o Usuário envie alguma solicitação de amizade, este deverá enviá-la ao outro membro, e assim, não sugerir mais este perfil ao membro logado. Após mandado ou não a solicitação ele retorna a página principal. |
 | **Fluxo Principal:** | a: Sistema analisa avaliações realizadas. <br> b: Sistema retorna 3 membros como sugestões. <br> c: Membro seleciona os perfis desejados caso haja. <br> d: Membro envia solicitações aos perfis selecionados. <br> e: Sistema agrupa solicitações já enviadas|
 | **Fluxo Alternativo:**  |  <strong>Fluxo Alternativo A:</strong> <br> a: Sistema analisa avaliações realizadas. <br> b: Sistema não encontra avaliações. |
 
@@ -146,7 +146,7 @@ Cenário 3 - Avaliar Itens Existentes
 
 <img src="Diagramas/Casos de Uso/Cenario03 - Avaliar itens Existentes.png">
 
-## 7.4. Avaliar Filmes,Series e Livros.
+## 7.4. Avaliar Filmes, Séries e Livros.
 
 | **Objetivo:** | O membro poderá avaliar filmes, séries e livros com comentários e atribuição de nota. |
 | :---: | -------------------  |
@@ -158,11 +158,11 @@ Cenário 3 - Avaliar Itens Existentes
 
 <hr>
 
-Cenário 4 - Cadastrar Novo Item(Série, filme, livros)
+Cenário 4 - Cadastrar Novo Item (Série, filmes, livros)
 
 <img src="Diagramas/Casos de Uso/Cenario04 - Cadastrar Novo item.png">
 
-## 7.5. Cadastrar Novo Item(Série, filme, livros)
+## 7.5. Cadastrar Novo Item (Série, filmes, livros)
 
 | **Objetivo:** | O membro poderá cadastrar um novo item no sistema.  |
 | :---: | -------------------  |
@@ -222,7 +222,7 @@ Cenário 6 - Acessar e adicionar perfis
 | **Pré-condições:** | Estar previamente logado. |
 | **Pós-Condições:**  | Visualizar membros pesquisados. |
 | **Fluxo Principal:** | a: Membro vai na barra de pesquisa. <br> b: Membro procura perfil pelo nome. <br> c: Sistema filtra opções. <br> d: Sistema retorna opções com amigos em comum para usuário. |
-| **Fluxo Alternativo:**  |  <strong>Fluxo Alternativo A:</strong> <br> a: Membro vai na barra de pesquisa. <br> b: Membro procura perfil pelo nome. <br> c: Sistema filtra opções. <br> d: Sistema não encontra perfil corresponte a pesquisa. <br> e: Sistema retorna ao passo ```b```.|
+| **Fluxo Alternativo:**  |  <strong>Fluxo Alternativo A:</strong> <br> a: Membro vai na barra de pesquisa. <br> b: Membro procura perfil pelo nome. <br> c: Sistema filtra opções. <br> d: Sistema não encontra perfil correspondente a pesquisa. <br> e: Sistema retorna ao passo ```b```.|
 
 <hr>
 
@@ -232,7 +232,7 @@ Cenário 6 - Acessar e adicionar perfis
 | **Atores:** | Membro |
 | **Pré-condições:** | Estar previamente logado. |
 | **Pós-Condições:**  | Visualizar proposta de amizade enviada. |
-| **Fluxo Principal:** | a: Membro recebe opções. <br> b: Membro envia solicitação de amizade ao perfil desejado.|
+| **Fluxo Principal:** | a: Membro recebe opções. <br> b: Membro envia solicitação de amizade ao perfil desejado. |
 | **Fluxo Alternativo:**  |  <strong>Fluxo Alternativo A:</strong> <br> a: Membro recebe opções. <br> b: Membro não recebe opção desejada. <br> e: Membro retorna ao passo ```b``` do CSU 7.9.|
 
 <hr>
@@ -268,8 +268,8 @@ Cenário 7 - Avaliar e mostrar membro amigo
 | **Atores:** | Membro |
 | **Pré-condições:** | Estar previamente logado. Só poderá ser feito o feedback caso o o Membro possua amizade com quem ele está avaliando. |
 | **Pós-Condições:**  | Visualizar feedback na avaliação de um amigo . |
-| **Fluxo Principal:** | a: Membro acessa página de amigo <br> b: Membro escolhe avaliação do amigo. <br> c: Membro da feedback. <br> d: Sistema valida feedback.  <br> e: Sistema "posta" feedback. <br> f: Membro pode dar "joinha".|
-| **Fluxo Alternativo:**  |  <strong>Fluxo Alternativo A:</strong> <br>  a: Membro acessa página de amigo <br> b: Membro escolhe avaliações do amigo. <br> c: Sistema invalida mais de uma escolha. <br> d: Sistema retorna ao passo ```b``` do Fluxo Principal. <br> <br> <strong>Fluxo Alternativo A:</strong> <br> a: Membro acessa página de amigo <br> b: Membro escolhe avaliação do amigo. <br> c: Membro da feedback. <br> d: Sistema invalida feedback. <br> e: Sistema retorna ao passo ```c```.|
+| **Fluxo Principal:** | a: Membro acessa página de amigo <br> b: Membro escolhe avaliação do amigo. <br> c: Membro dá feedback. <br> d: Sistema valida feedback.  <br> e: Sistema "posta" feedback. <br> f: Membro pode dar "joinha".|
+| **Fluxo Alternativo:**  |  <strong>Fluxo Alternativo A:</strong> <br>  a: Membro acessa página de amigo <br> b: Membro escolhe avaliações do amigo. <br> c: Sistema invalida mais de uma escolha. <br> d: Sistema retorna ao passo ```b``` do Fluxo Principal. <br> <br> <strong>Fluxo Alternativo A:</strong> <br> a: Membro acessa página de amigo <br> b: Membro escolhe avaliação do amigo. <br> c: Membro dá feedback. <br> d: Sistema invalida feedback. <br> e: Sistema retorna ao passo ```c```.|
 
 <hr>
 
@@ -293,7 +293,7 @@ Cenário 8 - Acessar página pessoal(perfil)
 | **Atores:** | Membro |
 | **Pré-condições:** | Estar previamente logado. |
 | **Pós-Condições:**  | Visualizar perfil. |
-| **Fluxo Principal:** | a: Membro clica no sua imagem de perfil localizada no canto superior direito. <br> b: Membro visualiza opções. <br> c: Membro acessa a opção "Ver meu perfil". <br> d: Sistema retorna perfil para o Membro. |
+| **Fluxo Principal:** | a: Membro clica na sua imagem de perfil localizada no canto superior direito. <br> b: Membro visualiza opções. <br> c: Membro acessa a opção "Ver meu perfil". <br> d: Sistema retorna perfil para o Membro. |
 | **Fluxo Alternativo:**  | <strong>Fluxo Alternativo A:</strong> <br>  a: Membro clica no sua imagem de perfil localizada no canto superior direito. <br> b: Membro visualiza opções. <br> c: Membro acessa a opção errada. <br> d: Sistema retorna ao passo ```b```. |
 
 <hr>
@@ -379,7 +379,7 @@ Cenário 10 - Consultar dados dos usuários
 | **Atores:** | Gerente de Serviço |
 | **Pré-condições:** | Estar previamente logado e ter permissão para tais acessos. |
 | **Pós-Condições:**  | Visualizar média de membros mais conectados. |
-| **Fluxo Principal:** | a: Gerente de Serviço requisita  média de membros mais conectados. <br> b: Sistema retorna  média de membros mais conectados. <br> c: Gerente de Serviço acessa  média de membros mais conectados. <br> d: Gerente de Serviço visualiza  média de membros mais conectados. |
+| **Fluxo Principal:** | a: Gerente de Serviço requisita média de membros mais conectados. <br> b: Sistema retorna média de membros mais conectados. <br> c: Gerente de Serviço acessa média de membros mais conectados. <br> d: Gerente de Serviço visualiza média de membros mais conectados. |
 | **Fluxo Alternativo:**  | <strong>Fluxo Alternativo A:</strong> <br>  a: Gerente de Serviço requisita  média de membros mais conectados. <br> b: Sistema indisponível. <br> c: Sistema retorna ao passo ```a```.|
 
 <hr>
@@ -390,7 +390,7 @@ Cenário 10 - Consultar dados dos usuários
 | **Atores:** | Gerente de Serviço |
 | **Pré-condições:** | Estar previamente logado e ter permissão para tais acessos. |
 | **Pós-Condições:**  | Visualizar média de membros. |
-| **Fluxo Principal:** | a: Gerente de Serviço requisita  média de membros. <br> b: Sistema retorna  média de membros. <br> c: Gerente de Serviço acessa  média de membros. <br> d: Gerente de Serviço visualiza  média de membros. |
+| **Fluxo Principal:** | a: Gerente de Serviço requisita média de membros. <br> b: Sistema retorna média de membros. <br> c: Gerente de Serviço acessa média de membros. <br> d: Gerente de Serviço visualiza média de membros. |
 | **Fluxo Alternativo:**  | <strong>Fluxo Alternativo A:</strong> <br>  a: Gerente de Serviço requisita  média de membros. <br> b: Sistema indisponível. <br> c: Sistema retorna ao passo ```a```.|
 
 <hr>
