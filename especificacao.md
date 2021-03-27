@@ -5,10 +5,6 @@ author: "Prática Profissional em ADS"
 
 
 **Índice**
-<details closed="closed">
-   <ol>
-     <li>1. Introdução](#1-introdução)</li>
-  </ol>
 - [1. Introdução](#1-introdução)
 - [2. Informações sobre a empresa](#2-informações-sobre-a-empresa)
 - [3. Escopo do projeto](#3-escopo-do-projeto)
@@ -39,8 +35,6 @@ author: "Prática Profissional em ADS"
   - [7.3.3 Consultar Gráfico](#73-efetuar-seu-próprio-pedido)
   - [7.3.4 Consultar média de membros mais conectados](#74-efetuar-pedido-para-o-cliente)
   - [7.3.5 Consultar média de membros](#74-efetuar-pedido-para-o-cliente)
-  </details>
-  
 - [8. Diagrama de Sequência](#8-Diagrama-de-Sequência)
 - [9. Diagrama de domínio](#9-Diagrama-de-domínio)
 - [10. Diagrama de Classes](#10-Diagrama-de-Classes)
