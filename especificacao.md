@@ -9,12 +9,17 @@ author: "Prática Profissional em ADS"
 <details closed="closed">
   <ol>
     <li><a href="#1-introdução">Introdução</a></li>
-    <li><a href="#1-introdução">Informações sobre a empresa</a></li>
-    <li><a href="#1-introdução">Escopo do projeto</a></li>
-    <li><a href="#1-introdução">Interessados</a></li>
-    <li><a href="#1-introdução">Requisitos Funcionais</a></li>
-    <li><a href="#1-introdução">Requisitos Não Funcionais</a></li>
-    <li><a href="#1-introdução">Casos de uso</a></li>
+    <li><a href="#2-informações-sobre-a-empresa">Informações sobre a empresa</a></li>
+    <li><a href="#3-escopo-do-projeto">Escopo do projeto</a></li>
+    <li><a href="#4-interessados">Interessados</a></li>
+    <li><a href="#5-Requisitos-Funcionais">Requisitos Funcionais</a></li>
+    <li><a href="#6-Requisitos-Não-Funcionais">Requisitos Não Funcionais</a></li>
+    <li><a href="#7-casos-de-uso">Casos de uso</a></li>
+    <li><a href="#6-Requisitos-Não-Funcionais">Diagrama de Sequência</a></li>
+    <li><a href="#7-casos-de-uso">Diagrama de domínio</a></li>
+    <li><a href="#7-casos-de-uso">Diagrama de Classes</a></li>
+    <li><a href="#7-casos-de-uso">Wireframes</a></li>
+    
   </ol>
 </details>
 - [1. Introdução](#1-introdução)
