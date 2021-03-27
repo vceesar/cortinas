@@ -7,9 +7,14 @@ author: "Prática Profissional em ADS"
 **Índice**
 
 <details closed="closed">
-  <ul>
+  <ol>
     <li><a href="#1-introdução">1. Introdução</a></li>
-  </ul>
+    <li><a href="#1-introdução">1. Introdução</a></li>
+    <li><a href="#1-introdução">1. Introdução</a></li>
+    <li><a href="#1-introdução">1. Introdução</a></li>
+    <li><a href="#1-introdução">1. Introdução</a></li>
+    <li><a href="#1-introdução">1. Introdução</a></li>
+  </ol>
 </details>
 - [1. Introdução](#1-introdução)
 - [2. Informações sobre a empresa](#2-informações-sobre-a-empresa)
