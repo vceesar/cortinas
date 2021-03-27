@@ -33,18 +33,6 @@
 <details closed="closed">
   <summary> Sumário (clique para abrir as opções) </summary>
   <ol>
-    <li>
-      <a href="#sobre-o-projeto">Sobre o Projeto</a>
-      <ul>
-        <li><a href="#built-with">Feito em</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-      </ul>
-    </li>
     <li><a href="#licença">Licença</a></li>
     <li><a href="#contatos">Contatos</a></li>
     <li><a href="#Agradecimentos">Agradecimentos</a></li>
