@@ -125,7 +125,7 @@ Cenário 01 - Cadastrar Novo Membro.
 <img src = "Diagramas/Casos de Uso/Cenario01 -Cadastrar Novo Membro.png">
  </p>
 
-## 7.1. Fazer Registro
+## 7.1.1 Fazer Registro
 
 | **Objetivo:** | Especificar as etapas que um membro recém-chegado a plataforma deve tomar para efetuar registro e atualizar seus dados. |
 | :---: | -------------------  |
