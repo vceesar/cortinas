@@ -293,7 +293,7 @@ Cenário 7 - Avaliar e mostrar membro amigo
 | **Pré-condições:** | Estar previamente logado. Só poderá ser feito o feedback caso o o Membro possua amizade com quem ele está avaliando. |
 | **Pós-Condições:**  | Visualizar feedback na avaliação de um amigo . |
 | **Fluxo Principal:** | a: Membro acessa página de amigo <br> b: Membro escolhe avaliação do amigo. <br> c: Membro dá feedback. <br> d: Sistema valida feedback.  <br> e: Sistema "posta" feedback. <br> f: Membro pode dar "joinha".|
-| **Fluxo Alternativo:**  |  <strong>Fluxo Alternativo A:</strong> <br>  a: Membro acessa página de amigo <br> b: Membro escolhe avaliações do amigo. <br> c: Sistema invalida mais de uma escolha. <br> d: Sistema retorna ao passo ```b``` do Fluxo Principal. <br> <br> <strong>Fluxo Alternativo A:</strong> <br> a: Membro acessa página de amigo <br> b: Membro escolhe avaliação do amigo. <br> c: Membro dá feedback. <br> d: Sistema invalida feedback. <br> e: Sistema retorna ao passo ```c```.|
+| **Fluxo Alternativo:**  |  <strong>Fluxo Alternativo A:</strong> <br>  a: Membro acessa página de amigo <br> b: Membro escolhe avaliações do amigo. <br> c: Sistema invalida mais de uma escolha. <br> d: Sistema retorna ao passo ```b``` do Fluxo Principal. <br> <br> <strong>Fluxo Alternativo B:</strong> <br> a: Membro acessa página de amigo <br> b: Membro escolhe avaliação do amigo. <br> c: Membro dá feedback. <br> d: Sistema invalida feedback. <br> e: Sistema retorna ao passo ```c```.|
 
 <hr>
 
