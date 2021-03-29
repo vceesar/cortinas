@@ -230,7 +230,7 @@ Cenário 5 - Apresentar Recomendações de Itens
 | **Atores:** | Algoritmo Colaborativo |
 | **Pré-condições:** | Só será feito a recomendação caso o sistema possua 10 membros cadastrados e esses membros entrarem em pelo menos 10 avaliações. |
 | **Pós-Condições:**  | Visualizar o perfis semelhantes. |
-| **Fluxo Principal:** | a: Algoritmo Colaborativo analisa avaliações dos membros cadastrados. <br> b: Algoritmo Colaborativo identifica possíceis itens semelhantes. <br> c: Algoritmo Colaborativo aprova itens encontrados. |
+| **Fluxo Principal:** | a: Algoritmo Colaborativo analisa avaliações dos membros cadastrados. <br> b: Algoritmo Colaborativo identifica possíveis itens semelhantes. <br> c: Algoritmo Colaborativo aprova itens encontrados. |
 | **Fluxo Alternativo:**  |  |
 
 
