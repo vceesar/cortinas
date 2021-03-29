@@ -41,7 +41,7 @@
 
 ## HEROKU HELLO WORLD - Primeiro deploy teste para a aplicação do projeto.
 
-<a src="https://helloworldppads.herokuapp.com/">Clique aqui ! </a>
+<a href="https://helloworldppads.herokuapp.com/">Clique aqui ! </a>
 
 <!-- LICENSE -->
 ## Licença
