@@ -518,8 +518,18 @@ Cenário 10 - Consultar dados dos usuários
 
 <img src="Wireframes/FazerLogin.jpg">
 
+<img src="Wireframes/Home_Wireframe.png">
+
 <img src="Wireframes/BotoesVerMeuPerfil-AtualizarMeusDados.png">
 
 <img src="Wireframes/AtualizarDados.jpg">
 
 <img src="Wireframes/VerMeuPerfil.jpg">
+
+<img src="Wireframes/CadastrarNovoItem_Filme.jpg">
+<img src="Wireframes/CadastrarNovoItem_Livro.jpg">
+<img src="Wireframes/CadastrarNovoItem_Série.jpg">
+
+<img src="Wireframes/AvaliarItens,Filmes,SeriesELivros.jpg">
+
+<img src="Wireframes/PáginaDoItem.jpg">
