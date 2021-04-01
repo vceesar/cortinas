@@ -434,6 +434,10 @@ Cenário 10 - Consultar dados dos usuários
 ### 8.2.2 Sugere Membros <br>
 <img src="Diagramas/Sequência/Cenário02 - Acessar Conta Cadastrada/Sequencia_SugereMembros.png">
 
+## 8.3 Cenário 03
+### 8.3.1 Avaliar Filmes, Séries e Livros <br>
+<img src="Diagramas/Sequência/Cenário03 - Avaliar Itens Existentes/Sequencia_AvaliarFilmesSeriesLivros.png">
+
 <hr>
 
 
