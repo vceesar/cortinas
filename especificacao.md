@@ -438,6 +438,19 @@ Cenário 10 - Consultar dados dos usuários
 ### 8.3.1 Avaliar Filmes, Séries e Livros <br>
 <img src="Diagramas/Sequência/Cenário03 - Avaliar Itens Existentes/Sequencia_AvaliarFilmesSeriesLivros.png">
 
+## 8.4 Cenário 04
+### 8.4.1.1 Cadastrar Novo Item (Filme)
+<img src = "Diagramas/Sequência/Cenário04 - Cadastrar Novo Item/Sequencia_CadastrarNovoItem_Filme.jpg">
+
+### 8.4.1.2 Cadastrar Novo Item (Livro)
+<img src = "Diagramas/Sequência/Cenário04 - Cadastrar Novo Item/Sequencia_CadastrarNovoItem_Livro.jpg">
+
+### 8.4.1.3 Cadastrar Novo Item (Série)
+<img src = "Diagramas/Sequência/Cenário04 - Cadastrar Novo Item/Sequencia_CadastrarNovoItem_Serie.jpg">
+
+### 8.4.2 Validar Itens
+<img src = "Diagramas/Sequência/Cenário04 - Cadastrar Novo Item/Sequencia_ValidarItens.jpg">
+
 <hr>
 
 
