@@ -426,6 +426,14 @@ Cenário 10 - Consultar dados dos usuários
 ### 8.1.1 Fazer Registro <br>
 <img src="Diagramas/Sequência/Cenário01 - Cadastrar Novo Membro/Sequencia_FazerRegistro.png"> 
 
+
+## 8.2 Cenário 02
+### 8.2.1 Fazer Login <br>
+<img src="Diagramas/Sequência/Cenário02 - Acessar Conta Cadastrada/Sequencia_FazerLogin.png">
+
+### 8.2.2 Sugere Membros <br>
+<img src="Diagramas/Sequência/Cenário02 - Acessar Conta Cadastrada/Sequencia_SugereMembros.png">
+
 <hr>
 
 
