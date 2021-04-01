@@ -435,10 +435,12 @@ Cenário 10 - Consultar dados dos usuários
 <img src="Diagramas/Sequência/Cenário02 - Acessar Conta Cadastrada/Sequencia_SugereMembros.png">
 <hr>
 ## 8.3 Cenário 03
+
 ### 8.3.1 Avaliar Filmes, Séries e Livros <br>
 <img src="Diagramas/Sequência/Cenário03 - Avaliar Itens Existentes/Sequencia_AvaliarFilmesSeriesLivros.png">
 <hr>
 ## 8.4 Cenário 04
+
 ### 8.4.1.1 Cadastrar Novo Item (Filme) <br>
 <img src = "Diagramas/Sequência/Cenário04 - Cadastrar Novo Item/Sequencia_CadastrarNovoItem_Filme.jpg">
 
@@ -453,6 +455,7 @@ Cenário 10 - Consultar dados dos usuários
 
 <hr>
 ## 8.5 Cenário 05
+
 ### 8.5.1 Apresentar Recomendações de Itens <br>
 <img src="Diagramas/Sequência/Cenário05 - Apresentar Recomendações de Itens/Sequencia_ApresentarRecomendacoesDeItens.png">
 
@@ -467,6 +470,7 @@ Cenário 10 - Consultar dados dos usuários
 <hr>
 
 ## 8.7 Cenário 07 
+
 ### 8.7.1 Dar Feedback nas Avaliações do Amigo <br>
 <img src="Diagramas/Sequência/Cénario07 - Avaliar e mostrar membro amigo/Sequencia_DarFeedbacknasAvaliacoesdoAmigo.png">
 
