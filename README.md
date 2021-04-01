@@ -69,7 +69,7 @@ Renan Ropeiro - 41804686           -> 41804686@mackenzista.com.br
 [contributors-url]: #
 [forks-shield]: https://img.shields.io/badge/FORKS-0.0K-red?style=for-the-badge
 [forks-url]: #
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/badge/STARS-0.0K-blue?style=for-the-badge
 [stars-url]: #
 [issues-shield]: https://img.shields.io/badge/ISSUES-0%20OPEN-green?style=for-the-badge
 [issues-url]: #
