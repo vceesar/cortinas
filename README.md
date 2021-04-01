@@ -42,7 +42,7 @@
   </ol>
 </details>
 
-## Heroku Hello World - Primeiro deploy teste para a aplicação do projeto. <img src="heroku.png" width="100px" height="100px">
+## Heroku Hello World - Primeiro deploy teste para a aplicação do projeto. <img src="heroku.png" width="50px" height="50px">
 
 <a href="https://helloworldppads.herokuapp.com/">Clique aqui ! </a>
 
