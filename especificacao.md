@@ -439,24 +439,24 @@ Cenário 10 - Consultar dados dos usuários
 <img src="Diagramas/Sequência/Cenário03 - Avaliar Itens Existentes/Sequencia_AvaliarFilmesSeriesLivros.png">
 <hr>
 ## 8.4 Cenário 04
-### 8.4.1.1 Cadastrar Novo Item (Filme)
+### 8.4.1.1 Cadastrar Novo Item (Filme) <br>
 <img src = "Diagramas/Sequência/Cenário04 - Cadastrar Novo Item/Sequencia_CadastrarNovoItem_Filme.jpg">
 
-### 8.4.1.2 Cadastrar Novo Item (Livro)
+### 8.4.1.2 Cadastrar Novo Item (Livro) <br>
 <img src = "Diagramas/Sequência/Cenário04 - Cadastrar Novo Item/Sequencia_CadastrarNovoItem_Livro.jpg">
 
-### 8.4.1.3 Cadastrar Novo Item (Série)
+### 8.4.1.3 Cadastrar Novo Item (Série) <br>
 <img src = "Diagramas/Sequência/Cenário04 - Cadastrar Novo Item/Sequencia_CadastrarNovoItem_Serie.jpg">
 
-### 8.4.2 Validar Itens
+### 8.4.2 Validar Itens <br>
 <img src = "Diagramas/Sequência/Cenário04 - Cadastrar Novo Item/Sequencia_ValidarItens.jpg">
 
 <hr>
 ## 8.5 Cenário 05
-### 8.5.1 Apresentar Recomendações de Itens
+### 8.5.1 Apresentar Recomendações de Itens <br>
 <img src="Diagramas/Sequência/Cenário05 - Apresentar Recomendações de Itens/Sequencia_ApresentarRecomendacoesDeItens.png">
 
-### 8.5.2 Identificar Membros com Perfil Semelhante
+### 8.5.2 Identificar Membros com Perfil Semelhante <br>
 <img src = "Diagramas/Sequência/Cenário05 - Apresentar Recomendações de Itens/Sequencia_IdentificarMembrosComPerfilSemelhante.png">
 
 <hr>
@@ -467,10 +467,10 @@ Cenário 10 - Consultar dados dos usuários
 <hr>
 
 ## 8.7 Cenário 07 
-### 8.7.1 Dar Feedback nas Avaliações do Amigo
+### 8.7.1 Dar Feedback nas Avaliações do Amigo <br>
 <img src="Diagramas/Sequência/Cénario07 - Avaliar e mostrar membro amigo/Sequencia_DarFeedbacknasAvaliacoesdoAmigo.png">
 
-### 8.7.2 Listar Avaliações
+### 8.7.2 Listar Avaliações <br>
 <img src="Diagramas/Sequência/Cénario07 - Avaliar e mostrar membro amigo/Sequencia_ListarAvaliacoes.png">
 
 <hr>
