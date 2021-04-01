@@ -4,6 +4,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
+[![TRELLO][TRELLO-SHIELD]][TRELLO-URL]
 
 
 
@@ -74,6 +75,8 @@ Renan Ropeiro - 41804686           -> 41804686@mackenzista.com.br
 [issues-url]: #
 [license-shield]: https://img.shields.io/badge/LICENSE-MIT-red?style=for-the-badge
 [license-url]: https://github.com/vceesar/cortinas/blob/master/LICENSE
+[TRELLO-SHIELD]: https://img.shields.io/badge/TRELLO-ON-yellow?style=for-the-badge
+[TRELLO-URL]: https://trello.com/b/o93XYUt5/proj-pratic-prof-ads#
 [product-screenshot]: images/screenshot.png
 
 <br>
