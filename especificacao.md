@@ -41,9 +41,9 @@ author: "Prática Profissional em ADS"
         <li><a href="#735-Consultar-média-de-membros">Consultar média de membros</a></li>   
       </ul>
     <li><a href="#8-Diagrama-de-Sequência">Diagrama de Sequência</a></li>
-    <li><a href="#9-Diagrama-de-domínio">Diagrama de domínio</a></li>
-    <li><a href="#10-Diagrama-de-Classes">Diagrama de Classes</a></li>
-    <li><a href="#11-Wireframes">Wireframes</a></li>
+    <li><a href="#10-Diagrama-de-domínio">Diagrama de domínio</a></li>
+    <li><a href="#11-Diagrama-de-Classes">Diagrama de Classes</a></li>
+    <li><a href="#12-Wireframes">Wireframes</a></li>
       
   </ol>
 </details>
@@ -425,7 +425,7 @@ Cenário 10 - Consultar dados dos usuários
 
 ### 8.1.1 Fazer Registro <br>
 <img src="Diagramas/Sequência/Cenário01 - Cadastrar Novo Membro/Sequencia_FazerRegistro.png"> 
-
+<hr>
 
 ## 8.2 Cenário 02
 ### 8.2.1 Fazer Login <br>
@@ -433,11 +433,11 @@ Cenário 10 - Consultar dados dos usuários
 
 ### 8.2.2 Sugere Membros <br>
 <img src="Diagramas/Sequência/Cenário02 - Acessar Conta Cadastrada/Sequencia_SugereMembros.png">
-
+<hr>
 ## 8.3 Cenário 03
 ### 8.3.1 Avaliar Filmes, Séries e Livros <br>
 <img src="Diagramas/Sequência/Cenário03 - Avaliar Itens Existentes/Sequencia_AvaliarFilmesSeriesLivros.png">
-
+<hr>
 ## 8.4 Cenário 04
 ### 8.4.1.1 Cadastrar Novo Item (Filme)
 <img src = "Diagramas/Sequência/Cenário04 - Cadastrar Novo Item/Sequencia_CadastrarNovoItem_Filme.jpg">
@@ -452,20 +452,56 @@ Cenário 10 - Consultar dados dos usuários
 <img src = "Diagramas/Sequência/Cenário04 - Cadastrar Novo Item/Sequencia_ValidarItens.jpg">
 
 <hr>
+## 8.5 Cenário 05
+### 8.5.1 Apresentar Recomendações de Itens
+<img src="Diagramas/Sequência/Cenário05 - Apresentar Recomendações de Itens/Sequencia_ApresentarRecomendacoesDeItens.png">
+
+### 8.5.2 Identificar Membros com Perfil Semelhante
+<img src = "Diagramas/Sequência/Cenário05 - Apresentar Recomendações de Itens/Sequencia_IdentificarMembrosComPerfilSemelhante.png">
+
+<hr>
+
+## 8.6 Cenário 06
+
+
+<hr>
+
+## 8.7 Cenário 07 
+### 8.7.1 Dar Feedback nas Avaliações do Amigo
+<img src="Diagramas/Sequência/Cénario07 - Avaliar e mostrar membro amigo/Sequencia_DarFeedbacknasAvaliacoesdoAmigo.png">
+
+### 8.7.2 Listar Avaliações
+<img src="Diagramas/Sequência/Cénario07 - Avaliar e mostrar membro amigo/Sequencia_ListarAvaliacoes.png">
+
+<hr>
+
+## 8.8 Cenário 08
+
+<hr>
+
+## 8.9 Cenário 09
+
+<hr>
+
+## 9 Cenário 10
+
+<hr>
 
 
 
 
 
-# 9. Diagrama de domínio
+
+
+# 10. Diagrama de domínio
 
 
 
 
 
 
-# 10. Diagrama de Classes
+# 11. Diagrama de Classes
 
 
 
-# 11. Wireframes
+# 12. Wireframes
