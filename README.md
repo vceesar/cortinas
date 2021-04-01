@@ -27,8 +27,8 @@
     <a href="https://github.com/vceesar/cortinas/issues">Reportar Bugs :beetle: </a>
     ·
     <a href="https://github.com/vceesar/cortinas/issues">Indicações e Dicas :+1: </a>
-    .
-    <a href="https://github.com/vceesar/cortinas/issues">Trello :books: </a>
+    ·
+    <a href="https://trello.com/b/o93XYUt5/proj-pratic-prof-ads#">Trello :books: </a>
   </p>
 </p>
 
