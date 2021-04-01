@@ -513,3 +513,13 @@ Cenário 10 - Consultar dados dos usuários
 
 
 # 12. Wireframes
+
+<img src="Wireframes/FazerRegistro.png">
+
+<img src="Wireframes/FazerLogin.jpg">
+
+<img src="Wireframes/BotoesVerMeuPerfil-AtualizarMeusDados.png">
+
+<img src="Wireframes/AtualizarDados.jpg">
+
+<img src="Wireframes/VerMeuPerfil.jpg">
