@@ -424,7 +424,7 @@ Cenário 10 - Consultar dados dos usuários
 ## 8.1 Cenario 01
 
 Fazer Registro <br>
-Diagramas/Sequência/Cenário01 - Cadastrar Novo Membro/Sequencia_FazerRegistro.png
+<img src="Diagramas/Sequência/Cenário01 - Cadastrar Novo Membro/Sequencia_FazerRegistro.png"> 
 
 <hr>
 
