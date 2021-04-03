@@ -501,6 +501,9 @@ Cenário 10 - Consultar dados dos usuários
 ### 8.7.2 Listar Avaliações <br>
 <img src="Diagramas/Sequência/Cénario07 - Avaliar e mostrar membro amigo/Sequencia_ListarAvaliacoes.png">
 
+### 8.7.3 Retirar Joinha <br>
+<img src="Diagramas/Sequência/Cénario07 - Avaliar e mostrar membro amigo/Sequencia_RetirarJoinha.png">
+
 <hr>
 
 ## 8.8 Cenário 08
