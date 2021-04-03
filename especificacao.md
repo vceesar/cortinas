@@ -505,6 +505,15 @@ Cenário 10 - Consultar dados dos usuários
 
 ## 8.8 Cenário 08
 
+### 8.8.1 Acessar Próprio Perfil
+<img src="Diagramas/Sequência/Cenario08 - Acessar página pessoal -RENAN/Sequencia_AcessarPerfilPessoal.jpeg">
+
+### 8.8.2 Listar Avaliações realizadas pelo membro
+<img src="Diagramas/Sequência/Cenario08 - Acessar página pessoal -RENAN/Sequencia_ListarAvaliacoesRealizadasPeloMembro.jpg">
+
+### 8.8.3 Listar Amigos e Recomendações Recebidas
+<img src="">
+
 <hr>
 
 ## 8.9 Cenário 09
@@ -572,3 +581,7 @@ Cenário 10 - Consultar dados dos usuários
 <img src="Wireframes/AvaliarItens,Filmes,SeriesELivros.jpg">
 
 <img src="Wireframes/PáginaDoItem.jpg">
+
+<img src="Wireframes/PesquisarOutrosMembros.jpeg">
+
+<img src="Wireframes/SolicitaçãoDeAmizadesPendentes.jpeg">
