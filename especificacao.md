@@ -42,14 +42,12 @@ author: "Prática Profissional em ADS"
       </ul>
     <li><a href="#8-Diagrama-de-Sequência">Diagrama de Sequência</a></li>
      <ul>
- 
         <li><a href="#8.1-Cenário 01">Cenário 01</a></li>
         
-      </ul>
-      
-    <li><a href="#10-Diagrama-de-domínio">Diagrama de domínio</a></li>
-    <li><a href="#11-Diagrama-de-Classes">Diagrama de Classes</a></li>
-    <li><a href="#12-Wireframes">Wireframes</a></li>
+     </ul>
+  <li><a href="#10-Diagrama-de-domínio">Diagrama de domínio</a></li>
+  <li><a href="#11-Diagrama-de-Classes">Diagrama de Classes</a></li>
+  <li><a href="#12-Wireframes">Wireframes</a></li>
       
   </ol>
 </details>
