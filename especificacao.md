@@ -512,7 +512,7 @@ Cenário 10 - Consultar dados dos usuários
 <img src="Diagramas/Sequência/Cenario08 - Acessar página pessoal -RENAN/Sequencia_ListarAvaliacoesRealizadasPeloMembro.jpg">
 
 ### 8.8.3 Listar Amigos e Recomendações Recebidas
-<img src="">
+<img src="Diagramas/Sequência/Cenario08 - Acessar página pessoal -RENAN/Sequencia_ListarAmigosERecomendacoesRecebidas.jpg">
 
 <hr>
 
