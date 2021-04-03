@@ -525,7 +525,7 @@ Cenário 10 - Consultar dados dos usuários
 <img src="Diagramas/Sequência/Cenario09 - Acessar página do Item/Sequencia_ReunirAvaliaçoesDoItem.png">
 
 ### 8.9.2 Ordenar Joinhas de Cada Avaliações <br>
-<img src="Diagramas/Sequência/Cenario09 - Acessar página do Item/Sequencia_ReunirAvaliaçoesDoItem.png">
+<img src="Diagramas/Sequência/Cenario09 - Acessar página do Item/Sequencia_OrdenarJoinhas.png">
 
 
 <hr>
