@@ -43,6 +43,15 @@ author: "Prática Profissional em ADS"
     <li><a href="#8-Diagrama-de-Sequência">Diagrama de Sequência</a></li>
      <ul>
         <li><a href="#81-Cenário-01">Cenário 01</a></li>
+       <li><a href="#82-Cenário-02">Cenário 02</a></li>
+       <li><a href="#83-Cenário-03">Cenário 03</a></li>
+       <li><a href="#84-Cenário-04">Cenário 04</a></li>
+       <li><a href="#85-Cenário-05">Cenário 05</a></li>
+       <li><a href="#86-Cenário-06">Cenário 06</a></li>
+       <li><a href="#87-Cenário-07">Cenário 07</a></li>
+       <li><a href="#88-Cenário-08">Cenário 08</a></li>
+       <li><a href="#89-Cenário-09">Cenário 09</a></li>
+       <li><a href="#90-Cenário-10">Cenário 10</a></li>
     </ul>
     <li><a href="#10-Diagrama-de-domínio">Diagrama de domínio</a></li>
     <li><a href="#11-Diagrama-de-Classes">Diagrama de Classes</a></li>
