@@ -509,9 +509,28 @@ Cenário 10 - Consultar dados dos usuários
 
 ## 8.9 Cenário 09
 
+### 8.9.1 Reunir Avaliações do Item <br>
+<img src="Diagramas/Sequência/Cenario09 - Acessar página do Item/Sequencia_ReunirAvaliaçoesDoItem.png">
+
+### 8.9.2 Ordenar Joinhas de Cada Avaliações <br>
+<img src="Diagramas/Sequência/Cenario09 - Acessar página do Item/Sequencia_ReunirAvaliaçoesDoItem.png">
+
+
 <hr>
 
 ## 9 Cenário 10
+
+### 9.1 Consultar Relatório <br>
+<img src="Diagramas/Sequência/Cenario10 - Consultar dados dos usuários/Sequencia_ConsultarRelatorio.png">
+
+### 9.2 Consultar Gráfico <br>
+<img src="Diagramas/Sequência/Cenario10 - Consultar dados dos usuários/Sequencia_ConsultarGrafico.png">
+
+### 9.3 Consultar Média de Membros Conectados
+<img src="Diagramas/Sequência/Cenario10 - Consultar dados dos usuários/Sequencia_MediaMembrosMaisConectados.png">
+
+### 9.4 Consultar Média de Membros 
+<img src="Diagramas/Sequência/Cenario10 - Consultar dados dos usuários/Sequencia_MediaMembros.png">
 
 <hr>
 
