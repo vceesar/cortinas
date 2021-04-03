@@ -51,7 +51,7 @@ author: "Prática Profissional em ADS"
        <li><a href="#87-Cenário-07">Cenário 07</a></li>
        <li><a href="#88-Cenário-08">Cenário 08</a></li>
        <li><a href="#89-Cenário-09">Cenário 09</a></li>
-       <li><a href="#90-Cenário-10">Cenário 10</a></li>
+       <li><a href="#9-Cenário-10">Cenário 10</a></li>
     </ul>
     <li><a href="#10-Diagrama-de-domínio">Diagrama de domínio</a></li>
     <li><a href="#11-Diagrama-de-Classes">Diagrama de Classes</a></li>
