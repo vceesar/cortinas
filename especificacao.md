@@ -483,13 +483,13 @@ Cenário 10 - Consultar dados dos usuários
 ## 8.6 Cenário 06
 
 ### 8.6.1 Pesquisar Outros Membros  <br>
-<img src="Diagramas/Sequência/Cenario06 - Acessar e adicionar perfis-RENAN/Sequencia_PesquisarOutrosMembros.jpeg">
+<img src="Diagramas/Sequência/Cenario06 - Acessar e adicionar perfis/Sequencia_PesquisarOutrosMembros.jpeg">
 
 ### 8.6.2 Propor Relacionamento de Amizade <br> 
-<img src="Diagramas/Sequência/Cenario06 - Acessar e adicionar perfis-RENAN/Sequencia_ProporRelacionamentoAmizade.jpeg">
+<img src="Diagramas/Sequência/Cenario06 - Acessar e adicionar perfis/Sequencia_ProporRelacionamentoAmizade.jpeg">
 
 ### 8.6.3 Verificar pendências de Amizade <br>
-<img src="Diagramas/Sequência/Cenario06 - Acessar e adicionar perfis-RENAN/Sequencia_ListarPendencias.jpeg">
+<img src="Diagramas/Sequência/Cenario06 - Acessar e adicionar perfis/Sequencia_ListarPendencias.jpeg">
 
 <hr>
 
