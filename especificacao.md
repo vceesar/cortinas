@@ -588,3 +588,11 @@ Cenário 10 - Consultar dados dos usuários
 <img src="Wireframes/PesquisarOutrosMembros.jpeg">
 
 <img src="Wireframes/SolicitaçãoDeAmizadesPendentes.jpeg">
+
+<img src="Wireframes/Cenario10_ConsultarDados.png">
+
+<img src="Wireframes/Cenario10_ConsultarGrafico.png">
+
+<img src="Wireframes/Cenario10_ConsultarMediaDeMembros.png">
+
+<img src="Wireframes/Cenario10_ConsultarMediaDeMembrosMaisConectados.png">
