@@ -512,7 +512,7 @@ Cenário 10 - Consultar dados dos usuários
 <img src="Diagramas/Sequência/Cenario08 - Acessar página pessoal/Sequencia_AcessarPerfilPessoal.jpeg">
 
 ### 8.8.2 Listar Avaliações realizadas pelo membro
-<img src="Diagramas/Sequência/Cenario08 - Acessar página pessoal/Sequencia_ListarAvaliacoesRealizadasPeloMembro.jpg">
+<img src="Diagramas/Sequência/Cenario08 - Acessar página pessoal/Sequencia__ListarAvaliacoesRealizadasPeloMembro.jpg">
 
 ### 8.8.3 Listar Amigos e Recomendações Recebidas
 <img src="Diagramas/Sequência/Cenario08 - Acessar página pessoal/Sequencia__ListarAmigosERecomendacoesRecebidas.jpg">
