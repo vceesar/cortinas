@@ -509,7 +509,7 @@ Cenário 10 - Consultar dados dos usuários
 ## 8.8 Cenário 08
 
 ### 8.8.1 Acessar Próprio Perfil
-<img src="Diagramas/Sequência/Cenario08 - Acessar página pessoal/Sequencia_AcessarPerfilPessoal.jpeg">
+<img src="Diagramas/Sequência/Cenario08 - Acessar página pessoal/Sequencia__AcessarPerfilPessoal.jpeg">
 
 ### 8.8.2 Listar Avaliações realizadas pelo membro
 <img src="Diagramas/Sequência/Cenario08 - Acessar página pessoal/Sequencia__ListarAvaliacoesRealizadasPeloMembro.jpg">
