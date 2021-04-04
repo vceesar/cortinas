@@ -466,7 +466,7 @@ Cenário 10 - Consultar dados dos usuários
 <img src = "Diagramas/Sequência/Cenário04 - Cadastrar Novo Item/Sequencia_CadastrarNovoItem_Serie.jpg">
 
 ### 8.4.2 Validar Itens <br>
-<img src = "Diagramas/Sequência/Cenário04 - Cadastrar Novo Item/Sequencia_ValidarItens.jpg">
+<img src = "Diagramas/Sequência/Cenário04 - Cadastrar Novo Item/Sequencia__ValidarItens.jpg">
 
 <hr>
 
