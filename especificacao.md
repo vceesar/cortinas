@@ -473,7 +473,7 @@ Cenário 10 - Consultar dados dos usuários
 ## 8.5 Cenário 05
 
 ### 8.5.1 Apresentar Recomendações de Itens <br>
-<img src="Diagramas/Sequência/Cenário05 - Apresentar Recomendações de Itens/Sequencia_ApresentarRecomendacoesDeItens.png">
+<img src="Diagramas/Sequência/Cenário05 - Apresentar Recomendações de Itens/Sequencia__ApresentarRecomendacoesDeItens.png">
 
 ### 8.5.2 Identificar Membros com Perfil Semelhante <br>
 <img src = "Diagramas/Sequência/Cenário05 - Apresentar Recomendações de Itens/Sequencia__IdentificarMembrosComPerfilSemelhante.png">
