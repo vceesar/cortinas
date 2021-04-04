@@ -533,16 +533,16 @@ Cenário 10 - Consultar dados dos usuários
 ## 9 Cenário 10
 
 ### 9.1 Consultar Relatório <br>
-<img src="Diagramas/Sequência/Cenario10 - Consultar dados dos usuários/Sequencia_ConsultarRelatorio.png">
+<img src="Diagramas/Sequência/Cenario10 - Consultar dados dos usuários/Sequencia__ConsultarRelatorio.png">
 
 ### 9.2 Consultar Gráfico <br>
-<img src="Diagramas/Sequência/Cenario10 - Consultar dados dos usuários/Sequencia_ConsultarGrafico.png">
+<img src="Diagramas/Sequência/Cenario10 - Consultar dados dos usuários/Sequencia__ConsultarGrafico.png">
 
 ### 9.3 Consultar Média de Membros Conectados
-<img src="Diagramas/Sequência/Cenario10 - Consultar dados dos usuários/Sequencia_MediaMembrosMaisConectados.png">
+<img src="Diagramas/Sequência/Cenario10 - Consultar dados dos usuários/Sequencia__MediaMembrosMaisConectados.png">
 
 ### 9.4 Consultar Média de Membros 
-<img src="Diagramas/Sequência/Cenario10 - Consultar dados dos usuários/Sequencia_MediaMembros.png">
+<img src="Diagramas/Sequência/Cenario10 - Consultar dados dos usuários/Sequencia__MediaMembros.png">
 
 <hr>
 
