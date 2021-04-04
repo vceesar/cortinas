@@ -486,10 +486,10 @@ Cenário 10 - Consultar dados dos usuários
 <img src="Diagramas/Sequência/Cenario06 - Acessar e adicionar perfis/Sequencia_PesquisarOutrosMembros.jpeg">
 
 ### 8.6.2 Propor Relacionamento de Amizade <br> 
-<img src="Diagramas/Sequência/Cenario06 - Acessar e adicionar perfis/Sequencia_ProporRelacionamentoAmizade.jpeg">
+<img src="Diagramas/Sequência/Cenario06 - Acessar e adicionar perfis/Sequencia__ProporRelacionamentoAmizade.jpeg">
 
 ### 8.6.3 Verificar pendências de Amizade <br>
-<img src="Diagramas/Sequência/Cenario06 - Acessar e adicionar perfis/Sequencia_ListarPendencias.jpeg">
+<img src="Diagramas/Sequência/Cenario06 - Acessar e adicionar perfis/Sequencia__ListarPendencias.jpeg">
 
 <hr>
 
