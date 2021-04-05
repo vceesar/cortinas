@@ -4,7 +4,7 @@ author: "Prática Profissional em ADS"
 ---
 
 
-**Índice**
+**Índice** (Clique aqui para abrir as opções)
 
 <details closed="closed">
   <ol>
