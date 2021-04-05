@@ -33,7 +33,7 @@
   </p>
 </p>
 
-<details closed="closed">
+<details closed="open">
   <summary> Sumário (clique para abrir as opções) </summary>
   <ol>
     <li><a href="#licença">Licença</a></li>
