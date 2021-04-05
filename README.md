@@ -44,7 +44,7 @@
 
 ## Heroku Hello World - Primeiro deploy teste para a aplicação do projeto. <img src="heroku.png" width="30px" height="30px">
 
-<a href="https://helloworldppads.herokuapp.com/">Clique aqui ! </a>
+<a href="https://thecortinas.herokuapp.com/">Clique aqui ! </a>
 
 <!-- LICENSE -->
 ## Licença
