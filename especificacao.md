@@ -4,9 +4,9 @@ author: "Prática Profissional em ADS"
 ---
 
 
-**Índice** (Clique aqui para abrir as opções)
+**Índice** 
 
-<details closed="closed">
+<details closed="closed"> (Clique aqui para abrir as opções)
   <ol>
     <li><a href="#1-introdução">Introdução</a></li>
     <li><a href="#2-informações-sobre-a-empresa">Informações sobre a empresa</a></li>
