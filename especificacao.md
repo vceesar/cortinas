@@ -554,7 +554,7 @@ Cenário 10 - Consultar dados dos usuários
 
 # 10. Diagrama de domínio
 
-
+<img src="Diagramas/Domínio/Dominio-1.png">
 
 
 
