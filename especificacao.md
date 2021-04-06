@@ -561,7 +561,7 @@ Cenário 10 - Consultar dados dos usuários
 
 # 11. Diagrama de Classes
 
-
+<img src="Diagramas/Classe/Diagrama de Classes.png">
 
 # 12. Wireframes
 
