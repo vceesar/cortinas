@@ -241,7 +241,7 @@ Cenário 5 - Apresentar Recomendações de Itens
 | :---: | -------------------  |
 | **Atores:** | Algoritmo Colaborativo |
 | **Pré-condições:** | Só será feito a recomendação caso o sistema possua 10 membros cadastrados e esses membros entrarem em pelo menos 10 avaliações. |
-| **Pós-Condições:**  | Visualizar o perfis semelhantes. |
+| **Pós-Condições:**  | Visualizar os perfis semelhantes. |
 | **Fluxo Principal:** | a: Algoritmo Colaborativo analisa avaliações dos membros cadastrados. <br> b: Algoritmo Colaborativo identifica possíveis itens semelhantes. <br> c: Algoritmo Colaborativo aprova itens encontrados. |
 | **Fluxo Alternativo:**  |  |
 
@@ -302,8 +302,8 @@ Cenário 7 - Avaliar e mostrar membro amigo
 | **Objetivo:** | O Membro poderá dar um feedback(Comentário e/ou "joinha") nas avaliações de um amigo.  |
 | :---: | -------------------  |
 | **Atores:** | Membro |
-| **Pré-condições:** | Estar previamente logado. Só poderá ser feito o feedback caso o o Membro possua amizade com quem ele está avaliando. |
-| **Pós-Condições:**  | Visualizar feedback na avaliação de um amigo . |
+| **Pré-condições:** | Estar previamente logado. Só poderá ser feito o feedback caso o Membro possua amizade com quem ele está avaliando. |
+| **Pós-Condições:**  | Visualizar feedback na avaliação de um amigo. |
 | **Fluxo Principal:** | a: Membro acessa página de amigo <br> b: Membro escolhe avaliação do amigo. <br> c: Membro dá feedback. <br> d: Sistema valida feedback.  <br> e: Sistema "posta" feedback. <br> f: Membro pode dar "joinha".|
 | **Fluxo Alternativo:**  |  <strong>Fluxo Alternativo A:</strong> <br>  a: Membro acessa página de amigo <br> b: Membro escolhe avaliações do amigo. <br> c: Sistema invalida mais de uma escolha. <br> d: Sistema retorna ao passo ```b``` do Fluxo Principal. <br> <br> <strong>Fluxo Alternativo B:</strong> <br> a: Membro acessa página de amigo <br> b: Membro escolhe avaliação do amigo. <br> c: Membro dá feedback. <br> d: Sistema invalida feedback. <br> e: Sistema retorna ao passo ```c```.|
 
@@ -314,7 +314,7 @@ Cenário 7 - Avaliar e mostrar membro amigo
 | :---: | -------------------  |
 | **Atores:** | Membro |
 | **Pré-condições:** | Estar previamente logado. Só poderá ser retirado o "joinha" caso o Membro já tenha dado um. |
-| **Pós-Condições:**  | Visualizar "joinha" retirado . |
+| **Pós-Condições:**  | Visualizar "joinha" retirado. |
 | **Fluxo Principal:** | a: Membro acessa feedback dado ao amigo <br> b: Membro clica no botão de retirar "joinha". <br> c: Sistema retira "joinha". |
 | **Fluxo Alternativo:**  |  |
 
@@ -330,7 +330,7 @@ Cenário 8 - Acessar página pessoal(perfil)
 | **Pré-condições:** | Estar previamente logado. |
 | **Pós-Condições:**  | Visualizar perfil. |
 | **Fluxo Principal:** | a: Membro clica na sua imagem de perfil localizada no canto superior direito. <br> b: Membro visualiza opções. <br> c: Membro acessa a opção "Ver meu perfil". <br> d: Sistema retorna perfil para o Membro. |
-| **Fluxo Alternativo:**  | <strong>Fluxo Alternativo A:</strong> <br>  a: Membro clica no sua imagem de perfil localizada no canto superior direito. <br> b: Membro visualiza opções. <br> c: Membro acessa a opção errada. <br> d: Sistema retorna ao passo ```b```. |
+| **Fluxo Alternativo:**  | <strong>Fluxo Alternativo A:</strong> <br>  a: Membro clica na sua imagem de perfil localizada no canto superior direito. <br> b: Membro visualiza opções. <br> c: Membro acessa a opção errada. <br> d: Sistema retorna ao passo ```b```. |
 
 <hr>
 
@@ -592,6 +592,8 @@ Cenário 10 - Consultar dados dos usuários
 <img src="Wireframes/ListarAmigosERecomendacoesRecebidas.jpeg">
 
 <img src="Wireframes/ListarAmigosERecomendacoesRecebidas2.jpeg">
+
+<img src="Wireframes/Adm-OrdenarAvaliacoes.jpg">
 
 <img src="Wireframes/Cenario10_ConsultarDados.png">
 
