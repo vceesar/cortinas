@@ -593,6 +593,8 @@ Cenário 10 - Consultar dados dos usuários
 
 <img src="Wireframes/ListarAmigosERecomendacoesRecebidas2.jpeg">
 
+<img src="Wireframes/Adm-OrdenarAvaliacoes.jpg">
+
 <img src="Wireframes/Cenario10_ConsultarDados.png">
 
 <img src="Wireframes/Cenario10_ConsultarGrafico.png">
