@@ -114,7 +114,7 @@ Atua também, no âmbito socioambiental, tendo em vista que gera, com base em su
 
 
 
-# 6. Requisitos Não Funcionais 
+# 6. Requisitos Não Funcionais  
 |RNF |  Descrição  |
 | :---: | ------------------- |
 |  1 |  O sistema só poderá ser acessado pelo navegador do dispositivo móvel ou pelo computador. |
