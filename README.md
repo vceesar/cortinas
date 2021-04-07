@@ -82,7 +82,6 @@ Renan Ropeiro - 41804686           -> 41804686@mackenzista.com.br
 <br>
 <hr>
 
-
 ## Agradecimentos
 
 Agradecimentos para o <a href="https://github.com/othneildrew/Best-README-Template/blob/master/README.md"> othneildrew repositório  </a> por compartilhar este template de layout do README para github.
