@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="ProjProfADS" />
         <module name="heroku_hello_world" />
+        <module name="Código - TheCortinas" />
       </profile>
     </annotationProcessing>
   </component>
