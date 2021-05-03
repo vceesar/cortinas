@@ -38,6 +38,7 @@ public class DaoUserLogin {
         return false;
     }
 
+    //rever esse aqui também, já que o outro não está funcionando
     public List<paramLogin> read(){
         Connection conexao= mysqlCon.getConnection();
         List<paramLogin> paramLoginsList= new ArrayList();

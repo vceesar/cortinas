@@ -7,7 +7,7 @@ import API.paramUser;
 public class DaoUser {
     private final String createUser= "INSERT INTO heroku_f818dae8c4e1452.user (userCompleteName, userBirthday, userCidade, userEstado) VALUES (?,?,?,?)";
     private final String readUser= "SELECT userId FROM heroku_f818dae8c4e1452.user WHERE userId=?";
-    private final String updateUserName= "UPDATE heroku_f818dae8c4e1452.user SET userCompleteName=? WHERE userId="+ readUser;
+    private final String updateUserName= "UPDATE heroku_f818dae8c4e1452.user SET userCompleteName=? WHERE userId=?";
     private final String updateUserBirthday= "UPDATE heroku_f818dae8c4e1452.user SET userBirthday=? WHERE userId="+ readUser;
     private final String updateUserCidade= "UPDATE heroku_f818dae8c4e1452.user SET userCidade=? WHERE userId="+ readUser;
     private final String updateUserEstado= "UPDATE heroku_f818dae8c4e1452.user SET userEstado=? WHERE userId="+ readUser;
@@ -42,17 +42,20 @@ public class DaoUser {
         return false;
     }
 
-    public List<paramUser> read(){
+
+    // O método não tá funcionando, fala que não tá sendo inserido um valor pro parâmetro
+    public List<paramUser> read(paramUser paramUser){
         Connection conexao= mysqlCon.getConnection();
         List<paramUser> users= new ArrayList();
         try{
             PreparedStatement statement = conexao.prepareStatement(readUser);
             ResultSet resultSet = statement.executeQuery();
 
+            statement.setInt(1, paramUser.getUserId());
+
             while (resultSet.next()){
                 paramUser user= new paramUser();
-                user.setUserId(resultSet.getInt("userID"));
-                statement.setInt(1, user.getUserId());
+                user.setUserId(resultSet.getInt("userId"));
                 users.add(user);
             }
             return users;
@@ -76,7 +79,9 @@ public class DaoUser {
         try {
             PreparedStatement statement= conexao.prepareStatement(updateUserName);
 
+            statement.setInt(2, user.getUserId());
             statement.setString(1, user.getName());
+
 
             int register= statement.executeUpdate();
 
