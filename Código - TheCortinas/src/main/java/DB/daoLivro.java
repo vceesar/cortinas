@@ -2,21 +2,24 @@ package DB;
 
 import java.sql.*;
 import java.util.*;
-import API.paramLogin;
+import API.Livro;
 
-public class daoUserLogin {
-    private final String createLogin= "INSERT INTO heroku_f818dae8c4e1452.userlogin (userName, userPassword) VALUES (?,?)";
-    private final String readLogin= "SELECT * FROM heroku_f818dae8c4e1452.userlogin";
+public class daoLivro {
+    private final String createLivro= "INSERT INTO heroku_f818dae8c4e1452.livro (tituloLivro,autorLivro,editora,anoLancamento) VALUES (?,?,?,?)";
+    private final String readLivro= "SELECT * FROM heroku_f818dae8c4e1452.livro"; //WHERE tituloLivro=?
 
     private final mysqlConnection mysqlCon= new mysqlConnection();
 
-    public boolean create(paramLogin login){
+    public boolean create(Livro livro){
         Connection conexao= mysqlCon.getConnection();
-        try {
-            PreparedStatement statement= conexao.prepareStatement(createLogin);
 
-            statement.setString(1, login.getUserName());
-            statement.setString(2, login.getUserPassword());
+        try {
+            PreparedStatement statement= conexao.prepareStatement(createLivro);
+
+            statement.setString(1, livro.getTituloLivro());
+            statement.setString(2, livro.getAutorLivro());
+            statement.setString(3, livro.getEditora());
+            statement.setInt(4, livro.getAnoLacamento());
 
             int register= statement.executeUpdate();
 
@@ -29,31 +32,30 @@ public class daoUserLogin {
         }finally {
             try {
                 conexao.close();
-            }catch (Exception e){
+            }catch (final Exception e){
                 e.printStackTrace();
             }
         }
         return false;
     }
 
-    //rever esse aqui também, já que o outro não está funcionando
-    public List<paramLogin> read(){
+    public List<Livro> read(){
         Connection conexao= mysqlCon.getConnection();
-        List<paramLogin> paramLoginsList= new ArrayList();
+        List<Livro> livrosList= new ArrayList();
 
         try {
-            PreparedStatement statement= conexao.prepareStatement(readLogin);
+            PreparedStatement statement= conexao.prepareStatement(readLivro);
             ResultSet resultSet= statement.executeQuery();
 
             while (resultSet.next()){
-                paramLogin paramLogin = new paramLogin();
-                paramLogin.setLoginId(resultSet.getInt("loginId"));
-                paramLogin.setUserName(resultSet.getString("userName"));
-                paramLogin.setUserPassword(resultSet.getString("userPassword"));
-                //statement.setInt(1, paramLogin.getLoginId());
-                paramLoginsList.add(paramLogin);
+                Livro livro= new Livro();
+                livro.setTituloLivro(resultSet.getString("tituloLivro"));
+                livro.setAutorLivro(resultSet.getString("autorLivro"));
+                livro.setEditora(resultSet.getString("editora"));
+                livro.setAnoLacamento(resultSet.getInt("anoLancamento"));
+                livrosList.add(livro);
             }
-            return paramLoginsList;
+            return livrosList;
         }catch (final SQLException sqlE){
             System.out.println("Falha ao tentar se conectar com o banco de dados");
             sqlE.printStackTrace();
@@ -66,7 +68,6 @@ public class daoUserLogin {
                 e.printStackTrace();
             }
         }
-        return paramLoginsList;
+        return livrosList;
     }
-
 }

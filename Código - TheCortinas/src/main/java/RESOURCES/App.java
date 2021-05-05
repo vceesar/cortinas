@@ -1,7 +1,7 @@
 package RESOURCES;
 
-import DB.DaoUser;
-import DB.DaoUserLogin;
+import DB.daoUser;
+import DB.daoUserLogin;
 import io.dropwizard.Application;
 import io.dropwizard.Configuration;
 import io.dropwizard.assets.AssetsBundle;
@@ -30,15 +30,15 @@ public class App extends Application<Configuration>
 
         cors.setInitParameter("allowedOrigins", "*");
         cors.setInitParameter("allowedHeaders", "X-Requested-With,Content-Type,Accept,Origin");
-        cors.setInitParameter("allowedMethods", "OPTIONS,GET,PUT,POST,HEAD");
+        cors.setInitParameter("allowedMethods", "GET,POST");
 
         cors.addMappingForUrlPatterns(EnumSet.allOf(DispatcherType.class), true, "/*");
 
-        DaoUser daoUser= new DaoUser();
+        daoUser daoUser= new daoUser();
         paramUserResource paramUserResource= new paramUserResource(daoUser);
         environment.jersey().register(paramUserResource);
 
-        DaoUserLogin daoUserLogin= new DaoUserLogin();
+        daoUserLogin daoUserLogin= new daoUserLogin();
         paramLoginResource paramLoginResource= new paramLoginResource(daoUserLogin);
         environment.jersey().register(paramLoginResource);
 
