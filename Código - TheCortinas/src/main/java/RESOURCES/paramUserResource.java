@@ -22,7 +22,7 @@ public class paramUserResource {
     }
 
     @GET
-    public List<paramUser> read(paramUser paramUser){
-        return this.daoUser.read(paramUser);
+    public List<paramUser> read(){
+        return this.daoUser.read();
     }
 }

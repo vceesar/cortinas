@@ -2,6 +2,9 @@ package RESOURCES;
 
 import DB.daoUser;
 import DB.daoUserLogin;
+import DB.daoLivro;
+import DB.daoFilme;
+import DB.daoSerie;
 import io.dropwizard.Application;
 import io.dropwizard.Configuration;
 import io.dropwizard.assets.AssetsBundle;
@@ -41,6 +44,18 @@ public class App extends Application<Configuration>
         daoUserLogin daoUserLogin= new daoUserLogin();
         paramLoginResource paramLoginResource= new paramLoginResource(daoUserLogin);
         environment.jersey().register(paramLoginResource);
+
+        daoFilme daoFilme= new daoFilme();
+        filmeResource filmeResource= new filmeResource(daoFilme);
+        environment.jersey().register(filmeResource);
+
+        daoLivro daoLivro= new daoLivro();
+        livroResource livroResource= new livroResource(daoLivro);
+        environment.jersey().register(livroResource);
+
+        daoSerie daoSerie= new daoSerie();
+        serieResource serieResource= new serieResource(daoSerie);
+        environment.jersey().register(serieResource);
 
         environment.jersey().setUrlPattern("/cortinas/*");
     }

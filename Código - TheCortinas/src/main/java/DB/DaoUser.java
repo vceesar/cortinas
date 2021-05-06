@@ -6,7 +6,7 @@ import API.paramUser;
 
 public class daoUser {
     private final String createUser= "INSERT INTO heroku_f818dae8c4e1452.user (userCompleteName, userBirthday, userCidade, userEstado) VALUES (?,?,?,?)";
-    private final String readUser= "SELECT userId FROM heroku_f818dae8c4e1452.user WHERE userId=?";
+    private final String readUser= "SELECT * FROM heroku_f818dae8c4e1452.user"; //WHERE userId=?
 
     private final mysqlConnection mysqlCon= new mysqlConnection();
 
@@ -38,18 +38,18 @@ public class daoUser {
         return false;
     }
 
-    public List<paramUser> read(paramUser paramUser){
+    public List<paramUser> read(){
         Connection conexao= mysqlCon.getConnection();
         List<paramUser> users= new ArrayList();
         try{
             PreparedStatement statement = conexao.prepareStatement(readUser);
+            //statement.setInt(1, user.getUserId());
             ResultSet resultSet = statement.executeQuery();
-
-            statement.setInt(1, paramUser.getUserId());
 
             while (resultSet.next()){
                 paramUser user= new paramUser();
                 user.setUserId(resultSet.getInt("userId"));
+                user.setName(resultSet.getString("userCompleteName"));
                 users.add(user);
             }
             return users;

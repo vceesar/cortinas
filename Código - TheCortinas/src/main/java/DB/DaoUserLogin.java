@@ -6,7 +6,7 @@ import API.paramLogin;
 
 public class daoUserLogin {
     private final String createLogin= "INSERT INTO heroku_f818dae8c4e1452.userlogin (userName, userPassword) VALUES (?,?)";
-    private final String readLogin= "SELECT * FROM heroku_f818dae8c4e1452.userlogin";
+    private final String readLogin= "SELECT * FROM heroku_f818dae8c4e1452.userlogin"; //WHERE loginId=?
 
     private final mysqlConnection mysqlCon= new mysqlConnection();
 
@@ -36,13 +36,14 @@ public class daoUserLogin {
         return false;
     }
 
-    //rever esse aqui também, já que o outro não está funcionando
     public List<paramLogin> read(){
         Connection conexao= mysqlCon.getConnection();
         List<paramLogin> paramLoginsList= new ArrayList();
 
         try {
+            //paramLogin paramLogin = new paramLogin();
             PreparedStatement statement= conexao.prepareStatement(readLogin);
+            //statement.setInt(1, paramLogin.getLoginId());
             ResultSet resultSet= statement.executeQuery();
 
             while (resultSet.next()){
@@ -50,7 +51,6 @@ public class daoUserLogin {
                 paramLogin.setLoginId(resultSet.getInt("loginId"));
                 paramLogin.setUserName(resultSet.getString("userName"));
                 paramLogin.setUserPassword(resultSet.getString("userPassword"));
-                //statement.setInt(1, paramLogin.getLoginId());
                 paramLoginsList.add(paramLogin);
             }
             return paramLoginsList;

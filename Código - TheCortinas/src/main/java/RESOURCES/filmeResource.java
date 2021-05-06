@@ -15,7 +15,6 @@ public class filmeResource {
     }
 
     @POST
-    //@Path("/addFilme")
     public Filme create(Filme filme){
         this.daoFilme.create(filme);
         return filme;
