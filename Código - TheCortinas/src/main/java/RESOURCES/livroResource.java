@@ -23,4 +23,10 @@ public class livroResource {
     public List<Livro> read(){
         return this.daoLivro.read();
     }
+
+    @Path("/getLivroById")
+    @GET
+    public List<Livro> readCondition(Livro livro){
+        return this.daoLivro.readCondition(livro);
+    }
 }

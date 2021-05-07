@@ -24,4 +24,10 @@ public class filmeResource {
     public List<Filme> read(){
         return this.daoFilme.read();
     }
+
+    @Path("/getFilmeById")
+    @GET
+    public List<Filme> createCondition(Filme filme){
+        return this.daoFilme.readCondition(filme);
+    }
 }

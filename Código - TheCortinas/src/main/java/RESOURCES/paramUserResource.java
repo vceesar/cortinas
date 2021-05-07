@@ -25,4 +25,10 @@ public class paramUserResource {
     public List<paramUser> read(){
         return this.daoUser.read();
     }
+
+    @Path("/getUserById")
+    @GET
+    public List<paramUser> readCondition(paramUser paramUser){
+        return this.daoUser.readCondition(paramUser);
+    }
 }

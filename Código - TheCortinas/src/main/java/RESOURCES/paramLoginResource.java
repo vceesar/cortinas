@@ -25,4 +25,10 @@ public class paramLoginResource {
     public List<paramLogin> read(){
         return this.daoUserLogin.read();
     }
+
+    @Path("/getLoginById")
+    @GET
+    public List<paramLogin> readCondition(paramLogin paramLogin){
+        return this.daoUserLogin.readCondition(paramLogin);
+    }
 }

@@ -6,7 +6,7 @@ public class Serie {
     String diretorSerie;
     String elencoPrincipalSerie;
     String paisSerie;
-    String anoSerie;
+    int anoSerie;
     int numTemp;
 
     public int getSerieId() {
@@ -49,11 +49,11 @@ public class Serie {
         this.paisSerie = paisSerie;
     }
 
-    public String getAnoSerie() {
+    public int getAnoSerie() {
         return anoSerie;
     }
 
-    public void setAnoSerie(String anoSerie) {
+    public void setAnoSerie(int anoSerie) {
         this.anoSerie = anoSerie;
     }
 

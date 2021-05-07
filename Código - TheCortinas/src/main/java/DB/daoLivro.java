@@ -6,7 +6,7 @@ import API.Livro;
 
 public class daoLivro {
     private final String createLivro= "INSERT INTO heroku_f818dae8c4e1452.livro (tituloLivro,autorLivro,editora,anoLancamento) VALUES (?,?,?,?)";
-    private final String readLivro= "SELECT * FROM heroku_f818dae8c4e1452.livro"; //WHERE tituloLivro=?
+    private final String readLivro= "SELECT * FROM heroku_f818dae8c4e1452.livro";
 
     private final mysqlConnection mysqlCon= new mysqlConnection();
 
@@ -69,5 +69,36 @@ public class daoLivro {
             }
         }
         return livrosList;
+    }
+
+    public List<Livro> readCondition(Livro livro){
+        Connection conexao= mysqlCon.getConnection();
+        List<Livro> livroList= new ArrayList();
+
+        try {
+            PreparedStatement statement= conexao.prepareStatement("SELECT * FROM heroku_f818dae8c4e1452.livro WHERE livroId=?");
+            statement.setInt(1, livro.getLivroId());
+            ResultSet resultSet= statement.executeQuery();
+            while (resultSet.next()){
+                livro.setTituloLivro(resultSet.getString("tituloLivro"));
+                livro.setAutorLivro(resultSet.getString("autorLivro"));
+                livro.setEditora(resultSet.getString("editora"));
+                livro.setAnoLacamento(resultSet.getInt("anoLancamento"));
+                livroList.add(livro);
+            }
+            return livroList;
+        }catch (final SQLException sqlE){
+            System.out.println("Falha ao tentar se conectar com o banco de dados");
+            sqlE.printStackTrace();
+        }catch (final Exception e){
+            e.printStackTrace();
+        }finally {
+            try {
+                conexao.close();
+            }catch (final Exception e){
+                e.printStackTrace();
+            }
+        }
+        return livroList;
     }
 }

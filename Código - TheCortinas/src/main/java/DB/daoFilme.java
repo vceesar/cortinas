@@ -6,7 +6,7 @@ import API.Filme;
 
 public class daoFilme {
     private final String createFilme= "INSERT INTO heroku_f818dae8c4e1452.Filme (tituloFilme,diretorFilme,elencoPrincipalFilme,paisFilme,anoFilme) VALUES (?,?,?,?,?)";
-    private final String readFilme= "SELECT * FROM heroku_f818dae8c4e1452.filme"; //WHERE tituloFilme=?
+    private final String readFilme= "SELECT * FROM heroku_f818dae8c4e1452.filme";
 
     private final mysqlConnection mysqlCon = new mysqlConnection();
 
@@ -71,5 +71,37 @@ public class daoFilme {
             }
         }
         return filmesList;
+    }
+
+    public List<Filme> readCondition(Filme filme){
+        Connection conexao= mysqlCon.getConnection();
+        List<Filme> filmeList= new ArrayList();
+
+         try {
+             PreparedStatement statement= conexao.prepareStatement("SELECT * FROM heroku_f818dae8c4e1452.filme WHERE filmeId=?");
+             statement.setInt(1, filme.getFilmeId());
+             ResultSet resultSet= statement.executeQuery();
+             while (resultSet.next()){
+                 filme.setTituloFilme(resultSet.getString("tituloFilme"));
+                 filme.setDiretorFilme(resultSet.getString("diretorFilme"));
+                 filme.setElencoPrincipalFilme(resultSet.getString("elencoPrincipalFilme"));
+                 filme.setPaisFilme(resultSet.getString("paisFilme"));
+                 filme.setAnoFilme(resultSet.getInt("anoFilme"));
+                 filmeList.add(filme);
+             }
+             return filmeList;
+         }catch (final SQLException sqlE){
+             System.out.println("Falha ao tentar se conectar no banco de dados");
+             sqlE.printStackTrace();
+         }catch (final Exception e){
+             e.printStackTrace();
+         }finally {
+             try {
+                 conexao.close();
+             }catch (final Exception e){
+                 e.printStackTrace();
+             }
+         }
+         return filmeList;
     }
 }
