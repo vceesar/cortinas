@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!--importBootsTrap-->
+   <link rel="stylesheet" href="../public/style/bootstrap.min.css" type="text/css">
+   <!---->
+    <link rel="stylesheet" href="../public/style/style-item_cadastro.css" type="text/css">
+    <link rel="shortcut icon" href="../public/images/deathstar.ico" type="image/x-icon">
+    <link rel="script" href="../public/js/Cadastro.js" type="text/javascript">
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    
+    <title>Cadastro item - Cortinas</title>
+</head>
+<body>
+  <div class = "container-fluid">
+
+    <!--HEADER-->
+    <header class="row">
+
+      <div class="col-sm-5 col-xs-12">
+        <p><a href="login">Cortinas</a></p>
+      </div>
+   
+        
+   <!--SearchBar-->
+      
+      <div class = "container">
+        <div class = "searchbar col-sm-5 col-xs-12">
+          <input class="typeahead tt-query search" spellcheck="false" autocomplete="off" name="typeahead" type="text" placeholder="Digite o Item desejado: " />
+          <button type= "submit" class="search-btn"> <i class = "fa fa-search"></i></button>
+         
+        </div>    
+      </div>
+   <!--SearchBar-->
+
+    <!--Wrapper perfil-->
+  <!--     <div class="wrapper ">
+        <div class="navbar">
+            <div class="right"> 
+                <ul>
+                  <li>
+                    <a href="#">
+                    <span>Membro</span><img src="./img/ProfileNav.png" alt="Eu" width="50"><i class="fas fa-angle-down"></i>
+                    </a>
+                     
+                    <div class="dropdown">
+                        <ul>
+                          <li><a href="#"><i class="fas fa-user"></i> Ver perfil</a></li>
+                          <li><a href="#"><i class="fas fa-sliders-h"></i> Atualizar Dados</a></li>
+                          <li><a href="#"><i class="fas fa-sign-out-alt"></i>Sair</a></li>
+                      </ul>
+                    </div>
+                    
+                  </li>
+              </ul>
+            </div>
+        </div>
+    </div> -->
+
+
+       <!--Wrapper perfil-->
+    </header>
+
+     <!--HEADER-->
+
+
+
+     
+     <section class="row">
+      <div class = "col-12">
+        <h3>Para cadastrar um novo item na plataforma, primeiro, selecione o tipo:</h3>
+      </div>
+      
+    </section>
+
+    
+  <section class="row justify-content-center">
+    <section class= "col-lg-6 col-sm-10 col-xs-7">
+    <form role="form" method="post" action=""  class="form-container">
+    
+   <!--Checkbox-->
+      <label>
+        <input class="radio" type="radio" name="itemCheckbox" value="livro" checked>Livro</label>
+      <label>
+        <input class="radio" type="radio" name="itemCheckbox" value="serie"> Série</label>
+      <label>
+        <input class="radio" type="radio" name="itemCheckbox" value="filme"> Filme</label>
+    <!--Check livro-->
+      <div class="form form-livro">
+        <label for="">Titulo</label>  
+        <input type="text"  class="form-control" required name="titulo" >
+        <br>
+        <label for="">Autor(es)</label>  
+        <input type="text"  class="form-control" name="autor" required>
+        <br>
+        <label for="">Editoria</label>  
+        <input type="text" class="form-control" name="editoria" required>
+        <br>
+        <label for="">País</label>  
+        <input type="text"  class="form-control" name="pais" required>
+        <br>
+        <label for="">Ano de lançamento</label>  
+        <input type="number"  class="form-control" name="ano_lançamento" required>
+        <br>
+  
+      </div>
+      <!--check serie -->
+      <div class="form form-serie" style="display: none;">
+        <label for="">Titulo</label>  
+        <input type="text"  class="form-control" required name="titulo" >
+        <br>
+        <label for="">Diretor</label>  
+        <input type="text"  class="form-control" name="autor" required>
+        <br>
+        <label for="">Elenco Principal</label>  
+        <input type="text" class="form-control" name="editoria" required>
+        <br>
+        <label for="">País</label>  
+        <input type="text"  class="form-control" name="pais" required>
+        <br>
+        <label for="">Ano de lançamento</label>  
+        <input type="date"  class="form-control" name="ano_lançamento" required>
+        <br>
+        <label for="">N° de temporadas</label>  
+        <input type="number"  class="form-control" name="n_temporadas" required>
+        <br>
+      </div>
+      <!--Check filme-->
+      <div class="form form-filme" style="display: none;">
+        <label for="">Titulo</label>  
+        <input type="text"  class="form-control" required name="titulo" >
+        <br>
+        <label for="">Diretor</label>  
+        <input type="text"  class="form-control" name="autor" required>
+        <br>
+        <label for="">Elenco Principal</label>  
+        <input type="text" class="form-control" name="editoria" required>
+        <br>
+        <label for="">País</label>  
+        <input type="text"  class="form-control" name="pais" required>
+        <br>
+        <label for="">Ano de lançamento</label>  
+        <input type="date"  class="form-control" name="ano_lançamento" required>
+        <br>
+      </div>
+      <button type="submit" class="btn btn-primary btn-lg buttoncfg">Enviar</button>
+      </form>
+
+    </section>
+  </section>
+  
+  
+  <div class= "row">
+    <div class="col-12">
+      <footer>
+        <p>
+        <a href="http://github.com/vceesar/cortinas">PPADS by The Cortinas.</a>
+        </p>
+      </footer>
+    </div>
+  </div>
+
+
+  <!--END Container-Fluid-->
+</div>
+
+
+      <script>
+       function selectForm() {
+          $("div.form").hide();
+          $("div.form-" + $("input:checked").val()).show();
+      }
+          selectForm();
+          $("input").click(function(){selectForm()});
+        </script>
+          <script type="text/javascript">
+            var slides = document.querySelectorAll('.slide');
+            var btns = document.querySelectorAll('.btn');
+            let currentSlide = 1;
+        
+            // Javascript for image slider manual navigation
+            var manualNav = function(manual){
+              slides.forEach((slide) => {
+                slide.classList.remove('active');
+        
+                btns.forEach((btn) => {
+                  btn.classList.remove('active');
+                });
+              });
+        
+              slides[manual].classList.add('active');
+              btns[manual].classList.add('active');
+            }
+        
+            btns.forEach((btn, i) => {
+              btn.addEventListener("click", () => {
+                manualNav(i);
+                currentSlide = i;
+              });
+            });
+        
+            // Javascript for image slider autoplay navigation
+            var repeat = function(activeClass){
+              let active = document.getElementsByClassName('active');
+              let i = 1;
+        
+              var repeater = () => {
+                setTimeout(function(){
+                  [...active].forEach((activeSlide) => {
+                    activeSlide.classList.remove('active');
+                  });
+        
+                slides[i].classList.add('active');
+                btns[i].classList.add('active');
+                i++;
+        
+                if(slides.length == i){
+                  i = 0;
+                }
+                if(i >= slides.length){
+                  return;
+                }
+                repeater();
+              }, 5000);
+              }
+              repeater();
+            }
+            repeat();
+    
+    
+            
+          document.querySelector(".right ul li").addEventListener("click", function(){
+              this.classList.toggle("active");
+          });
+        
+            </script>
+    
+</body>
+</html>

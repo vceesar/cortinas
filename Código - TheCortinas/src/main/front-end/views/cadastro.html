@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,minimum-scale=1">
+    <!-- Import bootstrap css ---------------------------------------->
+    <link rel="stylesheet" href="../public/style/bootstrap.min.css" type="text/css"> 
+    <!-- ---------------------------------------------------------- -->
+    <link rel="stylesheet" href="../public/style/style-cadastro.css" type="text/css">
+    <link rel="shortcut icon" href="../public/images/deathstar.ico" type="image/x-icon">
+    <script src="../public/bootstrap.min.js"></script>
+    <title>Fazer Registro - Cortinas</title>
+</head>
+<body>
+  <div class = "container-fluid">
+
+
+    <!--HEADER-->
+    <header class="row">
+
+      <div class="col-12">
+        <p><a href="login">Cortinas</a></p>
+      </div>
+   
+        
+    </header>
+      <!--HEADER-->
+
+      <section class="row">
+        <div class = "col-12">
+          <h1 class="welcomereg"> Para se Registrar, preencha corretamente todos os dados requisitados abaixo:  </h1>
+        </div>
+        
+      </section>
+        
+
+     
+  
+      <!-- <div class = "statusmsg alert col-sm-12"><%= message %></div> -->
+
+      <section class="row justify-content-center">
+        <section class= "col-lg-6 col-sm-10 col-xs-7">
+
+          <form role="form" method="post" action="/cadastro"  class="form-container">
+            <label for="">Nome Completo</label>  
+            <input type="text"  class="form-control" required name="nome_completo" ">
+            <br>
+            <label for="">Data de Nascimento</label>  
+            <input type="date"  class="form-control" name="data_nascimento" required>
+            <br>
+            <label for="">Cidade</label>  
+            <input type="text" class="form-control" name="cidade" required>
+            <br>
+            <label for="">Estado</label>  
+            <input type="text"  class="form-control" name="estado" required>
+            <br>
+            <div>
+              <label for="">Username</label>
+              <input type="text"  class="form-control" name="username" >
+      
+      
+            </div>
+            <br>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Senha</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" name="password">
+            </div>
+      
+            
+            <button type="submit" class="btn btn-primary btn-lg buttoncfg">Enviar</button>
+            
+      
+      
+          </form>
+        </section>
+      </section>
+      
+  
+  
+      <div class= "row">
+        <div class="col-12 col-sm-6 col-md-3">
+          <footer>
+            <p>
+            <a href="http://github.com/vceesar/cortinas">PPADS by The Cortinas.</a>
+            </p>
+          </footer>
+        </div>
+      </div>
+
+
+      <!--END Container-Fluid-->
+  </div>
+  
+</body>
+</html>
