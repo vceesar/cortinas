@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="initial-scale=1,maximum-scale=1,minimum-scale=1">
     <!-- Import bootstrap css ---------------------------------------->
-    <link rel="stylesheet" href="../public/style/bootstrap.min.css" type="text/css"> 
+    <link rel="stylesheet" href="/style/bootstrap.min.css" type="text/css"> 
     <!-- ---------------------------------------------------------- -->
-    <link rel="stylesheet" href="../public/style/style-cadastro.css" type="text/css">
-    <link rel="shortcut icon" href="../public/images/deathstar.ico" type="image/x-icon">
-    <script src="../public/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/style/style-cadastro.css" type="text/css">
+    <link rel="shortcut icon" href="/images/deathstar.ico" type="image/x-icon">
+    <script src="/js/bootstrap.min.js"></script>
     <title>Fazer Registro - Cortinas</title>
 </head>
 <body>
@@ -41,33 +41,33 @@
       <section class="row justify-content-center">
         <section class= "col-lg-6 col-sm-10 col-xs-7">
 
-          <form role="form" method="post" action="/cadastro"  class="form-container">
+          <form role="form" method="post" class="form-container">
             <label>Nome Completo</label>
-            <input type="text"  class="form-control" required name="nome_completo" >
+            <input type="text/javascript" id="userCompleteName" class="form-control" required name="nome_completo" >
             <br>
             <label>Data de Nascimento</label>
-            <input type="date"  class="form-control" name="data_nascimento" required>
+            <input type="date/javascript" id="birthday"  class="form-control" name="data_nascimento" required>
             <br>
             <label>Cidade</label>
-            <input type="text" class="form-control" name="cidade" required>
+            <input type="text/javascript" id="cidade" class="form-control" name="cidade" required>
             <br>
             <label>Estado</label>
-            <input type="text"  class="form-control" name="estado" required>
+            <input type="text/javascript" id="estado" class="form-control" name="estado" required>
             <br>
             <div>
               <label>Username</label>
-              <input type="text"  class="form-control" name="username" >
+              <input type="text/javascript"  id="username" class="form-control" name="username" >
       
       
             </div>
             <br>
             <div class="mb-3">
               <label for="exampleInputPassword1" class="form-label">Senha</label>
-              <input type="password" class="form-control" id="exampleInputPassword1" name="password">
+              <input type="password/javascript" id="userPassword" class="form-control" id="exampleInputPassword1" name="password">
             </div>
       
             
-            <button type="submit" class="btn btn-primary btn-lg buttoncfg">Enviar</button>
+            <button type="submit" onclick="criarUser();criarUserNamePassword()" class="btn btn-primary btn-lg buttoncfg">Enviar</button>
             
       
       
@@ -90,6 +90,59 @@
 
       <!--END Container-Fluid-->
   </div>
+<script>
+  const userCompleteName= document.querySelector('#userCompleteName');
+  const birthday= document.querySelector('#birthday');
+  const cidade= document.querySelector('#cidade');
+  const estado= document.querySelector('#estado');
+  const username document.querySelector('#username');
+  const userpassword document.querySelector('#userPasword');
+
+
+  function mostrarMensagem(teste) {
+        confirm("Usuário criado!")?location.reload():location.reload();
+    }
+
+  async function criarUser(){
+  const URL= "/cortinas/user";
+  const dadosUser={
+    "name": userCompleteName.value,
+    "birthday": birthday.value,
+    "cidade": cidade.value,
+    "estado": estado.value};
+
+  async function criarUserNamePassword(){
+  const URL= "/cortinas/login";
+  const dadosUserNameLogin={
+    "userName": username.value,
+    "userPassword": userpassword.value};
+
+  const postRequest1={
+  method: 'POST',
+  body: JSON.stringify(dadosUser),
+  headers: {'Content-type': 'application/json;charset=UTF-8'}
+  };
+    try{
+        fetch(URL, postRequest1).then(resposta => resposta.json()).then(jsonResponse => mostrarMensagem(jsonResponse));
+    }catch(e){
+    corpoTabela.innerHTML=e;
+
+    }
+    }
+
+    const postRequest2={
+  method: 'POST',
+  body: JSON.stringify(dadosUserNameLogin),
+  headers: {'Content-type': 'application/json;charset=UTF-8'}
+  };
+    try{
+        fetch(URL, postRequest2).then(resposta => resposta.json()).then(jsonResponse => mostrarMensagem(jsonResponse));
+    }catch(e){
+    corpoTabela.innerHTML=e;
+
+    }
+    }
+</script>
   
 </body>
 </html>
