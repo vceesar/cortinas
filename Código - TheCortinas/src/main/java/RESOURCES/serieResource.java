@@ -25,7 +25,7 @@ public class serieResource {
         return this.daoSerie.read();
     }
 
-    @Path("/getSerieById")
+    @Path("/getSerieByName")
     @GET
     public List<Serie> readCondition(Serie serie){
         return this.daoSerie.readCondition(serie);

@@ -2,7 +2,7 @@ package DB;
 
 import java.sql.*;
 import java.util.*;
-import API.paramUser;
+import API.User;
 
 public class daoUser {
     private final String createUser= "INSERT INTO heroku_f818dae8c4e1452.user (userCompleteName, userBirthday, userCidade, userEstado) VALUES (?,?,?,?)";
@@ -10,7 +10,7 @@ public class daoUser {
 
     private final mysqlConnection mysqlCon= new mysqlConnection();
 
-    public boolean create(paramUser user){
+    public boolean create(User user){
         Connection conexao= mysqlCon.getConnection();
         try{
             PreparedStatement statement = conexao.prepareStatement(createUser);
@@ -38,15 +38,15 @@ public class daoUser {
         return false;
     }
 
-    public List<paramUser> read(){
+    public List<User> read(){
         Connection conexao= mysqlCon.getConnection();
-        List<paramUser> users= new ArrayList();
+        List<User> users= new ArrayList();
         try{
             PreparedStatement statement = conexao.prepareStatement(readUser);
             ResultSet resultSet = statement.executeQuery();
 
             while (resultSet.next()){
-                paramUser user= new paramUser();
+                User user= new User();
                 user.setName(resultSet.getString("userCompleteName"));
                 user.setBirthday(resultSet.getString("userBirthday"));
                 user.setCidade(resultSet.getString("userCidade"));
@@ -69,22 +69,22 @@ public class daoUser {
         return users;
     }
 
-    public List<paramUser> readCondition(paramUser paramUser){
+    public List<User> readCondition(User User){
         Connection conexao= mysqlCon.getConnection();
-        List<paramUser> paramUserList= new ArrayList();
+        List<User> userList = new ArrayList();
 
         try {
             PreparedStatement statement= conexao.prepareStatement("SELECT * FROM heroku_f818dae8c4e1452.user WHERE userId=?");
-            statement.setInt(1, paramUser.getUserId());
+            statement.setInt(1, User.getUserId());
             ResultSet resultSet= statement.executeQuery();
             while (resultSet.next()){
-                paramUser.setName(resultSet.getString("userCompleteName"));
-                paramUser.setBirthday(resultSet.getString("userBirthday"));
-                paramUser.setCidade(resultSet.getString("userCidade"));
-                paramUser.setEstado(resultSet.getString("userEstado"));
-                paramUserList.add(paramUser);
+                User.setName(resultSet.getString("userCompleteName"));
+                User.setBirthday(resultSet.getString("userBirthday"));
+                User.setCidade(resultSet.getString("userCidade"));
+                User.setEstado(resultSet.getString("userEstado"));
+                userList.add(User);
             }
-            return paramUserList;
+            return userList;
         }catch (final SQLException sqlE){
             System.out.println("Falha ao tentar se conectar com o banco de dados");
             sqlE.printStackTrace();
@@ -97,7 +97,7 @@ public class daoUser {
                 e.printStackTrace();
             }
         }
-        return paramUserList;
+        return userList;
     }
 
 }

@@ -1,6 +1,6 @@
 package API;
 
-public class paramUser {
+public class User {
     private int userId;
     private String name;
     private String birthday;

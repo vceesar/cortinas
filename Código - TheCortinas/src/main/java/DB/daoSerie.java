@@ -80,8 +80,8 @@ public class daoSerie {
         List<Serie> serieList= new ArrayList();
 
         try {
-            PreparedStatement statement= conexao.prepareStatement("SELECT * FROM heroku_f818dae8c4e1452.serie WHERE serieId=?");
-            statement.setInt(1, serie.getSerieId());
+            PreparedStatement statement= conexao.prepareStatement("SELECT * FROM heroku_f818dae8c4e1452.serie WHERE tituloSerie=?");
+            statement.setString(1, serie.getTituloSerie());
             ResultSet resultSet= statement.executeQuery();
             while (resultSet.next()){
                 serie.setTituloSerie(resultSet.getString("tituloSerie"));

@@ -23,7 +23,7 @@ public class App extends Application<Configuration>
 
     @Override
     public void initialize(Bootstrap<Configuration> bootstrap) {
-        AssetsBundle assetsBundle= new AssetsBundle("/site", "/", "index.html");
+        AssetsBundle assetsBundle= new AssetsBundle("/views", "/", "index.html");
         bootstrap.addBundle(assetsBundle);
     }
 
@@ -38,12 +38,12 @@ public class App extends Application<Configuration>
         cors.addMappingForUrlPatterns(EnumSet.allOf(DispatcherType.class), true, "/*");
 
         daoUser daoUser= new daoUser();
-        paramUserResource paramUserResource= new paramUserResource(daoUser);
-        environment.jersey().register(paramUserResource);
+        userResource userResource = new userResource(daoUser);
+        environment.jersey().register(userResource);
 
         daoUserLogin daoUserLogin= new daoUserLogin();
-        paramLoginResource paramLoginResource= new paramLoginResource(daoUserLogin);
-        environment.jersey().register(paramLoginResource);
+        loginResource loginResource = new loginResource(daoUserLogin);
+        environment.jersey().register(loginResource);
 
         daoFilme daoFilme= new daoFilme();
         filmeResource filmeResource= new filmeResource(daoFilme);

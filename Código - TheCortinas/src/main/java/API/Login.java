@@ -1,6 +1,6 @@
 package API;
 
-public class paramLogin {
+public class Login {
     private int loginId;
     private String userName;
     private String userPassword;

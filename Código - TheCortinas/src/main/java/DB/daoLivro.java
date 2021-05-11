@@ -76,8 +76,8 @@ public class daoLivro {
         List<Livro> livroList= new ArrayList();
 
         try {
-            PreparedStatement statement= conexao.prepareStatement("SELECT * FROM heroku_f818dae8c4e1452.livro WHERE livroId=?");
-            statement.setInt(1, livro.getLivroId());
+            PreparedStatement statement= conexao.prepareStatement("SELECT * FROM heroku_f818dae8c4e1452.livro WHERE tituloLivro=?");
+            statement.setString(1, livro.getTituloLivro());
             ResultSet resultSet= statement.executeQuery();
             while (resultSet.next()){
                 livro.setTituloLivro(resultSet.getString("tituloLivro"));
