@@ -9,9 +9,9 @@ import javax.ws.rs.core.*;
 @Path("login")
 @Produces(MediaType.APPLICATION_JSON)
 public class loginResource {
-    DB.daoUserLogin daoUserLogin;
+    DB.DaoUserLogin daoUserLogin;
 
-    public loginResource(DB.daoUserLogin daoUserLogin){
+    public loginResource(DB.DaoUserLogin daoUserLogin){
         this.daoUserLogin=daoUserLogin;
     }
 

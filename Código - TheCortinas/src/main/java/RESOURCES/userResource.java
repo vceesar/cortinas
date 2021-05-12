@@ -9,9 +9,9 @@ import javax.ws.rs.core.*;
 @Path("user")
 @Produces(MediaType.APPLICATION_JSON)
 public class userResource {
-    DB.daoUser daoUser;
+    DB.DaoUser daoUser;
 
-    public userResource(DB.daoUser daoUser){
+    public userResource(DB.DaoUser daoUser){
         this.daoUser=daoUser;
     }
 

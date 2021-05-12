@@ -4,7 +4,7 @@ import java.sql.*;
 import java.util.*;
 import API.Login;
 
-public class daoUserLogin {
+public class DaoUserLogin {
     private final String createLogin= "INSERT INTO heroku_f818dae8c4e1452.userlogin (userName, userPassword) VALUES (?,?)";
     private final String readLogin= "SELECT * FROM heroku_f818dae8c4e1452.userlogin";
 

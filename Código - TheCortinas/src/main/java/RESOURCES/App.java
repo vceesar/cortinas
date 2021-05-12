@@ -1,7 +1,7 @@
 package RESOURCES;
 
-import DB.daoUser;
-import DB.daoUserLogin;
+import DB.DaoUser;
+import DB.DaoUserLogin;
 import DB.daoLivro;
 import DB.daoFilme;
 import DB.daoSerie;
@@ -23,8 +23,11 @@ public class App extends Application<Configuration>
 
     @Override
     public void initialize(Bootstrap<Configuration> bootstrap) {
-        AssetsBundle assetsBundle= new AssetsBundle("/views", "/", "index.html");
-        bootstrap.addBundle(assetsBundle);
+        bootstrap.addBundle(new AssetsBundle("/views", "/", "index.html"));
+        bootstrap.addBundle(new AssetsBundle("/assets/style","/style",null,"css"));
+        bootstrap.addBundle(new AssetsBundle("/assets/js","/js",null,"javascript"));
+        bootstrap.addBundle(new AssetsBundle("/assets/images","/images",null,"images"));
+
     }
 
     @Override
@@ -37,11 +40,11 @@ public class App extends Application<Configuration>
 
         cors.addMappingForUrlPatterns(EnumSet.allOf(DispatcherType.class), true, "/*");
 
-        daoUser daoUser= new daoUser();
+        DaoUser daoUser= new DaoUser();
         userResource userResource = new userResource(daoUser);
         environment.jersey().register(userResource);
 
-        daoUserLogin daoUserLogin= new daoUserLogin();
+        DaoUserLogin daoUserLogin= new DaoUserLogin();
         loginResource loginResource = new loginResource(daoUserLogin);
         environment.jersey().register(loginResource);
 
