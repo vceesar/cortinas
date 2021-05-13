@@ -321,7 +321,7 @@ Cenário 7 - Avaliar e mostrar membro amigo
 <hr>
 
 Cenário 8 - Acessar página pessoal(perfil)
-<img src="Diagramas/Casos de Uso/Cenario08 - Acessar página pessoal (perfil).png">
+<img src="Diagramas/Casos de Uso/Cenario08 - Acessar página pessoal.png">
 
 ## 7.2.6 Acessar próprio perfil
 | **Objetivo:** | Membro acessa seu perfil.  |
