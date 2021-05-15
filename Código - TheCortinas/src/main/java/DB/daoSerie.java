@@ -3,6 +3,9 @@ package DB;
 import java.sql.*;
 import java.util.*;
 import API.Serie;
+import org.json.simple.*;
+import java.io.FileWriter;
+import java.io.IOException;
 
 public class daoSerie {
     private final String createSerie= "INSERT INTO heroku_f818dae8c4e1452.serie (tituloSerie,diretorSerie,elencoPrincipalSerie,paisSerie,anoSerie,numTemp) VALUES (?,?,?,?,?,?)";
@@ -105,5 +108,48 @@ public class daoSerie {
             }
         }
         return serieList;
+    }
+
+    public void exportJsonFileSerie() {
+        JSONObject obj = new JSONObject();
+        JSONArray array = new JSONArray();
+        Connection conexao = mysqlCon.getConnection();
+
+        try {
+            PreparedStatement statement = conexao.prepareStatement("Select * from serie");
+            ResultSet resultSet = statement.executeQuery("Select * from  serie");
+            array = new JSONArray();
+
+            while (resultSet.next()) {
+                obj = new JSONObject();
+                obj.put("tituloSerie", resultSet.getString("tituloSerie"));
+                obj.put("diretorSerie", resultSet.getString("diretorSerie"));
+                obj.put("elencoPrincipalSerie", resultSet.getString("elencoPrincipalSerie"));
+                obj.put("paisSerie", resultSet.getString("paisSerie"));
+                obj.put("anoSerie", resultSet.getInt("anoSerie"));
+                obj.put("numTemp", resultSet.getInt("numTemp"));
+                array.add(obj);
+            }
+
+            try {
+                FileWriter file = new FileWriter("src/main/front-end/assets/JsonItens/Serie.json");
+                file.write(((JSONArray) array).toJSONString());
+                file.flush();
+                file.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        } catch (final SQLException sqlE) {
+            System.out.println("Falha ao tentar se conectar com o banco de dados");
+            sqlE.printStackTrace();
+        } catch (final Exception e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                conexao.close();
+            } catch (final Exception e) {
+                e.printStackTrace();
+            }
+        }
     }
 }

@@ -30,4 +30,10 @@ public class serieResource {
     public List<Serie> readCondition(Serie serie){
         return this.daoSerie.readCondition(serie);
     }
+
+    @Path("/getJsonSerie")
+    @GET
+    public void exportJsonFileSerie(){
+        this.daoSerie.exportJsonFileSerie();
+    }
 }

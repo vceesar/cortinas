@@ -25,9 +25,15 @@ public class filmeResource {
         return this.daoFilme.read();
     }
 
-    @Path("/getFilmeByName")
+    @Path("/getFilmeByName/{tituloFilme}")
     @GET
-    public List<Filme> createCondition(Filme filme){
+    public List<Filme> createCondition(@PathParam("tituloFilme") String filme){
         return this.daoFilme.readCondition(filme);
+    }
+
+    @Path("/getJsonFilme")
+    @GET
+    public void exportJsonFileFilme(){
+        this.daoFilme.exportJsonFileFilme();
     }
 }

@@ -3,171 +3,171 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <!--importBootsTrap-->
-   <link rel="stylesheet" href="/style/bootstrap.min.css" type="text/css">
-   <!---->
+    <!--importBootsTrap-->
+    <link rel="stylesheet" href="/style/bootstrap.min.css" type="text/css">
+    <!---->
     <link rel="stylesheet" href="/style/style-item_cadastro.css" type="text/css">
     <link rel="shortcut icon" href="/images/deathstar.ico" type="image/x-icon">
     <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    
+
     <title>Cadastro item - Cortinas</title>
 </head>
 <body>
-  <div class = "container-fluid">
+<div class = "container-fluid">
 
     <!--HEADER-->
     <header class="row">
 
-      <div class="col-sm-5 col-xs-12">
-        <p><a href="login">Cortinas</a></p>
-      </div>
-   
-        
-   <!--SearchBar-->
-      
-      <div class = "container">
-        <div class = "searchbar col-sm-5 col-xs-12">
-          <input class="typeahead tt-query search" spellcheck="false" autocomplete="off" name="typeahead" type="text" placeholder="Digite o Item desejado: " />
-          <button type= "submit" class="search-btn"> <i class = "fa fa-search"></i></button>
-         
-        </div>    
-      </div>
-   <!--SearchBar-->
-
-    <!--Wrapper perfil-->
-  <!--     <div class="wrapper ">
-        <div class="navbar">
-            <div class="right"> 
-                <ul>
-                  <li>
-                    <a href="#">
-                    <span>Membro</span><img src="./img/ProfileNav.png" alt="Eu" width="50"><i class="fas fa-angle-down"></i>
-                    </a>
-                     
-                    <div class="dropdown">
-                        <ul>
-                          <li><a href="#"><i class="fas fa-user"></i> Ver perfil</a></li>
-                          <li><a href="#"><i class="fas fa-sliders-h"></i> Atualizar Dados</a></li>
-                          <li><a href="#"><i class="fas fa-sign-out-alt"></i>Sair</a></li>
-                      </ul>
-                    </div>
-                    
-                  </li>
-              </ul>
-            </div>
+        <div class="col-sm-5 col-xs-12">
+            <p><a href="home.html">Cortinas</a></p>
         </div>
-    </div> -->
 
 
-       <!--Wrapper perfil-->
+        <!--SearchBar-->
+
+        <div class = "container">
+            <div class = "searchbar col-sm-5 col-xs-12">
+                <input class="typeahead tt-query search" spellcheck="false" autocomplete="off" name="typeahead" id="search" type="text" placeholder="Digite o Livro desejado: " />
+                <button type= "submit" class="search-btn"> <i class = "fas fa-book"></i></button>
+
+            </div>
+            <div class= "divresults" id="match-list"></div>
+        </div>
+        <!--SearchBar-->
+
+        <!--Wrapper perfil-->
+        <!--     <div class="wrapper ">
+              <div class="navbar">
+                  <div class="right"> 
+                      <ul>
+                        <li>
+                          <a href="#">
+                          <span>Membro</span><img src="./img/ProfileNav.png" alt="Eu" width="50"><i class="fas fa-angle-down"></i>
+                          </a>
+                           
+                          <div class="dropdown">
+                              <ul>
+                                <li><a href="#"><i class="fas fa-user"></i> Ver perfil</a></li>
+                                <li><a href="#"><i class="fas fa-sliders-h"></i> Atualizar Dados</a></li>
+                                <li><a href="#"><i class="fas fa-sign-out-alt"></i>Sair</a></li>
+                            </ul>
+                          </div>
+                          
+                        </li>
+                    </ul>
+                  </div>
+              </div>
+          </div> -->
+
+
+        <!--Wrapper perfil-->
     </header>
 
-     <!--HEADER-->
+    <!--HEADER-->
 
 
 
-     
-     <section class="row">
-      <div class = "col-12">
-        <h3>Para cadastrar um novo item na plataforma, primeiro, selecione o tipo:</h3>
-      </div>
-      
-    </section>
 
-    
-  <section class="row justify-content-center">
-    <section class= "col-lg-6 col-sm-10 col-xs-7">
-    <form role="form" method="post" action=""  class="form-container">
-    
-   <!--Checkbox-->
-      <label>
-        <input class="radio" type="radio" name="itemCheckbox" value="livro" checked>Livro</label>
-      <label>
-        <input class="radio" type="radio" name="itemCheckbox" value="serie"> Série</label>
-      <label>
-        <input class="radio" type="radio" name="itemCheckbox" value="filme"> Filme</label>
-    <!--Check livro-->
-      <div class="form form-livro">
-        <label>Titulo</label>
-        <input type="text"  class="form-control" required name="titulo" >
-        <br>
-        <label>Autor(es)</label>
-        <input type="text"  class="form-control" name="autor" required>
-        <br>
-        <label>Editoria</label>
-        <input type="text" class="form-control" name="editoria" required>
-        <br>
-        <label>País</label>
-        <input type="text"  class="form-control" name="pais" required>
-        <br>
-        <label>Ano de lançamento</label>
-        <input type="number"  class="form-control" name="ano_lançamento" required>
-        <br>
-  
-      </div>
-      <!--check serie -->
-      <div class="form form-serie" style="display: none;">
-        <label>Titulo</label>
-        <input type="text"  class="form-control" required name="titulo" >
-        <br>
-        <label>Diretor</label>
-        <input type="text"  class="form-control" name="autor" required>
-        <br>
-        <label>Elenco Principal</label>
-        <input type="text" class="form-control" name="editoria" required>
-        <br>
-        <label>País</label>
-        <input type="text"  class="form-control" name="pais" required>
-        <br>
-        <label>Ano de lançamento</label>
-        <input type="date"  class="form-control" name="ano_lançamento" required>
-        <br>
-        <label>N° de temporadas</label>
-        <input type="number"  class="form-control" name="n_temporadas" required>
-        <br>
-      </div>
-      <!--Check filme-->
-      <div class="form form-filme" style="display: none;">
-        <label>Titulo</label>
-        <input type="text"  class="form-control" required name="titulo" >
-        <br>
-        <label>Diretor</label>
-        <input type="text"  class="form-control" name="autor" required>
-        <br>
-        <label>Elenco Principal</label>
-        <input type="text" class="form-control" name="editoria" required>
-        <br>
-        <label>País</label>
-        <input type="text"  class="form-control" name="pais" required>
-        <br>
-        <label>Ano de lançamento</label>
-        <input type="date"  class="form-control" name="ano_lançamento" required>
-        <br>
-      </div>
-      <button type="submit" class="btn btn-primary btn-lg buttoncfg">Enviar</button>
-      </form>
+    <section class="row">
+        <div class = "col-12">
+            <h3>Para cadastrar um novo item na plataforma, primeiro, selecione o tipo:</h3>
+        </div>
 
     </section>
-  </section>
-  
-  
-  <div class= "row">
-    <div class="col-12">
-      <footer>
-        <p>
-        <a href="http://github.com/vceesar/cortinas">PPADS by The Cortinas.</a>
-        </p>
-      </footer>
+
+
+    <section class="row justify-content-center">
+        <section class= "col-lg-6 col-sm-10 col-xs-7">
+
+            <form role="form" method="post" class="form-container">
+
+                <!--Checkbox-->
+                <label>
+                    <input class="radio" type="radio" name="itemCheckbox" value="livro" id="radioLivro" checked>Livro</label>
+                <label>
+                    <input class="radio" type="radio" name="itemCheckbox" value="serie" id="radioSerie"> Série</label>
+                <label>
+                    <input class="radio" type="radio" name="itemCheckbox" value="filme" id="radioFilme"> Filme</label>
+                <!--Check livro-->
+                <div class="form form-livro">
+                    <label  >Titulo</label>
+                    <input type="text"  class="form-control"  name="titulolivro" id="titulo-livro" >
+                    <br>
+                    <label  >Autor(es)</label>
+                    <input type="text"  class="form-control" name="autorlivro" id="autor-livro">
+                    <br>
+                    <label  >Editoria</label>
+                    <input type="text" class="form-control" name="editorialivro" id="editoria-livro">
+                    <br>
+                    <label  >Ano de lançamento</label>
+                    <input type="number"  class="form-control" name="ano_lançamentolivro" id="ano-livro">
+                    <br>
+
+                </div>
+                <!--check serie -->
+                <div class="form form-serie" style="display: none;">
+                    <label  >Titulo</label>
+                    <input type="text"  class="form-control"  name="tituloSerie" id="titulo-serie">
+                    <br>
+                    <label  >Diretor</label>
+                    <input type="text"  class="form-control" name="diretorSerie" id="diretor-serie">
+                    <br>
+                    <label  >Elenco Principal</label>
+                    <input type="text" class="form-control" name="elencoPrincipalSerie" id="elenco-serie">
+                    <br>
+                    <label  >País</label>
+                    <input type="text"  class="form-control" name="paisSerie" id="pais-serie">
+                    <br>
+                    <label  >Ano de lançamento</label>
+                    <input type="number"  class="form-control" name="anoSerie" id="ano-serie">
+                    <br>
+                    <label  >N° de temporadas</label>
+                    <input type="number"  class="form-control" name="numTempSerie" id="temp-serie">
+                    <br>
+                </div>
+                <!--Check filme-->
+                <div class="form form-filme" style="display: none;">
+                    <label  >Titulo</label>
+                    <input type="text"  class="form-control"  name="titulofilme" id="titulo-filme">
+                    <br>
+                    <label  >Diretor</label>
+                    <input type="text"  class="form-control" name="diretorfilme" id="diretor-filme">
+                    <br>
+                    <label  >Elenco Principal</label>
+                    <input type="text" class="form-control" name="elencoPrincipalFilme" id="elenco-filme">
+                    <br>
+                    <label  >País</label>
+                    <input type="text"  class="form-control" name="paisfilme" id="pais-filme">
+                    <br>
+                    <label  >Ano de lançamento</label>
+                    <input type="number"  class="form-control" name="anofilme" id="ano-filme">
+                    <br>
+                </div>
+                <!--                  <button type="submit" class="btn btn-primary btn-lg buttoncfg">Enviar</button>-->
+                <input type="button" onclick="verificaItem()" value="Criar" class="btn btn-primary btn-lg buttoncfg">
+            </form>
+
+        </section>
+    </section>
+
+
+    <div class= "row">
+        <div class="col-12">
+            <footer>
+                <p>
+                    <a href="http://github.com/vceesar/cortinas">PPADS by The Cortinas.</a>
+                </p>
+            </footer>
+        </div>
     </div>
-  </div>
 
 
-  <!--END Container-Fluid-->
+    <!--END Container-Fluid-->
 </div>
 
 
-      <script>
+<script>
        function selectForm() {
           $("div.form").hide();
           $("div.form-" + $("input:checked").val()).show();
@@ -175,7 +175,7 @@
           selectForm();
           $("input").click(function(){selectForm()});
         </script>
-          <script type="text/javascript">
+<script type="text/javascript">
             var slides = document.querySelectorAll('.slide');
             var btns = document.querySelectorAll('.btn');
             let currentSlide = 1;
@@ -236,6 +236,161 @@
           });
         
             </script>
-    
+<script>
+
+    const tituloLivro= document.querySelector("#titulo-livro");
+    const autorLivro= document.querySelector("#autor-livro");
+    const editoraLivro= document.querySelector("#editoria-livro");
+    const anolancamentoLivro= document.querySelector("#ano-livro");
+
+    const tituloSerie= document.querySelector("#titulo-serie");
+    const diretorSerie= document.querySelector("#diretor-serie");
+    const elencoSerie= document.querySelector("#elenco-serie");
+    const paisSerie= document.querySelector("#pais-serie");
+    const anolancamentoSerie= document.querySelector("#ano-serie");
+    const numTempSerie = document.querySelector("#temp-serie");
+
+
+    const tituloFilme= document.querySelector("#titulo-filme");
+    const diretorFilme= document.querySelector("#diretor-filme");
+    const elencoFilme= document.querySelector("#elenco-filme");
+    const paisFilme= document.querySelector("#pais-filme");
+    const anolancamentoFilme= document.querySelector("#ano-filme");
+
+
+    function mensagemLivro(livro) {
+        confirm("Livro adicionado!")?location.replace("/"):location.replace("/");
+    }
+
+    function mensagemFilme(filme){
+        confirm("Filme adicionado!")?location.replace("/"):location.replace("/");
+    }
+    function mensagemSerie(serie){
+        confirm("Serie adicionado!")?location.replace("/"):location.replace("/");
+    }
+    function error(error){
+        confirm("Tente novamente, ocorreu algum erro!")?location.reload():location.reload();
+    }
+
+
+
+    // Funcao Livro
+    async function criarLivro(){
+        const URL= "/cortinas/livro";
+        const dadosLivro={
+            "tituloLivro": tituloLivro.value,
+            "autorLivro": autorLivro.value,
+            "editora": editoraLivro.value,
+            "anoLancamento": anolancamentoLivro.value }
+
+        const postRequest1={
+            method: 'POST',
+            body: JSON.stringify(dadosLivro),
+            headers: {'Content-type': 'application/json;charset=UTF-8'}
+        };
+
+        const URL1= "/cortinas/livro/getJsonLivro";
+        const postRequest11={
+            method: 'GET'
+        };
+        try{
+            fetch(URL, postRequest1).then(resposta => resposta.json()).then(jsonResponse => mensagemLivro(jsonResponse));
+            fetch(URL1, postRequest11).then(resposta => resposta.json());
+            fetch(URL1, postRequest11).then(resposta => resposta.json());
+        }catch(e){
+            corpoTabela.innerHTML=e;
+
+        }
+
+    };
+
+    // Funcao Filme
+    async function criarFilme(){
+        const URL= "/cortinas/filme";
+        const dadosFilme={
+            "tituloFilme": tituloFilme.value,
+            "diretorFilme": diretorFilme.value,
+            "elencoPrincipalFilme": elencoFilme.value,
+            "paisFilme": paisFilme.value,
+            "anoFilme": anolancamentoFilme.value }
+
+        const postRequest2={
+            method: 'POST',
+            body: JSON.stringify(dadosFilme),
+            headers: {'Content-type': 'application/json;charset=UTF-8'}
+        };
+
+        const URL2= "/cortinas/filme/getJsonFilme";
+        const postRequest22={
+            method: 'GET'
+        };
+
+        try{
+            fetch(URL, postRequest2).then(resposta => resposta.json()).then(jsonResponse => mensagemFilme(jsonResponse));
+            fetch(URL2, postRequest22).then(resposta => resposta.json());
+            fetch(URL2, postRequest22).then(resposta => resposta.json());
+        }catch(e){
+            corpoTabela.innerHTML=e;
+
+        }
+
+    };
+
+    // Funcao Serie
+    async function criarSerie(){
+        const URL= "/cortinas/serie";
+        const dadosSerie={
+            "tituloSerie": tituloSerie.value,
+            "diretorSerie": diretorSerie.value,
+            "elencoPrincipalSerie": elencoSerie.value,
+            "paisSerie": paisSerie.value,
+            "anoSerie": anolancamentoSerie.value,
+            "numTemp": numTempSerie.value}
+
+        const postRequest3={
+            method: 'POST',
+            body: JSON.stringify(dadosSerie),
+            headers: {'Content-type': 'application/json;charset=UTF-8'}
+        };
+
+        const URL3= "/cortinas/serie/getJsonSerie";
+        const postRequest33={
+            method: 'GET'
+        };
+        try{
+            fetch(URL, postRequest3).then(resposta => resposta.json()).then(jsonResponse => mensagemSerie(jsonResponse));
+            fetch(URL3, postRequest33).then(resposta => resposta.json());
+            fetch(URL3, postRequest33).then(resposta => resposta.json());
+        }catch(e){
+            corpoTabela.innerHTML=e;
+
+        }
+
+    };
+
+        function verificaItem(){
+        if (document.getElementById("radioLivro").checked) {
+            criarLivro();
+
+        }
+        if (document.getElementById("radioSerie").checked){
+            criarSerie();
+
+        }
+        if (document.getElementById("radioFilme").checked){
+            criarFilme();
+
+        }
+
+    }
+
+
+
+
+
+
+</script>
+<script src="/js/searchbarfunc2.js"></script>
+
 </body>
 </html>

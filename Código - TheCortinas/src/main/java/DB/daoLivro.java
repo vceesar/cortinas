@@ -3,6 +3,9 @@ package DB;
 import java.sql.*;
 import java.util.*;
 import API.Livro;
+import org.json.simple.*;
+import java.io.FileWriter;
+import java.io.IOException;
 
 public class daoLivro {
     private final String createLivro= "INSERT INTO heroku_f818dae8c4e1452.livro (tituloLivro,autorLivro,editora,anoLancamento) VALUES (?,?,?,?)";
@@ -100,5 +103,46 @@ public class daoLivro {
             }
         }
         return livroList;
+    }
+
+    public void exportJsonFile() {
+        JSONObject obj = new JSONObject();
+        JSONArray array = new JSONArray();
+        Connection conexao = mysqlCon.getConnection();
+
+        try {
+            PreparedStatement statement = conexao.prepareStatement("Select * from livro");
+            ResultSet resultSet = statement.executeQuery("Select * from livro");
+            array = new JSONArray();
+
+            while (resultSet.next()) {
+                obj = new JSONObject();
+                obj.put("tituloLivro", resultSet.getString("tituloLivro"));
+                obj.put("autorLivro", resultSet.getString("autorLivro"));
+                obj.put("editora", resultSet.getString("editora"));
+                obj.put("anoLancamento", resultSet.getString("anoLancamento"));
+                array.add(obj);
+            }
+
+            try {
+                FileWriter file = new FileWriter("src/main/front-end/assets/JsonItens/Livro.json");
+                file.write(((JSONArray) array).toJSONString());
+                file.flush();
+                file.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        } catch (final SQLException sqlE) {
+            System.out.println("Falha ao tentar se conectar com o banco de dados");
+            sqlE.printStackTrace();
+        } catch (final Exception e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                conexao.close();
+            } catch (final Exception e) {
+                e.printStackTrace();
+            }
+        }
     }
 }

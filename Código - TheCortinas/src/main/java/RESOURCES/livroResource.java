@@ -29,4 +29,10 @@ public class livroResource {
     public List<Livro> readCondition(Livro livro){
         return this.daoLivro.readCondition(livro);
     }
+
+    @Path("/getJsonLivro")
+    @GET
+    public void exportJsonFile(){
+        this.daoLivro.exportJsonFile();
+    }
 }

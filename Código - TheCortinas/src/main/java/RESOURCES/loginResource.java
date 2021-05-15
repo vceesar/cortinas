@@ -9,9 +9,9 @@ import javax.ws.rs.core.*;
 @Path("login")
 @Produces(MediaType.APPLICATION_JSON)
 public class loginResource {
-    DB.DaoUserLogin daoUserLogin;
+    DB.daoUserLogin daoUserLogin;
 
-    public loginResource(DB.DaoUserLogin daoUserLogin){
+    public loginResource(DB.daoUserLogin daoUserLogin){
         this.daoUserLogin=daoUserLogin;
     }
 
@@ -30,5 +30,11 @@ public class loginResource {
     @GET
     public List<Login> readCondition(Login Login){
         return this.daoUserLogin.readCondition(Login);
+    }
+
+    @Path("/logUserIn/{userName}/{userPassword}")
+    @GET
+    public List<String> captureLogin(@PathParam("userName") String userName, @PathParam("userPassword") String userPassword){
+        return this.daoUserLogin.captureLogin(userName, userPassword);
     }
 }

@@ -71,7 +71,7 @@ a.cadastro{
 .container{
   width: 50%;
   position: absolute;
-  top: 3%;
+  top: 4%;
   left:50%;
   transform: translate(-50%, -50%);  
 }
@@ -89,6 +89,28 @@ a.cadastro{
   outline: none;
   color: var(--cor2);
 
+}
+.divresults{
+  padding-top: 10px;
+}
+.searchbarfunc{
+
+  border: 3px solid #64409bbe;
+  height: 36px;
+  outline: none;
+  color: var(--cor2);
+  background-color: var(--cor0);
+
+}
+
+.searchbarfunc h4{
+  font-size: 15px;
+}
+
+@media screen and (max-width: 570px){
+  .searchbarfunc h4{
+    font-size: 15px;
+  }
 }
 .search:focus{
   color: black;
@@ -275,7 +297,7 @@ div article > p {
   
     .img-slider .slide .info p{
       width: 80%;
-      font-size: 13px;
+      font-size: 12px;
     }
   
     .img-slider .navigation{
@@ -300,12 +322,12 @@ div article > p {
     }
   
     .img-slider .slide .info h2{
-      font-size: 25px;
+      font-size: 15px;
     }
   
     .img-slider .slide .info p{
       width: 90%;
-      font-size: 11px;
+      font-size: 10px;
     }
   
     .img-slider .navigation{

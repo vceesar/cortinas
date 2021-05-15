@@ -86,9 +86,9 @@ label input {
 .container{
   width: 50%;
   position: absolute;
-  top: 3%;
+  top: 4%;
   left:50%;
-  transform: translate(-50%, -50%);  
+  transform: translate(-50%, -50%);
 }
 .searchbar{
   width: 100%;
@@ -105,108 +105,133 @@ label input {
   color: var(--cor2);
 
 }
-.search:focus{
-  color: black;
-  box-shadow: 0 0 5px var(--cor2);
-
-
+.divresults{
+  padding-top: 10px;
 }
-.search-btn{
-  width: 40px;
-  height: 36px;
+.searchbarfunc2{
+
   border: 3px solid #64409bbe;
-  background-color: --cor2;
-  text-align: center;
-  color: --cor1;
-  border-radius: 0 5px 5px 0 ;
-  cursor: pointer;
-  font-size: 20px ;
+  height: 36px;
+  outline: none;
+  color: var(--cor2);
+  background-color: var(--cor0);
 
 }
-p > a:hover{
+
+.searchbarfunc2 h4{
+  font-size: 15px;
+}
+
+@media screen and (max-width: 570px) {
+  .searchbarfunc2 h4 {
+    font-size: 15px;
+  }
+}
+
+  .search:focus {
+    color: black;
+    box-shadow: 0 0 5px var(--cor2);
+
+
+  }
+
+  .search-btn {
+    width: 40px;
+    height: 36px;
+    border: 3px solid #64409bbe;
+    background-color: --cor2;
+    text-align: center;
+    color: --cor1;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+
+  }
+
+  p > a:hover {
     color: #251a49;
-}
+  }
 
 
+  article > p {
+    color: white;
+  }
 
-article > p {
-  color: white;
-}
-footer{
+  footer {
     position: fixed;
     left: 0;
     bottom: 0;
-    width:100%;
+    width: 100%;
     height: 30px;
     background-color: var(--cor1);
-    color:white;
-}
+    color: white;
+  }
 
-footer p {
+  footer p {
     text-align: center;
-}
+  }
 
 
-article > p {
-  padding: 10px;
-  font-size: 20px;
-  text-indent: 20pt;
-  width: 1000px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: black;
+  article > p {
+    padding: 10px;
+    font-size: 20px;
+    text-indent: 20pt;
+    width: 1000px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
 
-}
+  }
 
 
-  .wrapper{ 
+  .wrapper {
     position: absolute;
     top: 4%;
     left: 86%;
-    transform: translate(-50%,-50%);
-    
+    transform: translate(-50%, -50%);
+
   }
-  
-  .wrapper .navbar{
+
+  .wrapper .navbar {
     width: 420px;
     display: flex;
     justify-content: flex-end;
     padding: 10px 25px;
     border-radius: 5px;
-    
+
   }
-  
-  .wrapper .navbar ul li a{
+
+  .wrapper .navbar ul li a {
     color: #ffffff;
-    text-decoration: none;  
+    text-decoration: none;
     font-family: 'Josefin Sans', sans-serif;
-    
+
   }
-  
-  
-  .wrapper .navbar .right ul li a{
+
+
+  .wrapper .navbar .right ul li a {
     display: flex;
     align-items: center;
     height: 40px;
   }
-  
-  
-  .wrapper .navbar .right img{
+
+
+  .wrapper .navbar .right img {
     margin: 0 10px;
   }
-  
-  .wrapper .navbar .right a{
+
+  .wrapper .navbar .right a {
     text-align: right;
   }
-  
-  .wrapper .navbar .right a span{
+
+  .wrapper .navbar .right a span {
     font-size: 20px;
   }
-  
-  .wrapper .navbar .right ul li{
+
+  .wrapper .navbar .right ul li {
     position: relative;
   }
-  
-  .wrapper .navbar .right ul li .dropdown{
+
+  .wrapper .navbar .right ul li .dropdown {
     position: absolute;
     top: 65px;
     right: 0;
@@ -215,12 +240,12 @@ article > p {
     border-radius: 5px;
     display: none;
   }
-  
-  .wrapper .navbar .right ul li .dropdown .fas{
+
+  .wrapper .navbar .right ul li .dropdown .fas {
     margin-right: 10px;
   }
-  
-  .wrapper .navbar .right ul li .dropdown:before{
+
+  .wrapper .navbar .right ul li .dropdown:before {
     content: "";
     position: absolute;
     top: -20px;
@@ -229,15 +254,17 @@ article > p {
     border: 10px solid;
     border-color: transparent transparent #fff transparent;
   }
-  
-  .wrapper .navbar .right ul li.active .dropdown{
+
+  .wrapper .navbar .right ul li.active .dropdown {
     display: block;
   }
+
   @media screen and (max-width: 576px) {
     div > p {
       font-size: 20px;
-      
-     
+
+
     }
   }
+
   
