@@ -6,9 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ProjProfADS" />
-        <module name="heroku_hello_world" />
-        <module name="Código - TheCortinas" />
+        <module name="TheCortinas" />
       </profile>
     </annotationProcessing>
   </component>
