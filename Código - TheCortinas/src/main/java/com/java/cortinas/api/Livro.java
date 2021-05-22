@@ -5,7 +5,7 @@ public class Livro {
     String tituloLivro;
     String autorLivro;
     String editora;
-    int anoLacamento;
+    int anoLancamento;
 
     public int getLivroId() {
         return livroId;
@@ -39,11 +39,11 @@ public class Livro {
         this.editora = editora;
     }
 
-    public int getAnoLacamento() {
-        return anoLacamento;
+    public int getAnoLancamento() {
+        return anoLancamento;
     }
 
-    public void setAnoLacamento(int anoLacamento) {
-        this.anoLacamento = anoLacamento;
+    public void setAnoLancamento(int anoLancamento) {
+        this.anoLancamento = anoLancamento;
     }
 }

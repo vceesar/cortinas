@@ -97,11 +97,11 @@
                     <label  >Autor(es)</label>
                     <input type="text"  class="form-control" name="autorlivro" id="autor-livro">
                     <br>
-                    <label  >Editoria</label>
+                    <label  >Editora</label>
                     <input type="text" class="form-control" name="editorialivro" id="editoria-livro">
                     <br>
                     <label  >Ano de lançamento</label>
-                    <input type="number"  class="form-control" name="ano_lançamentolivro" id="ano-livro">
+                    <input type="number"  class="form-control" name="ano-livro" id="ano-livro">
                     <br>
 
                 </div>
@@ -263,10 +263,10 @@
     }
 
     function mensagemFilme(filme){
-        confirm("Filme adicionado!")?location.replace("/home.html"):location.replace("/home.html");
+        confirm("Filme adicionado!")?location.replace("/cadastraritem.html"):location.replace("/cadastraritem.html");
     }
     function mensagemSerie(serie){
-        confirm("Série adicionado!")?location.replace("/home.html"):location.replace("/home.html");
+        confirm("Série adicionado!")?location.replace("/cadastraritem.html"):location.replace("/cadastraritem.html");
     }
     function error(error){
         confirm("Tente novamente, ocorreu algum erro!")?location.reload():location.reload();

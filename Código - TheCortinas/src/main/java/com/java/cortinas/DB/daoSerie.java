@@ -132,7 +132,7 @@ public class daoSerie {
             }
 
             try {
-                FileWriter file = new FileWriter("src/main/front-end/assets/JsonItens/Serie.json");
+                FileWriter file = new FileWriter("src/main/resources/assets/JsonItens/Serie.json");
                 file.write(((JSONArray) array).toJSONString());
                 file.flush();
                 file.close();

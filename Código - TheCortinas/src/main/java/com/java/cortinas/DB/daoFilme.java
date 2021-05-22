@@ -130,7 +130,7 @@ public class daoFilme {
             }
 
             try {
-                FileWriter file = new FileWriter("src/main/front-end/assets/JsonItens/Filme.json");
+                FileWriter file = new FileWriter("src/main/resources/assets/JsonItens/Filme.json");
                 file.write(((JSONArray) array).toJSONString());
                 file.flush();
                 file.close();

@@ -107,6 +107,8 @@ label input {
 }
 .divresults{
   padding-top: 10px;
+  position: absolute;
+  width: 92%;
 }
 .searchbarfunc2{
 

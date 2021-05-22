@@ -23,7 +23,7 @@ public class daoLivro {
             statement.setString(1, livro.getTituloLivro());
             statement.setString(2, livro.getAutorLivro());
             statement.setString(3, livro.getEditora());
-            statement.setInt(4, livro.getAnoLacamento());
+            statement.setInt(4, livro.getAnoLancamento());
 
             int register= statement.executeUpdate();
 
@@ -56,7 +56,7 @@ public class daoLivro {
                 livro.setTituloLivro(resultSet.getString("tituloLivro"));
                 livro.setAutorLivro(resultSet.getString("autorLivro"));
                 livro.setEditora(resultSet.getString("editora"));
-                livro.setAnoLacamento(resultSet.getInt("anoLancamento"));
+                livro.setAnoLancamento(resultSet.getInt("anoLancamento"));
                 livrosList.add(livro);
             }
             return livrosList;
@@ -87,7 +87,7 @@ public class daoLivro {
                 livro.setTituloLivro(resultSet.getString("tituloLivro"));
                 livro.setAutorLivro(resultSet.getString("autorLivro"));
                 livro.setEditora(resultSet.getString("editora"));
-                livro.setAnoLacamento(resultSet.getInt("anoLancamento"));
+                livro.setAnoLancamento(resultSet.getInt("anoLancamento"));
                 livroList.add(livro);
             }
             return livroList;
@@ -126,7 +126,7 @@ public class daoLivro {
             }
 
             try {
-                FileWriter file = new FileWriter("src/main/front-end/assets/JsonItens/Livro.json");
+                FileWriter file = new FileWriter("src/main/resources/assets/JsonItens/Livro.json");
                 file.write(((JSONArray) array).toJSONString());
                 file.flush();
                 file.close();

@@ -9,5 +9,9 @@
         <module name="TheCortinas" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="TheCortinas" target="1.8" />
+      <module name="TheCortinas (1)" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
