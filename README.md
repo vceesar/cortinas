@@ -46,6 +46,10 @@
 
 <a href="https://thecortinas.herokuapp.com/">Clique aqui ! </a>
 
+## Vídeo mostrando a aplicação no Youtube 
+
+<a href="https://www.youtube.com/watch?v=8nFZK_JR2LU"> Clique aqui ! </a>
+
 <!-- LICENSE -->
 ## Licença
 
